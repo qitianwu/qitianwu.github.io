@@ -380,13 +380,13 @@ table.imgtable, table.imgtable td {
 
 <!-- 可以根据自己需要改变样式，我是全横屏的 -->
 .center_photo{
-	width:100%;
+	width:20%;
 	margin:0;
 	padding:0;
 	height::1600px;
 	background:#c8d5b9;
 	}
-.center_photo img{width:100%;height:100%;}
+.center_photo img{width:20%;height:100%;}
 .point{
 	height:50px;
 	position:relative;

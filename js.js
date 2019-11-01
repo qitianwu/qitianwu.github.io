@@ -1,11 +1,11 @@
 var min=1, max=5;
 
 var imgList = new Array();
-imgList[0]="assets/self1.png";
-imgList[1]="assets/self2.png";
-imgList[2]="assets/self3.png";
-imgList[3]="assets/www-pre.png";
-imgList[4]="assets/www-poster.png";
+imgList[0]="images/self1.png";
+imgList[1]="images/self2.png";
+imgList[2]="images/self3.png";
+imgList[3]="images/www-pre.png";
+imgList[4]="images/www-poster.png";
 
 var li_imgList = new Array();
 li_imgList[0]="i1";
@@ -33,11 +33,11 @@ function loop(){
 			document.getElementById("img").src=imgList[i];
 			min++;
 			if(i==0){
-				document.getElementById(li_imgList[i]).src="assets/self1.png";
-				document.getElementById(li_imgList[4]).src="assets/self1.png";
+				document.getElementById(li_imgList[i]).src="images/self1.png";
+				document.getElementById(li_imgList[4]).src="images/self1.png";
 			}else{
-				document.getElementById(li_imgList[i]).src="assets/self1.png";
-				document.getElementById(li_imgList[i-1]).src="assets/self1.png";
+				document.getElementById(li_imgList[i]).src="images/self1.png";
+				document.getElementById(li_imgList[i-1]).src="images/self1.png";
 			}
 			break;
 		}
@@ -52,10 +52,10 @@ function point(obj){
 		if(obj.id==liList[i]){
 			document.getElementById("img").src=imgList[i];
 			min=i+1;
-			document.getElementById(li_imgList[i]).src="assets/self1.png";
+			document.getElementById(li_imgList[i]).src="images/self1.png";
 			for(var a=0;a<5;a++){
 				if(a!=i){
-					document.getElementById(li_imgList[a]).src="assets/self1.png";
+					document.getElementById(li_imgList[a]).src="images/self1.png";
 				}
 			}
 		}
