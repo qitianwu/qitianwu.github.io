@@ -378,3 +378,31 @@ table.imgtable, table.imgtable td {
 
 
 
+<!-- 可以根据自己需要改变样式，我是全横屏的 -->
+.center_photo{
+	width:100%;
+	margin:0;
+	padding:0;
+	height::1600px;
+	background:#c8d5b9;
+	}
+.center_photo img{width:100%;height:100%;}
+.point{
+	height:50px;
+	position:relative;
+	top:-60px;
+	width:240px;
+	margin:0 auto;
+	left:0px;
+	z-index:999;
+	text-align:center;
+	}
+.point ul li{
+	width:20px;
+	height:20px;
+	margin:0 5px;
+	float:left;
+	list-style:none;
+	}
+.point ul li img{width:20px;height:20px;}
+.point ul li img:hover{cursor:pointer;}
