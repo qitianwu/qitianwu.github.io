@@ -84,11 +84,11 @@ a:hover {
 }
 
 #layout-menu a.current:link, #layout-menu a.current:visited {
-    color: #022b6d;
+    color: #6d3b02;
     border-bottom: 1px gray solid;
 }
 #layout-menu a:link, #layout-menu a:visited, #layout-menu a:hover {
-    color: #527bbd;
+    color: #c49866;
     text-decoration: none;
 }
 #layout-menu a:hover {
@@ -100,7 +100,7 @@ div.menu-category {
     margin-top: 0.8em;
     padding-top: 0.2em;
     padding-bottom: 0.1em;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 div.menu-item {
@@ -131,7 +131,7 @@ em {
 }
 
 strong {
-    font-weight: bold;
+    font-weight: normal;
 }
 
 
