@@ -146,7 +146,8 @@ h1, h2, h3 {
 }
 
 h1 {
-    font-size: 165%;
+    font-size: 200%;
+    color: #1b1a1aab;
     padding-bottom: 0.3em;
 }
 
@@ -161,6 +162,7 @@ h2 + h3 {
 
 h3 {
     font-size: 110%;
+    color: #1b1a1aab;
     border-bottom: none;
 }
 
