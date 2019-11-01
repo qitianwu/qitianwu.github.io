@@ -75,7 +75,7 @@ pre, tt {
 }
 
 a, a > tt {
-    color: #224b8d;
+    color: #cd7b62;
     text-decoration: none;
 }
 
@@ -136,7 +136,7 @@ strong {
 
 
 h1, h2, h3 {
-    color: #527bbd;
+    color: #cd7b62;
     margin-top: 0.7em;
     margin-bottom: 0.5em;
     padding-bottom: 0.2em;
@@ -258,7 +258,7 @@ div.codeblock, div.infoblock {
 }
 
 div.blocktitle {
-    font-weight: bold;
+    font-weight: normal;
     color: #cd7b62;
     margin-top: 1.2em;
     margin-bottom: 0.1em;
@@ -360,7 +360,7 @@ table + table {
 }
 
 tr.heading {
-    font-weight: bold;
+    font-weight: normal;
     border-bottom: 2px solid black;
 }
 
