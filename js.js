@@ -33,11 +33,11 @@ function loop(){
 			document.getElementById("img").src=imgList[i];
 			min++;
 			if(i==0){
-				document.getElementById(li_imgList[i]).src="../素材/ok01.png";
-				document.getElementById(li_imgList[4]).src="../素材/ok02.png";
+				document.getElementById(li_imgList[i]).src="assets/self1.png";
+				document.getElementById(li_imgList[4]).src="assets/self1.png";
 			}else{
-				document.getElementById(li_imgList[i]).src="../素材/ok01.png";
-				document.getElementById(li_imgList[i-1]).src="../素材/ok02.png";
+				document.getElementById(li_imgList[i]).src="assets/self1.png";
+				document.getElementById(li_imgList[i-1]).src="assets/self1.png";
 			}
 			break;
 		}
@@ -52,10 +52,10 @@ function point(obj){
 		if(obj.id==liList[i]){
 			document.getElementById("img").src=imgList[i];
 			min=i+1;
-			document.getElementById(li_imgList[i]).src="../素材/ok01.png";
+			document.getElementById(li_imgList[i]).src="assets/self1.png";
 			for(var a=0;a<5;a++){
 				if(a!=i){
-					document.getElementById(li_imgList[a]).src="../素材/ok02.png";
+					document.getElementById(li_imgList[a]).src="assets/self1.png";
 				}
 			}
 		}
