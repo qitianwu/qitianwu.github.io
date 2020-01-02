@@ -16,13 +16,3 @@ function yanse() {
                    //                img.setAttribute("src","../image/cpxq/qiehuan/xing@3x.png");
            img.src = "../image/cpxq/qiehuan/xing@3x.png";
 }
-
-<script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?f38d019abe6aa72687acdcf683ca0515";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-</script>
