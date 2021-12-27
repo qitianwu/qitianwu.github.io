@@ -46,7 +46,7 @@
                 </th>
                 <td style="width: 5%"></td>
                 <td>
-                    <p>I am now a PhD student at Department of Computer Science and Engineering from Shanghai Jiao Tong University (SJTU).
+                    <p>I am now a PhD student at Department of Computer Science and Engineering from Shanghai Jiao Tong University (SJTU), supervised by Prof. Junchi Yan.
                         I achieved the Bachelor and Master degrees from SJTU.
                     </p>
                     <p>I am broadly interested in research topics in machine learning and data mining, including 
@@ -71,8 +71,14 @@
         <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan<br />
         <i>Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2021)</b><br />
         <ul><li>Keywords: Graph Neural Networks, Representation Learning, Extrapolation, Domain Shift</li></ul>
-        <ul><li>Summary: We propose a new research problem (domain shift from training data and testing data with incremental features) and design a graphs
-            learning approach that can achieve extrapolation to new feature space with inductive graph representation learning.
+        <ul><li>Summary: We propose a new research problem (domain shift from training data to testing data with augmented input feature space) and design a graph
+            learning approach that bridges seen and unseen features with instance nodes to achieve extrapolation to new feature space. 
+            The `open-world' term emphasizes arbitrary new features from in-the-wild environments.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/FATE-slides.pdf"> Slides</a> |
+            <a href="assets/FATE-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/FATE"> Codes</a>
         </li></ul>
     </li>
     <li>
@@ -81,6 +87,15 @@
         <b>Qitian Wu</b>, Han Gao and Hongyuan Zha<br />
         <i>Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2021)</b><br />
         <ul><li>Keywords: Deep Generative Models, Energy-based Model, Generative Adversarial Networks, Stein's Method</li></ul>
+        <ul><li>Summary: Explicit generative models (e.g. energy-based model) and implicit generative models (e.g. GANs) have their respective pros and cons. We leverage
+            the Stein discrepancy to construct a novel bridging term to connect two models in a unified framework. We theoretically show that such an approach induces effective
+            dual regularization effects and could empirically facilitate the learning of the both.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/Stein-slides.pdf"> Slides</a> |
+            <a href="assets/Stein-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/SteinBridging"> Codes</a>
+        </li></ul>
     </li>
     <li>
         <a href="https://proceedings.neurips.cc/paper/2021/file/00ac8ed3b4327bdd4ebbebcb2ba10a00-Paper.pdf">
@@ -88,6 +103,12 @@
         Hengrui Zhang, <b>Qitian Wu</b>, Junchi Yan, David Wipf and Philip S. Yu<br />
         <i>Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2021)</b><br />
         <ul><li>Keywords: Graph Neural Networks, Self-supervised Representation Learning, Contrastive Learning</li></ul>
+        <ul><li>Summary: We introduce a simple yet effective contrastive objective for self-supervised node representation learning over graphs. 
+            Compared with other works, our approach requires none of the parameterized mutual information estimator, additional projector, asymmetric structures, and most importantly, negative samples which can be costly.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="https://github.com/hengruizhang98/CCA-SSG"> Codes</a>
+        </li></ul>
     </li>
     <li>
         <a href="assets/Seq2Bubble.pdf">
@@ -95,6 +116,15 @@
         <b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen<br />
         <i>ACM International Conference on Information & Knowledge Management</i> <b>(CIKM 2021, spotlight)</b><br />
         <ul><li>Keywords: Sequential Recommendation, User Behavior Modeling, Geometrically-inspired Embedding</li></ul>
+        <ul><li>Summary: Most of existing neural recommendation models embed a user behavior sequence into a single point in the latent space. To resolve the limited expressivity, we 
+            propose to embed a sequence into a set of closed regions (hyper-ellipsoid) where center vectors can model a user's interests of multiple aspects and radius vectors
+            could accommodate heterogeneous concentration over distinct aspects.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/Stein-slides.pdf"> Slides</a> |
+            <a href="assets/Stein-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/IDCF"> Codes</a>
+        </li></ul>
     </li>
     <li>
         <a href="https://arxiv.org/abs/2007.04833">
@@ -102,27 +132,53 @@
         <b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha<br />
         <i>In International Conference on Machine Learning</i> <b>(ICML 2021)</b><br />
         <ul><li>Keywords: Inductive Representation Learning, Cold-start Recommendation/Learning, Matrix Completion, Graph Structure Learning.</li></ul>
+        <ul><li>Summary: Recommender systems are often supposed to deal with new unseen users during testing time, though current methods mostly based on collaborative filtering or 
+            matrix factorization are limited in transductive learning (training and testing data share the same user set). We piorneerly explore a new learning paradigm that leverages 
+            representations of a group of held-out users to compute the representations for new ones in an inductive way. Interestingly, the new method guarantees the same representation
+            capacity compared to classic matrix factorization. 
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/IDCF-slides.pdf"> Slides</a> |
+            <a href="assets/IDCF-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/IDCF"> Codes</a>
+        </li></ul>
     </li>
     <li>
-        <a href="assets/Learning Latent.pdf">
+        <a href="assets/LANTERN.pdf">
             Learning Latent Process from High-Dimensional Event Sequences via Efficient Sampling</a><br /> 
         <b>Qitian Wu</b>, Zixuan Zhang, Xiaofeng Gao, Junchi Yan and Guihai Chen<br /> 
         <i>In Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2019)</b><br />
         <ul><li>Keywords: Temporal Point Process, Relation Inference, Sequence Transformer, Imitation Learning</li></ul>
+        <ul><li>Summary: We target the modeling and generation of temporal dynamics in large interaction nodes with a latent graph topology. To this end,
+            we propose an adversarial imitation learning framework composed of
+            1) a latent structural intensity model that uncovers the latent graph and estimates the temporal dependency over sequence dynamics; 
+            2) an efficient random walk based generation model that generates a sequence from a bottom-up view.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/LANTERN-poster.pdf"> Poster</a> |
+            <a href="https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"> Codes</a>
+        </li></ul>
     </li>
-    <li>
+    <!-- <li>
         <a href="assets/Feature Evolution.pdf">
             Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust</a><br /> 
         <b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen<br /> 
         <i>In International Joint Conference on Artificial Intelligence</i> <b>(IJCAI 2019)</b><br />
         <ul><li>Keywords: Collaborative Filtering, Network Embedding, Multi-Task Learning, Bayesian Optimization.</li></ul>
-    </li>
+    </li> -->
     <li>
         <a href="assets/Dual Sequential.pdf">
             Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination</a><br /> 
         <b>Qitian Wu</b>, Yirui Gao, Xiaofeng Gao, Paul Weng and Guihai Chen<br />
         <i>In ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</i> <b>(KDD 2019)</b><br /> 
         <ul><li>Keywords: Sequential Recommendation, Information Diffusion, User Behavior Modeling.</li></ul>
+        <ul><li>Summary: Sequential recommendation and information dissemination can be treated as symmetric problems where the sequence dynamics lie in user and item side, respectively.
+            Based on this observation, we propose a dual learning model that resorts to mutual reinforcement between two sequential learning models via a teacher-student distillation loss.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/DEEMS-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/DEEMS-KDD-19"> Codes</a>
+        </li></ul>
         </li>
     <li>
         <a href="assets/Dual Graph.pdf">
@@ -130,7 +186,15 @@
         <b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Peng He, Paul Weng, Han Gao and Guihai Chen<br />
         <i>In World Wide Web Conference</i> <b>(WWW 2019, Oral)</b><br />
         <ul><li>Keywords: Social Recommendation, Graph Neural Networks, Multi-Armed Bandit, Policy Gradient</li></ul>
-        
+        <ul><li>Summary: There are multifaceted inter-dependence among user-item interactions in recommender systems. We design a dual graph attention architecture
+            that simultaneously learns to capture user-user relations (given an observed social network) and item-item relations (given an item2item similarity graph) in a 
+            fully data-driven manner. The graph attention networks are updated with recommendation models in an end-to-end fashion.
+        </li></ul>
+        <ul><li>Materials:
+            <a href="assets/DANSER-slides.png"> Slides</a> |
+            <a href="assets/DANSER-poster.png"> Poster</a> |
+            <a href="https://github.com/qitianwu/DANSER-WWW-19"> Codes</a>
+        </li></ul>
     </li>
     <!-- <li>
         <a href="assets/Early Pattern.pdf">
@@ -139,13 +203,13 @@
         <i>In IEEE International Conference on Data Mining</i> (ICDM 2018)<br />
         <ul><li>Keywords: Information Diffusion, Bayesian Networks, Structure Searching</li></ul>
     </li> -->
-    <li>
+    <!-- <li>
         <a href="assets/Adversarial Training.pdf">
             Adversarial Training Model Unifying Feature Driven and Point Process Perspectives for Event Popularity Prediction</a><br /> 
         <b>Qitian Wu</b>, Chaoqi Yang, Hengrui Zhang, Xiaofeng Gao, Paul Weng and Guihai Chen<br />
         <i>In ACM International Conference on Information and Knowledge Management</i> (CIKM 2018)</b><br />
         <ul><li>Keywords: Event Prediction, Point Process, Adversarial Training</li></ul>
-    </li>
+    </li> -->
 </ul>
 
 
