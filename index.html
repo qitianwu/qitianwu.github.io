@@ -50,7 +50,7 @@
                         Prof. Junchi Yan. I achieved the Bachelor (Microelectronics, Mathematics) and Master (Computer Science) degrees from SJTU.
                     </p>
                     <p>My general research interests lie in out-of-distribution generalization, structured learning and inference, and generative models, with 
-                        their applications on recommender systems, drug discovery and advertisement.</p>
+                        their applications in recommender systems, drug discovery and advertisement.</p>
                     <p>My current research focus on building scalable/expressive structured representation models and generalizable/reliable learning algorithms 
                         over semi-structured data (graphs, sequences, user behaviors, etc.). I endeavor on developing the 
                         next generation of learning approaches for dynamic, open and uncertain environments.</p>
@@ -66,7 +66,7 @@
         [2022.10] I was awarded with National Scholarship.
     </li>
     <li>
-        [2022.09] Papers on graph neural networks, out-of-distribution learning, latent structure learning, temporal distribution shifts and OOD molecular 
+        [2022.09] Papers on out-of-distribution generalization/detection, graph structure learning, temporal causal learning and molecular 
         representation were accepted to NeurIPS'22.
     </li>
     <li>
@@ -76,7 +76,7 @@
         [2022.04] One paper on negative sampling in recsys was accepted to IJCAI'22.
     </li>
     <li>
-        [2022.01] One paper on out-of-distritbuion learning on graphs was accepted to ICLR'22.
+        [2022.01] One paper on out-of-distritbuion generalization on graphs was accepted to ICLR'22.
     </li>
     <li>
         [2021.11] I was awarded with Baidu PhD Scholarship.
@@ -104,10 +104,11 @@
         <b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan<br />
         <i>Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2022)</b><br />
         <!-- <ul><li>Keywords: Graph Transformer, Graph Structure Learning, Large-Scale Graph Learning</li></ul> -->
-        <ul><li>Summary: We propose a scalable graph structure learning model and efficient all-pair message passing on latent graphs.
-            The scalable computation for latent structure learning is enabled by a proposed kernelized Gumbel-Softmax operator.
+        <ul><li>Summary: We propose a scalable graph structure learning model with efficient all-pair message passing on latent graphs, 
+            enabled by a kernelized Gumbel-Softmax operator which has linear complexity w.r.t. node numbers.
         </li></ul>
         <ul><li>Materials:
+            <a href="assets/NodeFormer-slides.pdf"> Slides</a> |
             <a href="https://github.com/qitianwu/NodeFormer"> Codes</a>
         </li></ul>
     </li>
@@ -118,7 +119,7 @@
         <i>International Conference on Learning Representations</i> <b>(ICLR 2022)</b><br />
         <!-- <ul><li>Keywords: Graph Neural Networks, Out-of-Distribution Generalization, Domain-Invariant Learning</li></ul> -->
         <ul><li>Summary: We formulate out-of-distribution generalization problem on graphs and propose a provably effective invariant learning approach. 
-            As a piorneering work, we explore leveraging invariance principle for node-level distribution shifts on graph data.
+            As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts on graphs.
         </li></ul>
         <ul><li>Materials:
             <a href="assets/EERM-slides.pdf"> Slides</a> |
@@ -132,8 +133,8 @@
         <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan<br />
         <i>Advances in Neural Information Processing Systems</i> <b>(NeurIPS 2021)</b><br />
         <!-- <ul><li>Keywords: Attribute Feature Representation, Graph Neural Networks, Extrapolation, Domain Shift</li></ul> -->
-        <ul><li>Summary: We introduce a new open problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced
-            representation learning approach for handling tabular learning with feature extrapolation. 
+        <ul><li>Summary: We study a new problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced
+            representation learning approach for handling tabular data with variable-length features. 
         </li></ul>
         <ul><li>Materials:
             <a href="assets/FATE-slides.pdf"> Slides</a> |
@@ -147,8 +148,8 @@
         <b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha<br />
         <i>In International Conference on Machine Learning</i> <b>(ICML 2021)</b><br />
         <!-- <ul><li>Keywords: Inductive Representation Learning, Cold-start Recommendation/Learning, Matrix Completion, Graph Structure Learning.</li></ul> -->
-        <ul><li>Summary: We consider a new collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage 
-            representations of existing users to compute the representations for new ones in an inductive way. 
+        <ul><li>Summary: We consider an inductive collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage 
+            representations of existing users to compute the new ones' through latent graph structures. 
         </li></ul>
         <ul><li>Materials:
             <a href="assets/IDCF-slides.pdf"> Slides</a> |
