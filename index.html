@@ -191,7 +191,7 @@ title: Home
 <!-- ========== TALKS ========== -->
 <div class="docs-section" id="talks">
   <h4>Talks and Presentations</h4>
-  {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
+  {% assign current_talks = site.data.talks.talks | where: "online", "onsite" %}
   {% for talk in current_talks %}
   <div class="talk">
     <p class="title"> <a href={{talk.link}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
