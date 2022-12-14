@@ -1,0 +1,6 @@
+projects:
+  - title: "Scalabel Graph Transformers"
+    subtitle: "Node Classification"
+    thumbnail: "assets/projects/2022-nodeformer/thumbnail.jpg"
+    url: "projects/2022-nodeformer.html"
+    selected: y

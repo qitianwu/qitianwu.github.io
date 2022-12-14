@@ -1,0 +1,17 @@
+
+talks:
+    - name: "AI Times"
+      time: "Nov. 2022"
+      title: "NodeFormer: Scalable Graph Transformers with Linear Complexity"
+      category: "online"
+      link: "https://www.bilibili.com/video/BV1MK411U7dc/?spm_id_from=333.788.recommend_more_video.2&vd_source=dd4795a9e34dbf19550fff1087216477"
+    - name: "Learning on Graphs Seminar"
+      time: "Oct. 2022"
+      title: "Out-of-Distribution Generalization and Extrapolation on Graphs"
+      category: "online"
+      link: "https://www.bilibili.com/video/BV1Ue4y147Mb/?spm_id_from=333.337.search-card.all.click"
+    - name: "AI Drive Paperweekly"
+      time: "Apr. 2022"
+      title: "Handling Distribution Shifts on Graphs"
+      category: "online"
+      link: "https://www.bilibili.com/video/BV13S4y1Y73x/?spm_id_from=333.337.search-card.all.click"

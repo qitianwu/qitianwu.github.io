@@ -1,0 +1,15 @@
+experiences:
+
+- place: "Shanghai Jiao Tong University"
+  time: "03/2021 - now"
+  title: "PhD, CS"
+  subtitle: "ML"
+  category: "school"
+  
+- place: "Amazon AI Lab"
+  time: "07/2021 - now"
+  title: "Research Intern"
+  subtitle: "working with David Wipf"
+  category: "work"
+
+
