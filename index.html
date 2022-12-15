@@ -7,18 +7,19 @@ title: Home
   <h4>Bio</h4>
   <p>
   I am a PhD candidate at the Department of Computer Science and Engineering from Shanghai Jiao Tong University (SJTU), advised by
-  <a href="https://thinklab.sjtu.edu.cn/">Prof. Junchi Yan</a>. I also worked with <a href="http://www.davidwipf.com/">David Wipf</a> and <a href="https://sds.cuhk.edu.cn/en/teacher/65">Prof. Hongyuan Zha</a>. 
+  <a href="https://thinklab.sjtu.edu.cn/">Prof. Junchi Yan</a>. I also collaborated with <a href="http://www.davidwipf.com/">David Wipf</a> and <a href="https://sds.cuhk.edu.cn/en/teacher/65">Prof. Hongyuan Zha</a>. 
   I achieved the Bachelor (Microelectronics, Mathematics) and Master (Computer Science) degrees from SJTU, and worked as research intern at Tencent WeChat, Amazon AI Lab and BioMap. 
 
   <p>
-    My primary research area is machine learning (ICLR, ICML, NeurIPS). Currently I focus on learning with semi-structured data (graphs and sequences), with applications to recommender systems and scientific discovery. 
+    My primary research area is machine learning (ICLR, ICML, NeurIPS). Currently I focus on learning with semi-structured data (graphs and sequences), with applications to scientific discovery and recommender systems. 
     The goal of my research is to design and build theoretically principled and practically useful models and tools that possess desired expressivity, scalability and robustness for handling real data
-    from heterogenous, open and uncertain environments. It involves:
+    from heterogenous, open and uncertain environments. E.g., my recent works involve:
       <ul>
         <li>Learning with Distribution Shifts: Out-of-distribution Generalization on Graphs (<a href="https://openreview.net/pdf?id=FQOC5u-1egI">EERM</a>, <a href="https://openreview.net/pdf?id=2nWUNTnFijm">MoleOOD</a> and Sequences <a href="https://openreview.net/pdf?id=XQu7UFSbzd2">Caseq</a>, 
-          Graph Out-of-Distribution Detection (<a href="https://openreview.net/pdf?id=mSiPuHIP7t8">GraphDE</a>)
-        <li>Transformers for Large-Scale Graphs: All-Pair Message Passing with Linear Complexity (<a href="https://openreview.net/pdf?id=sMezXGG5So">NodeFormer</a>)
-        <li>Open-World Entity Extrapolation: Inductive Collaborative Filtering Algorithms <a href="https://arxiv.org/pdf/2007.04833.pdf">IDCF</a>, Feature Extrapolation Networks <a href="https://arxiv.org/pdf/2110.04514.pdf">FATE</a>
+          Out-of-Distribution Detection on Graphs (<a href="https://openreview.net/pdf?id=mSiPuHIP7t8">GraphDE</a>)
+        <li>Scalable Transformers/GNNs for Large Graphs: Node-Level Transformers with Linear Complexity (<a href="https://openreview.net/pdf?id=sMezXGG5So">NodeFormer</a>), Scalable GNNs with Channel Mixing (<a href="">ScaleGCN</a>)
+        <li>Learning from Limited Observations: Efficient Self-supervised GNNs (<a href="https://arxiv.org/pdf/2106.12484.pdf">CCA-SSG</a>), Weakly-supervised GNNs (<a href="">ScaleGCN</a>), Causally Principled Adversarial Rubostness (<a href="">ScaleGCN</a>)
+        <li>Open-World Entity Extrapolation: Inductive Collaborative Filtering <a href="https://arxiv.org/pdf/2007.04833.pdf">IDCF</a>, Feature Extrapolation Networks <a href="https://arxiv.org/pdf/2110.04514.pdf">FATE</a>
       </ul>
     </p>
 
@@ -82,7 +83,9 @@ title: Home
               <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
             {% endif %}
           </div>
-          <p>{{ paper.content }}</p>
+          {% if paper.content %}
+            <p>{{ paper.content }}</p>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
@@ -117,7 +120,22 @@ title: Home
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
+
+            {% if paper.blogc %}
+              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
+            {% endif %}
+
+            {% if paper.bloge %}
+              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
+            {% endif %}
+
+            {% if paper.tutorial %}
+              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
+            {% endif %}
           </div>
+          {% if paper.content %}
+            <p>{{ paper.content }}</p>
+          {% endif %}
         </div>
       {% endfor %}
     </div>
