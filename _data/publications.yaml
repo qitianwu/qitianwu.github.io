@@ -9,10 +9,8 @@ papers:
     poster: "assets/publications/nips2022-nodeformer/poster.png"
     blogc: ""
     bloge: ""
-    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in
-            linear complexity. The model successfully scales to graphs with 2 million nodes!"
+    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in linear complexity. The model successfully scales to graphs with 2 million nodes!"
     selected: y
-
 
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
     authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
@@ -23,8 +21,7 @@ papers:
     poster: "assets/publications/iclr2022-eerm/poster.png"
     blogc: ""
     bloge: ""
-    content: "We formulate out-of-distribution generalization problem on graphs. 
-            As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
+    content: "We formulate out-of-distribution generalization problem on graphs. As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
     selected: y
   
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
@@ -36,8 +33,7 @@ papers:
     poster: "assets/publications/nips2021-fate/poster.png"
     blogc: ""
     bloge: ""
-    content: "Summary: We study a new problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced
-            representation learning approach for handling tabular data with variable-length features. "
+    content: "Summary: We study a new problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced representation learning approach for handling tabular data with variable-length features. "
     selected: y
   
   - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
@@ -49,8 +45,7 @@ papers:
     poster: "assets/publications/icml2021-idcf/poster.png"
     blogc: ""
     bloge: ""
-    content: "Summary: We explore an inductive collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage 
-            representations of existing users to compute the new ones' through latent graph structures. "
+    content: "Summary: We explore an inductive collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage representations of existing users to compute the new ones' through latent graph structures. "
     selected: y
 
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
@@ -58,8 +53,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
-    content: "Summary: We are the first to study molecular representation under distribution shifts and propose a invariant learning approach
-    that achieves SOTA results on OGB molecular property prediction and DrugOOD benchmarks."
+    content: "Summary: We are the first to study molecular representation under distribution shifts and propose a invariant learning approach that achieves SOTA results on OGB molecular property prediction and DrugOOD benchmarks."
     selected: y
 
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
@@ -67,8 +61,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13005.pdf"
     code: "https://github.com/chr26195/Caseq"
-    content: "Summary: We use causal analysis to reveal the limitations of existing paradigms for sequential prediction under distribution shifts
-    and propose an effective treatment based on backdoor adjustment."
+    content: "Summary: We use causal analysis to reveal the limitations of existing paradigms for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
     selected: y
   
   - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
@@ -76,8 +69,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=mSiPuHIP7t8"
     code: "https://github.com/Emiyalzn/GraphDE"
-    content: "Summary: We identify the fundamental connection between debiased learning and out-of-distribution detection through probabilistic modeling and
-    introduce a generative framework for graph data."
+    content: "Summary: We identify the fundamental connection between debiased learning and out-of-distribution detection through probabilistic modeling and introduce a generative framework for graph data."
     selected: y
 
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
@@ -85,8 +77,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
     code: "https://github.com/chr26195/GKD"
-    content: "Summary: We propose a geometric knowledge distillation model, empowered by a newly introduced neural heat kernel, 
-    that can generalize the topological knowledge from larger GNNs to smaller one."
+    content: "Summary: We propose a geometric knowledge distillation model, empowered by a newly introduced neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
     selected: y
 
   - title: "Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation"
@@ -94,8 +85,7 @@ papers:
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
     paper_pdf: ""
     code: "https://github.com/Thinklab-SJTU/WSGNN"
-    content: "Summary: We propose a generative framework for training graph neural networks with incompletely observed data.
-            The new approach outperforms GCN by 75.6% when only 1 label per class and 1% edges are observed on Cora!"
+    content: "Summary: We propose a generative framework for training graph neural networks with incompletely observed data. The new approach outperforms GCN by 75.6% when only 1 label per class and 1% edges are observed on Cora!"
     selected: n
 
   - title: "DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness"
@@ -103,8 +93,7 @@ papers:
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
     paper_pdf: ""
     code: "https://github.com/Thinklab-SJTU/DICE"
-    content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness 
-            from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
+    content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
     selected: n
 
   - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
