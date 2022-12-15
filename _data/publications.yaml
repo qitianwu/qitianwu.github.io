@@ -9,10 +9,7 @@ papers:
     poster: "assets/publications/nips2022-nodeformer/poster.png"
     blogc: ""
     bloge: ""
-    content: 
-    "- We develop a novel.
-    - We develop a novel.
-    - We develop a novel."
+    content: "- We develop a novel. - We develop a novel. - We develop a novel."
     selected: y
       
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
