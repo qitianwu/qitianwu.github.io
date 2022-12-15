@@ -51,11 +51,11 @@ title: Home
             {% endif %}
 
             {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+              <a class="button" href="{{ paper.slides }}" target="_blank">Slides</a>
             {% endif %}
 
             {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
             {% endif %}
 
             {% if paper.video %}
