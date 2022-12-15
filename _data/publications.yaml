@@ -126,7 +126,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1909.13035"
     code: "https://github.com/qitianwu/SteinBridging"
     content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
-    selected: n
+    selected: y
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
@@ -158,7 +158,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
     content: ""
-    selected: n
+    selected: y
 
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
     authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
