@@ -2,7 +2,10 @@ papers:
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
-    venue: "<b>Advances in Neural Information Processing Systems (NeurIPS) 2022</b>. Spotlight (less than 5%)"
+    venue: "<b>Advances in Neural Information Processing Systems (NeurIPS) 2022</b>. 
+    <body>
+      <p style="color:#FF0000";>Spotlight (less than 5%)</p>
+    </body>"
     paper_pdf: "https://openreview.net/pdf?id=sMezXGG5So"
     code: "https://github.com/qitianwu/NodeFormer"
     slides: "assets/publications/nips2022-nodeformer/slides.pdf"
