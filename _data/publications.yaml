@@ -96,34 +96,34 @@ papers:
     content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
     selected: n
 
-    - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
-      authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jipeng Jin, Junwei Pan, Xiaofeng Gao, and Guihai Chen"
-      venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2022"
-      paper_pdf: ""
-      code: ""
-      content: ""
-      selected: n
+  - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
+    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jipeng Jin, Junwei Pan, Xiaofeng Gao, and Guihai Chen"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2022"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
 
-    - title: "ScaleGCN: Efficient and Effective Graph Convolution via Channel-Wise Scale Transformation"
-      authors: "Tianqi Zhang, <b>Qitian Wu</b>, Junchi Yan, Yunan Zhao and Bing Han"
-      venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2022"
-      paper_pdf: ""
-      code: ""
-      content: ""
-      selected: n
+  - title: "ScaleGCN: Efficient and Effective Graph Convolution via Channel-Wise Scale Transformation"
+    authors: "Tianqi Zhang, <b>Qitian Wu</b>, Junchi Yan, Yunan Zhao and Bing Han"
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2022"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
 
-    - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
-      authors: "Tianqi Zhang, <b>Qitian Wu</b> and Junchi Yan"
-      venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2021"
-      paper_pdf: ""
-      code: ""
-      content: ""
-      selected: n
+  - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
+    authors: "Tianqi Zhang, <b>Qitian Wu</b> and Junchi Yan"
+    venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2021"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
 
-    - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
-      authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
-      venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
-      paper_pdf: ""
-      code: ""
-      content: ""
-      selected: n
+  - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
+    authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
