@@ -177,6 +177,17 @@ title: Home
 </div>
 -->
 
+<!-- ========== Honors ========== -->
+<div class="docs-section" id="awards">
+  <h4>Honors & Awards</h4>
+  {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
+  {% for awards in current_awards %}
+  <div class="service">
+    <p class="title"> <b>{{ awards.name }}</b> {{ awards.year }} </p>
+  </div>
+  {% endfor %}
+</div>
+
 
 <!-- ========== TALKS ========== -->
 <div class="docs-section" id="talks">
