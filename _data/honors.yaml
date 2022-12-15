@@ -1,5 +1,13 @@
 
 service:
-  - name: ""
-    year: ""
+  - name: "National PhD Scholarship"
+    year: "2022"
+    category: "current"
+  
+  - name: "Baidu Scholarship (only 10 from worldwide PhD students)"
+    year: "2021"
+    category: "current"
+  
+  - name: "Microsoft Research PhD Fellowship (only 11 in Asia)"
+    year: "2021"
     category: "current"
