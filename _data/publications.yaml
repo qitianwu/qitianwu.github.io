@@ -111,6 +111,30 @@ papers:
     code: ""
     content: ""
     selected: n
+  
+  - title: "From Canonical Correlation Analysis to Self-supervised Graph Neural Networks"
+    authors: "Hengrui Zhang, <b>Qitian Wu</b>, Junchi Yan, David Wipf and Philip S. Yu"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
+    paper_pdf: "https://arxiv.org/abs/2106.12484"
+    code: "https://github.com/hengruizhang98/CCA-SSG"
+    content: "Summary: We introduce a simple yet effective contrastive objective for self-supervised learning on graphs. The model achieves SOTA results on several node classification benchmarks."
+    selected: y
+
+  - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
+    authors: "<b>Qitian Wu</b>, Han Gao and Hongyuan Zha"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
+    paper_pdf: "https://arxiv.org/abs/1909.13035"
+    code: "https://github.com/qitianwu/SteinBridging"
+    content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
+    selected: n
+
+  - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
+    authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
+    venue: "ACM International Conference on Information & Knowledge Management (CIKM) 2021"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
     authors: "Tianqi Zhang, <b>Qitian Wu</b> and Junchi Yan"
