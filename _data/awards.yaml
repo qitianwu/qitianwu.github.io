@@ -1,5 +1,5 @@
 
-service:
+awards:
   - name: "National PhD Scholarship"
     year: "2022"
     category: "current"
