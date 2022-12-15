@@ -70,6 +70,18 @@ title: Home
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
 
+            {% if paper.blogc %}
+              <a class="button" href="{{ paper.blog_chinese }}" target="_blank">Blog (Chinese)</a>
+            {% endif %}
+
+            {% if paper.bloge %}
+              <a class="button" href="{{ paper.blog_english }}" target="_blank">Blog (English)</a>
+            {% endif %}
+
+            {% if paper.tutorial %}
+              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
+            {% endif %}
+
           </div>
         </div>
       {% endfor %}

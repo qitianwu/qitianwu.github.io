@@ -7,8 +7,8 @@ papers:
     code: "https://github.com/qitianwu/NodeFormer"
     slides: "assets/publications/nips22-nodeformer/slides.pdf"
     poster: "assets/publications/nips22-nodeformer/poster.png"
-    blog (English): ""
-    blog (Chinese): ""
+    blogc: ""
+    bloge: ""
     selected: y
       
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
