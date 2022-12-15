@@ -133,8 +133,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
     paper_pdf: "https://arxiv.org/abs/2106.12484"
     code: "https://github.com/hengruizhang98/CCA-SSG"
-    content: "Summary: We introduce a simple yet effective contrastive objective for self-supervised learning on graphs. 
-            The model achieves SOTA results on several node classification benchmarks."
+    content: "Summary: We introduce a simple yet effective contrastive objective for self-supervised learning on graphs. The model achieves SOTA results on several node classification benchmarks."
     selected: y
 
     - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
