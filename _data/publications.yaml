@@ -63,3 +63,35 @@ papers:
     code: "https://github.com/chr26195/Caseq"
     content: "Summary: We use causal analysis to reveal the limitations of existing paradigms for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
     selected: y
+  
+  - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
+    authors: "Zenan Li, <b>Qitian Wu</b>, Fan Nie and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
+    paper_pdf: "https://openreview.net/pdf?id=mSiPuHIP7t8"
+    code: "https://github.com/Emiyalzn/GraphDE"
+    content: "Summary: We identify the fundamental connection between debiased learning and out-of-distribution detection through probabilistic modeling and introduce a generative framework for graph data."
+    selected: y
+
+  - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
+    authors: "Chenxiao Yang, <b>Qitian Wu</b> and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
+    paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
+    code: "https://github.com/chr26195/GKD"
+    content: "Summary: We propose a geometric knowledge distillation model, empowered by a newly introduced neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
+    selected: y
+
+  - title: "Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation"
+    authors: "Danning Lao, Xinyu Yang, <b>Qitian Wu</b>, Junchi Yan"
+    venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
+    paper_pdf: ""
+    code: "https://github.com/Thinklab-SJTU/WSGNN"
+    content: "Summary: We propose a generative framework for training graph neural networks with incompletely observed data. The new approach outperforms GCN by 75.6% when only 1 label per class and 1% edges are observed on Cora!"
+    selected: n
+
+  - title: "DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness"
+    authors: "Qibing Ren, Yiting Chen, Yichuan Mo, <b>Qitian Wu</b>, Junchi Yan"
+    venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
+    paper_pdf: ""
+    code: "https://github.com/Thinklab-SJTU/DICE"
+    content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
+    selected: n
