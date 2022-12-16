@@ -83,7 +83,7 @@ papers:
   - title: "Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation"
     authors: "Danning Lao, Xinyu Yang, <b>Qitian Wu</b>, Junchi Yan"
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
-    paper_pdf: ""
+    paper_pdf: "https://www.researchgate.net/publication/362690138_Variational_Inference_for_Training_Graph_Neural_Networks_in_Low-Data_Regime_through_Joint_Structure-Label_Estimation"
     code: "https://github.com/Thinklab-SJTU/WSGNN"
     content: "Summary: We propose a generative framework for training graph neural networks with incompletely observed data. The new approach outperforms GCN by 75.6% when only 1 label per class and 1% edges are observed on Cora!"
     selected: n
@@ -91,7 +91,7 @@ papers:
   - title: "DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness"
     authors: "Qibing Ren, Yiting Chen, Yichuan Mo, <b>Qitian Wu</b>, Junchi Yan"
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
-    paper_pdf: ""
+    paper_pdf: "https://www.researchgate.net/publication/362690364_DICE_Domain-attack_Invariant_Causal_Learning_for_Improved_Data_Privacy_Protection_and_Adversarial_Robustness?_sg%5B0%5D=cDyg8WFuIqif-j1J518O3YKYFW_J6KjPdqhSX1WYZwbKycEd5nvWy8ONpY2oFvzmUvYlI1ihHMtnNeuGpEg7AGA9KAWZLGMckkGwXoE0.aiBpdK_eb6Ix7LStob03PsN8wXnORVkc-Guq4cGGHfECqsHufLiB7eXPab7oMhG1CqXEU1v71b9Hj71UIdrRbQ"
     code: "https://github.com/Thinklab-SJTU/DICE"
     content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
     selected: n
@@ -107,7 +107,7 @@ papers:
   - title: "ScaleGCN: Efficient and Effective Graph Convolution via Channel-Wise Scale Transformation"
     authors: "Tianqi Zhang, <b>Qitian Wu</b>, Junchi Yan, Yunan Zhao and Bing Han"
     venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2022"
-    paper_pdf: ""
+    paper_pdf: "https://www.researchgate.net/publication/362926666_ScaleGCN_Efficient_and_Effective_Graph_Convolution_via_Channel-Wise_Scale_Transformation"
     code: ""
     content: ""
     selected: n
@@ -143,6 +143,14 @@ papers:
     code: ""
     content: ""
     selected: n
+  
+  - title: "Sentimem: Attentive memory networks for sentiment classification in user review"
+    authors: "Xiaosong Jia, <b>Qitian Wu</b>, Xiaofeng Gao and Guihai Chen"
+    venue: "International Conference on Database Systems for Advanced Applications (DASFAA) 2020"
+    paper_pdf: ""
+    code: ""
+    content: ""
+    selected: n
 
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
     authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
@@ -160,14 +168,6 @@ papers:
     content: ""
     selected: y
 
-  - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
-    authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
-    paper_pdf: ""
-    code: ""
-    content: ""
-    selected: n
-
   - title: "Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination"
     authors: "<b>Qitian Wu</b>, Yirui Gao, Xiaofeng Gao, Paul Weng and Guihai Chen"
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2019"
@@ -183,3 +183,25 @@ papers:
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: ""
     selected: n
+  
+  - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
+    authors: "<b>Qitian Wu</b>, Chaoqi Yang, Xiaofeng Gao, Peng He and Guihai Chen"
+    venue: "IEEE international conference on data mining (ICDM) 2018"
+    paper_pdf: ""
+    content: ""
+    selected: n
+  
+  - title: "Adversarial training model unifying feature driven and point process perspectives for event popularity prediction"
+    authors: "<b>Qitian Wu</b>, Chaoqi Yang, Hengrui Zhang, Xiaofeng Gao, Paul Weng and Guihai Chen"
+    venue: "ACM International Conference on Information & Knowledge Management (CIKM) 2018"
+    paper_pdf: ""
+    content: ""
+    selected: n
+  
+  - title: "EPOC: A survival perspective early pattern detection model for outbreak cascades"
+    authors: "Chaoqi Yang, <b>Qitian Wu</b>, Xiaofeng Gao and Guihai Chen"
+    venue: "International Conference on Database and Expert Systems Applications (DEXA) 2018"
+    paper_pdf: ""
+    content: ""
+    selected: n
+  
