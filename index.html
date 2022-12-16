@@ -189,7 +189,7 @@ title: Home
   {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
   {% for awards in current_awards %}
   <div class="service">
-    <p class="title"> <b>{{ awards.name }}</b> {{ awards.year }} </p>
+    <p class="title"> {{ awards.name }}, <i>{{ awards.year }}</i> </p>
   </div>
   {% endfor %}
 </div>
@@ -201,7 +201,7 @@ title: Home
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
   {% for talk in current_talks %}
   <div class="talk">
-    <p class="title"> {{ talk.title }} {{ talk.time }} {{ talk.name }} <a href={{talk.link}} target="_blank">[link]</a> </p>
+    <p class="title"> {{ talk.title }}, <i>{{ talk.time }}, {{ talk.name }}</i> <a href={{talk.link}} target="_blank">[link]</a> </p>
   </div>
   {% endfor %}
 </div>
