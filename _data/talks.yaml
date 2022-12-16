@@ -1,5 +1,9 @@
 
 talks:
+    - name: "Huawei Noah's Ark Lab"
+      time: "Nov. 2022"
+      title: "Recent Advances in Graph Machine Learning"
+      category: "current"
     - name: "AI Times"
       time: "Nov. 2022"
       title: "Scalable Graph Transformers with Linear Complexity"
@@ -10,6 +14,10 @@ talks:
       title: "Out-of-Distribution Generalization and Extrapolation on Graphs"
       category: "current"
       link: "https://www.bilibili.com/video/BV1Ue4y147Mb/?spm_id_from=333.337.search-card.all.click"
+    - name: "Alipay, Alibaba"
+      time: "May. 2022"
+      title: "Out-of-Distribution Generalization and Extrapolation on Graphs"
+      category: "current"
     - name: "AI Drive Paperweekly"
       time: "Apr. 2022"
       title: "Handling Distribution Shifts on Graphs"
