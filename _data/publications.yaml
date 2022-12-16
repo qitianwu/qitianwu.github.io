@@ -2,7 +2,7 @@ papers:
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022, <font color="red"> spotlight (less than 5%) </font>"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=sMezXGG5So"
     code: "https://github.com/qitianwu/NodeFormer"
     slides: "assets/publications/nips2022-nodeformer/slides.pdf"
@@ -10,6 +10,7 @@ papers:
     blogc: ""
     bloge: ""
     content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in linear complexity. The model successfully scales to graphs with 2 million nodes!"
+    note: "spotlight (less than 5%)"
     selected: y
 
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
@@ -54,6 +55,7 @@ papers:
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
     content: "Summary: We are the first to study molecular representation under distribution shifts and propose a invariant learning approach that achieves SOTA results on OGB molecular property prediction and DrugOOD benchmarks."
+    note: "spotlight (less than 5%)"
     selected: y
 
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
@@ -134,6 +136,7 @@ papers:
     paper_pdf: ""
     code: ""
     content: ""
+    note: "spotlight"
     selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
@@ -182,6 +185,7 @@ papers:
     paper_pdf: ""
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: ""
+    note: "oral"
     selected: n
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
