@@ -197,11 +197,11 @@ title: Home
 
 <!-- ========== TALKS ========== -->
 <div class="docs-section" id="talks">
-  <h4>Talks and Presentations</h4>
+  <h4>Invited Talks</h4>
   {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
   {% for talk in current_talks %}
   <div class="talk">
-    <p class="title"> <a href={{talk.link}} target="_blank">{{ talk.title }}</a>, {{ talk.time }} {{ talk.name }} </p>
+    <p class="title"> {{ talk.title }} {{ talk.time }} {{ talk.name }} <a href={{talk.link}} target="_blank">[link]</a> </p>
   </div>
   {% endfor %}
 </div>
