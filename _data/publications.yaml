@@ -20,8 +20,6 @@ papers:
     code: "https://github.com/qitianwu/GraphOOD-EERM"
     slides: "assets/publications/iclr2022-eerm/slides.pdf"
     poster: "assets/publications/iclr2022-eerm/poster.png"
-    blogc: ""
-    bloge: ""
     content: "We formulate out-of-distribution generalization problem on graphs. As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
     selected: y
   
@@ -32,8 +30,6 @@ papers:
     code: "https://github.com/qitianwu/FATE"
     slides: "assets/publications/nips2021-fate/slides.pdf"
     poster: "assets/publications/nips2021-fate/poster.png"
-    blogc: ""
-    bloge: ""
     content: "Summary: We study a new problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced representation learning approach for handling tabular data with variable-length features. "
     selected: y
   
@@ -44,8 +40,6 @@ papers:
     code: "https://github.com/qitianwu/IDCF"
     slides: "assets/publications/icml2021-idcf/slides.pdf"
     poster: "assets/publications/icml2021-idcf/poster.png"
-    blogc: ""
-    bloge: ""
     content: "Summary: We explore an inductive collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage representations of existing users to compute the new ones' through latent graph structures. "
     selected: y
 

@@ -32,9 +32,9 @@ title: Home
 
   <b><i>I am always open for collaborations and if you are interested in my research feel free to contact me via email or WeChat (id: myronwqt228). </i></b>
 
-  <!-- <div style="height:200px;overflow-y:auto;background:#ffffff;">
+  <div style="height:200px;overflow-y:auto;background:#ffffff;">
     🌟 Two papers (<i>NodeFormer</i>, <i>MoleOOD</i>) are selected as <b>Spotlight</b> presentations on NeurIPS 2022!<br>
-    </div> -->
+    </div>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
@@ -106,7 +106,7 @@ title: Home
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }}</i></p>
+          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
         </div>
       {% endfor %}
     </div>
