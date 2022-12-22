@@ -40,7 +40,7 @@ papers:
     code: "https://github.com/qitianwu/IDCF"
     slides: "assets/publications/icml2021-idcf/slides.pdf"
     poster: "assets/publications/icml2021-idcf/poster.png"
-    content: "Summary: We explore an inductive collaborative filtering setting where testing users are unappeared in the training phase, and propose to leverage representations of existing users to compute the new ones' through latent graph structures. "
+    content: "Summary: We study an under-explored recommender system's setting where testing users are unappeared in the training phase, and propose an inductive collaborative filtering model with latent graph structure learning. "
     selected: y
 
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
@@ -170,15 +170,15 @@ papers:
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2019"
     paper_pdf: ""
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
-    content: ""
-    selected: n
+    content: "We propose a new perspective for unifying two sequential information retrieval problems into one model via dual learning, and show that they can mutually promote each other. "
+    selected: y
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
     authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Peng He, Paul Weng, Han Gao and Guihai Chen"
     venue: "The Web Conference (WWW) 2019"
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
-    content: ""
+    content: "We propose a dual model that captures the homophily and influence effects among users and items in recommender systems, and achieve SOTA results on benchmarks and real commercial datasets. "
     note: "oral"
     selected: y
   
