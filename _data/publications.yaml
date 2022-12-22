@@ -122,7 +122,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1909.13035"
     code: "https://github.com/qitianwu/SteinBridging"
     content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
-    selected: y
+    selected: n
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
@@ -163,7 +163,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
     content: ""
-    selected: y
+    selected: n
 
   - title: "Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination"
     authors: "<b>Qitian Wu</b>, Yirui Gao, Xiaofeng Gao, Paul Weng and Guihai Chen"
@@ -176,11 +176,11 @@ papers:
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
     authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Peng He, Paul Weng, Han Gao and Guihai Chen"
     venue: "The Web Conference (WWW) 2019"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: ""
     note: "oral"
-    selected: n
+    selected: y
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
     authors: "<b>Qitian Wu</b>, Chaoqi Yang, Xiaofeng Gao, Peng He and Guihai Chen"
