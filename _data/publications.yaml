@@ -3,37 +3,16 @@ papers:
   - title: "Geometric Networks Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
-    paper_pdf: ""
-    code: ""
-    slides: ""
-    poster: ""
-    blogc: ""
-    bloge: ""
-    content: ""
     selected: y
   
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
-    paper_pdf: ""
-    code: ""
-    slides: ""
-    poster: ""
-    blogc: ""
-    bloge: ""
-    content: ""
     selected: y
   
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
-    paper_pdf: ""
-    code: ""
-    slides: ""
-    poster: ""
-    blogc: ""
-    bloge: ""
-    content: ""
     selected: y
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
