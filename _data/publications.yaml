@@ -1,8 +1,9 @@
 papers:
 
-  - title: "Geometric Networks Induced by Energy Constrained Diffusion"
+  - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
+    note: "spotlight (notably top 25%)"
     selected: y
   
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
@@ -22,8 +23,8 @@ papers:
     code: "https://github.com/qitianwu/NodeFormer"
     slides: "assets/publications/nips2022-nodeformer/slides.pdf"
     poster: "assets/publications/nips2022-nodeformer/poster.png"
-    blogc: ""
-    bloge: ""
+    blogc: "https://zhuanlan.zhihu.com/p/587086593"
+    bloge: "https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4"
     content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in linear complexity. The model successfully scales to graphs with 2 million nodes!"
     note: "spotlight (less than 5%)"
     selected: y
