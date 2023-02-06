@@ -36,7 +36,7 @@ papers:
     code: "https://github.com/qitianwu/GraphOOD-EERM"
     slides: "assets/publications/iclr2022-eerm/slides.pdf"
     poster: "assets/publications/iclr2022-eerm/poster.png"
-    content: "We formulate out-of-distribution generalization problem on graphs. As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
+    content: "Summary: We formulate out-of-distribution generalization problem on graphs. As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
     selected: y
   
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
@@ -186,7 +186,7 @@ papers:
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2019"
     paper_pdf: ""
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
-    content: "We propose a new perspective for unifying two sequential information retrieval problems into one model via dual learning, and show that they can mutually promote each other. "
+    content: "Summary: We propose a new perspective for unifying two sequential information retrieval problems into one model via dual learning, and show that they can mutually promote each other. "
     selected: y
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
@@ -194,7 +194,7 @@ papers:
     venue: "The Web Conference (WWW) 2019"
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
-    content: "We propose a dual model that captures the homophily and influence effects among users and items in recommender systems, and achieve SOTA results on benchmarks and real commercial datasets. "
+    content: "Summary: We propose a dual model that captures the homophily and influence effects among users and items in recommender systems, and achieve SOTA results on benchmarks and real commercial datasets. "
     note: "oral"
     selected: y
   
