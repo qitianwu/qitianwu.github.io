@@ -22,7 +22,7 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2302.02914"
     code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
-    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation."
+    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation. It reduces FPR95 over SOTAs by up to 44.8%"
     selected: y
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
