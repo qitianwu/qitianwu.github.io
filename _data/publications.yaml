@@ -3,23 +3,32 @@ papers:
   - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
-    note: "spotlight (notably top 25%)"
+    paper_pdf: "https://arxiv.org/abs/2301.09474"
+    code: "https://github.com/qitianwu/DIFFormer"
+    content: "Summary: We prove the equivalence between finite-difference diffusion iterations and energy minimization dynamics, on top of which we propose diffusion-based Transformers."
+    note: "spotlight, ranking among top 0.5%"
     selected: y
   
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
+    paper_pdf: "https://arxiv.org/abs/2212.09034"
+    code: "https://github.com/chr26195/PMLP"
+    content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and NTK theory."
     selected: y
   
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
+    paper_pdf: "https://arxiv.org/abs/2302.02914"
+    code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
+    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation."
     selected: y
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
-    paper_pdf: "https://openreview.net/pdf?id=sMezXGG5So"
+    paper_pdf: "https://www.researchgate.net/publication/363845271_NodeFormer_A_Scalable_Graph_Structure_Learning_Transformer_for_Node_Classification"
     code: "https://github.com/qitianwu/NodeFormer"
     slides: "assets/publications/nips2022-nodeformer/slides.pdf"
     poster: "assets/publications/nips2022-nodeformer/poster.png"
