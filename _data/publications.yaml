@@ -14,7 +14,7 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2212.09034"
     code: "https://github.com/chr26195/PMLP"
-    content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and NTK theory."
+    content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
     selected: y
   
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
@@ -206,7 +206,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
-    note: "oral"
+    note: "oral representation"
     selected: y
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
