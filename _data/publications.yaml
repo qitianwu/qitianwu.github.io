@@ -6,7 +6,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2301.09474"
     code: "https://github.com/qitianwu/DIFFormer"
     content: "Summary: We prove the equivalence between finite-difference diffusion iterations and energy minimization dynamics, on top of which we propose diffusion-based Transformers."
-    note: "spotlight, ranking among top 0.5%"
+    note: "spotlight talk, avg. ranking among top 0.5%"
     selected: y
   
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
@@ -22,7 +22,7 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2302.02914"
     code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
-    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation. It reduces FPR95 over SOTAs by up to 44.8%"
+    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
     selected: y
     
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
@@ -34,8 +34,25 @@ papers:
     poster: "assets/publications/nips2022-nodeformer/poster.png"
     blogc: "https://zhuanlan.zhihu.com/p/587086593"
     bloge: "https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4"
-    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in linear complexity. The model successfully scales to graphs with 2 million nodes!"
+    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in O(N) complexity. The global attention over 2M nodes only requires 4GB memory."
     note: "spotlight (less than 5%)"
+    selected: y
+  
+  - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
+    authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
+    paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
+    code: "https://github.com/yangnianzu0515/MoleOOD"
+    content: "Summary: We propose a invariant learning approach for molecular property prediction under distribution shifts and achieve SOTA results on OGB-mol and DrugOOD benchmarks."
+    note: "spotlight (less than 5%)"
+    selected: y
+  
+  - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
+    authors: "Chenxiao Yang, <b>Qitian Wu</b> and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
+    paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
+    code: "https://github.com/chr26195/GKD"
+    content: "Summary: We explore geometric knowledge distillation, empowered by neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
     selected: y
 
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
@@ -45,7 +62,7 @@ papers:
     code: "https://github.com/qitianwu/GraphOOD-EERM"
     slides: "assets/publications/iclr2022-eerm/slides.pdf"
     poster: "assets/publications/iclr2022-eerm/poster.png"
-    content: "Summary: We formulate out-of-distribution generalization problem on graphs. As a piorneering work, we systematically discuss how to leverage invariance principle for handling node-level distribution shifts."
+    content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage invariance principle for handling geometry-aware distribution shifts."
     selected: y
   
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
@@ -55,7 +72,7 @@ papers:
     code: "https://github.com/qitianwu/FATE"
     slides: "assets/publications/nips2021-fate/slides.pdf"
     poster: "assets/publications/nips2021-fate/poster.png"
-    content: "Summary: We study a new problem, i.e., feature space expansion from training data to testing data, and propose a graph-enhanced representation learning approach for handling tabular data with variable-length features. "
+    content: "Summary: We propose a graph representation learning approach for handling feature space expansion from training data to testing data. "
     selected: y
   
   - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
@@ -65,25 +82,18 @@ papers:
     code: "https://github.com/qitianwu/IDCF"
     slides: "assets/publications/icml2021-idcf/slides.pdf"
     poster: "assets/publications/icml2021-idcf/poster.png"
-    content: "Summary: We study an under-explored recommender system's setting where testing users are unappeared in the training phase, and propose an inductive collaborative filtering model with latent graph structure learning. "
+    content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
     selected: y
 
-  - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
-    authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
-    paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
-    code: "https://github.com/yangnianzu0515/MoleOOD"
-    content: "Summary: We are the first to study molecular representation under distribution shifts and propose a invariant learning approach that achieves SOTA results on OGB molecular property prediction and DrugOOD benchmarks."
-    note: "spotlight (less than 5%)"
-    selected: y
+  
 
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Qingsong Wen, Zhiqiang Zhou, Liang Sun and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13005.pdf"
     code: "https://github.com/chr26195/Caseq"
-    content: "Summary: We use causal analysis to reveal the limitations of existing paradigms for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
-    selected: y
+    content: "Summary: We use causal analysis to reveal the limitations of Maximum Likelihood Estimation for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
+    selected: n
   
   - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
     authors: "Zenan Li, <b>Qitian Wu</b>, Fan Nie and Junchi Yan"
@@ -91,15 +101,7 @@ papers:
     paper_pdf: "https://openreview.net/pdf?id=mSiPuHIP7t8"
     code: "https://github.com/Emiyalzn/GraphDE"
     content: "Summary: We identify the fundamental connection between debiased learning and out-of-distribution detection through probabilistic modeling and introduce a generative framework for graph data."
-    selected: y
-
-  - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b> and Junchi Yan"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
-    paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
-    code: "https://github.com/chr26195/GKD"
-    content: "Summary: We propose a geometric knowledge distillation model, empowered by a newly introduced neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
-    selected: y
+    selected: n
 
   - title: "Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation"
     authors: "Danning Lao, Xinyu Yang, <b>Qitian Wu</b>, Junchi Yan"
@@ -138,7 +140,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
     paper_pdf: "https://arxiv.org/abs/2106.12484"
     code: "https://github.com/hengruizhang98/CCA-SSG"
-    content: "Summary: We introduce a simple yet effective contrastive objective for self-supervised learning on graphs. The model achieves SOTA results on several node classification benchmarks."
+    content: "Summary: We introduce a simple-yet-effective contrastive objective for self-supervised learning on graphs."
     selected: y
 
   - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
@@ -155,7 +157,7 @@ papers:
     paper_pdf: ""
     code: ""
     content: ""
-    note: "spotlight"
+    note: "spotlight oral"
     selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
@@ -195,7 +197,7 @@ papers:
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2019"
     paper_pdf: ""
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
-    content: "Summary: We propose a new perspective for unifying two sequential information retrieval problems into one model via dual learning, and show that they can mutually promote each other. "
+    content: "Summary: We use a duality perspective for unifying two sequential information retrieval problems into one model with mutual enhancement enabled. "
     selected: y
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
@@ -203,7 +205,7 @@ papers:
     venue: "The Web Conference (WWW) 2019"
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
-    content: "Summary: We propose a dual model that captures the homophily and influence effects among users and items in recommender systems, and achieve SOTA results on benchmarks and real commercial datasets. "
+    content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
     note: "oral"
     selected: y
   
