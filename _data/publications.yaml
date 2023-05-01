@@ -6,25 +6,9 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2301.09474"
     code: "https://github.com/qitianwu/DIFFormer"
     content: "Summary: We prove the equivalence between finite-difference diffusion iterations and energy minimization dynamics, on top of which we propose diffusion-based Transformers."
-    note: "spotlight talk, avg. ranking among top 0.5%"
+    note: "spotlight oral talk, avg. ranking among top 0.5%"
     selected: y
-  
-  - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
-    venue: "International Conference on Learning Representations (ICLR) 2023"
-    paper_pdf: "https://arxiv.org/abs/2212.09034"
-    code: "https://github.com/chr26195/PMLP"
-    content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
-    selected: y
-  
-  - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
-    authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
-    venue: "International Conference on Learning Representations (ICLR) 2023"
-    paper_pdf: "https://arxiv.org/abs/2302.02914"
-    code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
-    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
-    selected: y
-    
+
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
@@ -38,6 +22,32 @@ papers:
     note: "spotlight (less than 5%)"
     selected: y
   
+  - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
+    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
+    venue: "International Conference on Learning Representations (ICLR) 2022"
+    paper_pdf: "https://arxiv.org/abs/2202.02466"
+    code: "https://github.com/qitianwu/GraphOOD-EERM"
+    slides: "assets/publications/iclr2022-eerm/slides.pdf"
+    poster: "assets/publications/iclr2022-eerm/poster.png"
+    content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage (causal) invariance principle for handling graph-based distribution shifts."
+    selected: y
+  
+  - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
+    authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
+    venue: "International Conference on Learning Representations (ICLR) 2023"
+    paper_pdf: "https://arxiv.org/abs/2302.02914"
+    code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
+    content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
+    selected: y
+  
+  - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
+    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
+    venue: "International Conference on Learning Representations (ICLR) 2023"
+    paper_pdf: "https://arxiv.org/abs/2212.09034"
+    code: "https://github.com/chr26195/PMLP"
+    content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
+    selected: y
+
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
     authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
@@ -55,15 +65,7 @@ papers:
     content: "Summary: We explore geometric knowledge distillation, empowered by neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
     selected: y
 
-  - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
-    venue: "International Conference on Learning Representations (ICLR) 2022"
-    paper_pdf: "https://arxiv.org/abs/2202.02466"
-    code: "https://github.com/qitianwu/GraphOOD-EERM"
-    slides: "assets/publications/iclr2022-eerm/slides.pdf"
-    poster: "assets/publications/iclr2022-eerm/poster.png"
-    content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage invariance principle for handling geometry-aware distribution shifts."
-    selected: y
+  
   
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
