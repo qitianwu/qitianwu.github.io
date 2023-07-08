@@ -1,11 +1,25 @@
 papers:
 
+  - title: "GraphGlow: Universal and Genralizable Structure Learning for Graph Neural Networks"
+    authors: "Wentao Zhao, <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
+    venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2023"
+    paper_pdf: "https://arxiv.org/pdf/2306.11264.pdf"
+    code: "https://github.com/wtaozhao/graphglow"
+  
+  - title: "MoleRec: Combinatorial Drug Recommendation with SubstructureAware Molecular Representation Learning"
+    authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Junchi Yan"
+    venue: "The Web Conference 2023"
+    paper_pdf: "https://www.researchgate.net/publication/368454974_MoleRec_Combinatorial_Drug_Recommendation_with_Substructure-Aware_Molecular_Representation_Learning"
+    code: "https://github.com/yangnianzu0515/MoleRec"
+
   - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2301.09474"
     code: "https://github.com/qitianwu/DIFFormer"
-    content: "Summary: We prove the equivalence between finite-difference diffusion iterations and energy minimization dynamics, on top of which we propose diffusion-based Transformers."
+    slides: "assets/publications/iclr2023-difformer/slides.pdf"
+    poster: "assets/publications/iclr2023-difformer/poster.png"
+    content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
     note: "spotlight oral talk, avg. ranking among top 0.5%"
     selected: y
 
@@ -37,6 +51,8 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2302.02914"
     code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
+    slides: "assets/publications/iclr2023-gnnsafe/slides.pdf"
+    poster: "assets/publications/iclr2023-gnnsafe/poster.png"
     content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
     selected: y
   
