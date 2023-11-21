@@ -1,6 +1,10 @@
 
 talks:
-    - name: "LOG Seminar (online)"
+    - name: "ByteDance AI Lab"
+      time: "Oct. 2023"
+      title: "Learning with Non-IID Data from Physics Principles"
+      category: "current"
+    - name: "LOG Seminar"
       time: "July 2023"
       title: "Towards Graph Transformers at Scale"
       link: "https://www.bilibili.com/video/BV1dP411C7Ti/?buvid=XY729417DDABD224B28563FDCA59E8989DC24&is_story_h5=false&mid=ZfzUUcF3iqvAIhO1cqcsRA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=9189ae47-7f65-49dd-8030-eb709b647de1&share_source=WEIXIN&share_tag=s_i&timestamp=1688827613&unique_k=I24eVxt&up_id=379472457&vd_source=dd4795a9e34dbf19550fff1087216477"
