@@ -12,15 +12,21 @@ papers:
     # note: "spotlight oral talk, avg. ranking among top 0.5%"
     selected: y
 
+  - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
+    authors: "Yongduo Sui, <b>Qitian Wu</b>, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
+    paper_pdf: "https://openreview.net/pdf?id=hIGZujtOQv"
+    code: "https://github.com/yongduosui/AIA."
+
   - title: "GraphGlow: Universal and Genralizable Structure Learning for Graph Neural Networks"
     authors: "Wentao Zhao, <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
-    venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining 2023"
+    venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2023"
     paper_pdf: "https://arxiv.org/pdf/2306.11264.pdf"
     code: "https://github.com/wtaozhao/graphglow"
   
   - title: "MoleRec: Combinatorial Drug Recommendation with SubstructureAware Molecular Representation Learning"
     authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Junchi Yan"
-    venue: "The Web Conference 2023"
+    venue: "The Web Conference (WWW) 2023"
     paper_pdf: "https://www.researchgate.net/publication/368454974_MoleRec_Combinatorial_Drug_Recommendation_with_Substructure-Aware_Molecular_Representation_Learning"
     code: "https://github.com/yangnianzu0515/MoleRec"
 
@@ -33,33 +39,9 @@ papers:
     slides: "assets/publications/iclr2023-difformer/slides.pdf"
     poster: "assets/publications/iclr2023-difformer/poster.png"
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
-    note: "spotlight oral talk, avg. ranking among top 0.5%"
+    note: "spotlight presentation, avg. ranking among top 0.5%"
     selected: y
 
-  - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
-    authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
-    paper_pdf: "https://arxiv.org/pdf/2306.08385.pdf"
-    code: "https://github.com/qitianwu/NodeFormer"
-    video : "https://www.bilibili.com/video/BV1dP411C7Ti/?buvid=XY729417DDABD224B28563FDCA59E8989DC24&is_story_h5=false&mid=ZfzUUcF3iqvAIhO1cqcsRA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=9189ae47-7f65-49dd-8030-eb709b647de1&share_source=WEIXIN&share_tag=s_i&timestamp=1688827613&unique_k=I24eVxt&up_id=379472457&vd_source=dd4795a9e34dbf19550fff1087216477"
-    slides: "assets/publications/nips2022-nodeformer/slides.pdf"
-    poster: "assets/publications/nips2022-nodeformer/poster.png"
-    blogc: "https://zhuanlan.zhihu.com/p/587086593"
-    bloge: "https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4"
-    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in O(N) complexity. The global attention over 2M nodes only requires 4GB memory."
-    note: "spotlight (less than 5%)"
-    selected: y
-  
-  - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
-    venue: "International Conference on Learning Representations (ICLR) 2022"
-    paper_pdf: "https://arxiv.org/abs/2202.02466"
-    code: "https://github.com/qitianwu/GraphOOD-EERM"
-    slides: "assets/publications/iclr2022-eerm/slides.pdf"
-    poster: "assets/publications/iclr2022-eerm/poster.png"
-    content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage (causal) invariance principle for handling graph-based distribution shifts."
-    selected: y
-  
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
@@ -78,13 +60,27 @@ papers:
     content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
     selected: y
 
+  - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
+    authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
+    paper_pdf: "https://arxiv.org/pdf/2306.08385.pdf"
+    code: "https://github.com/qitianwu/NodeFormer"
+    video : "https://www.bilibili.com/video/BV1dP411C7Ti/?buvid=XY729417DDABD224B28563FDCA59E8989DC24&is_story_h5=false&mid=ZfzUUcF3iqvAIhO1cqcsRA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=9189ae47-7f65-49dd-8030-eb709b647de1&share_source=WEIXIN&share_tag=s_i&timestamp=1688827613&unique_k=I24eVxt&up_id=379472457&vd_source=dd4795a9e34dbf19550fff1087216477"
+    slides: "assets/publications/nips2022-nodeformer/slides.pdf"
+    poster: "assets/publications/nips2022-nodeformer/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/587086593"
+    bloge: "https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4"
+    content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in O(N) complexity. The global attention over 2M nodes only requires 4GB memory."
+    note: "spotlight presentation (less than 5%)"
+    selected: y
+  
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
     authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
     content: "Summary: We propose a invariant learning approach for molecular property prediction under distribution shifts and achieve SOTA results on OGB-mol and DrugOOD benchmarks."
-    note: "spotlight (less than 5%)"
+    note: "spotlight presentation (less than 5%)"
     selected: y
   
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
@@ -94,31 +90,7 @@ papers:
     code: "https://github.com/chr26195/GKD"
     content: "Summary: We explore geometric knowledge distillation, empowered by neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
     selected: y
-
   
-  
-  - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
-    authors: "<b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
-    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
-    paper_pdf: "https://arxiv.org/abs/2110.04514"
-    code: "https://github.com/qitianwu/FATE"
-    slides: "assets/publications/nips2021-fate/slides.pdf"
-    poster: "assets/publications/nips2021-fate/poster.png"
-    content: "Summary: We propose a graph representation learning approach for handling feature space expansion from training data to testing data. "
-    selected: y
-  
-  - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
-    venue: "International Conference on Machine Learning (ICML) 2021"
-    paper_pdf: "https://arxiv.org/abs/2007.04833"
-    code: "https://github.com/qitianwu/IDCF"
-    slides: "assets/publications/icml2021-idcf/slides.pdf"
-    poster: "assets/publications/icml2021-idcf/poster.png"
-    content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
-    selected: y
-
-  
-
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Qingsong Wen, Zhiqiang Zhou, Liang Sun and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
@@ -151,6 +123,16 @@ papers:
     content: "Summary: We adopt a data-generative causal perspective to unify the formulation of privacy protection and adversarial robustness from a bottom-up perspective. Based on this, a new principled approach is proposed for performance boosting."
     selected: n
 
+  - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
+    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
+    venue: "International Conference on Learning Representations (ICLR) 2022"
+    paper_pdf: "https://arxiv.org/abs/2202.02466"
+    code: "https://github.com/qitianwu/GraphOOD-EERM"
+    slides: "assets/publications/iclr2022-eerm/slides.pdf"
+    poster: "assets/publications/iclr2022-eerm/poster.png"
+    content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage (causal) invariance principle for handling graph-based distribution shifts."
+    selected: y
+  
   - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jipeng Jin, Junwei Pan, Xiaofeng Gao, and Guihai Chen"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2022"
@@ -166,7 +148,17 @@ papers:
     code: ""
     content: ""
     selected: n
-  
+
+  - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
+    authors: "<b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
+    paper_pdf: "https://arxiv.org/abs/2110.04514"
+    code: "https://github.com/qitianwu/FATE"
+    slides: "assets/publications/nips2021-fate/slides.pdf"
+    poster: "assets/publications/nips2021-fate/poster.png"
+    content: "Summary: We propose a graph representation learning approach for handling feature space expansion from training data to testing data. "
+    selected: y
+
   - title: "From Canonical Correlation Analysis to Self-supervised Graph Neural Networks"
     authors: "Hengrui Zhang, <b>Qitian Wu</b>, Junchi Yan, David Wipf and Philip S. Yu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
@@ -182,6 +174,16 @@ papers:
     code: "https://github.com/qitianwu/SteinBridging"
     content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
     selected: n
+  
+  - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
+    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
+    venue: "International Conference on Machine Learning (ICML) 2021"
+    paper_pdf: "https://arxiv.org/abs/2007.04833"
+    code: "https://github.com/qitianwu/IDCF"
+    slides: "assets/publications/icml2021-idcf/slides.pdf"
+    poster: "assets/publications/icml2021-idcf/poster.png"
+    content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
+    selected: y
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
@@ -189,7 +191,7 @@ papers:
     paper_pdf: ""
     code: ""
     content: ""
-    note: "spotlight oral"
+    note: "spotlight presentation (only 1/3 among accepted papers)"
     selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
@@ -208,19 +210,19 @@ papers:
     content: ""
     selected: n
 
-  - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
-    authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
-    venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
-    paper_pdf: ""
-    code: ""
-    content: ""
-    selected: n
-  
   - title: "Learning Latent Process from High-Dimensional Event Sequences via Efficient Sampling"
     authors: "<b>Qitian Wu</b>, Zixuan Zhang, Xiaofeng Gao, Junchi Yan and Guihai Chen"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2019"
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
+    content: ""
+    selected: n
+    
+  - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
+    authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
+    venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
+    paper_pdf: ""
+    code: ""
     content: ""
     selected: n
 
@@ -238,7 +240,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
-    note: "oral representation"
+    note: "long oral representation (only 1/2 among all accepted long papers)"
     selected: y
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
