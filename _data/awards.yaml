@@ -4,11 +4,11 @@ awards:
     year: "2023"
     category: "current"
 
-  - name: "National PhD Scholarship (top 0.4%)"
+  - name: "National PhD Scholarship (less than 0.4% for PhD students in China)"
     year: "2022, 2023"
     category: "current"
   
-  - name: "Baidu Scholarship (only 10 from worldwide PhD students)"
+  - name: "Baidu PhD Fellowship (only 10 from worldwide PhD students)"
     year: "2021"
     category: "current"
     link: http://scholarship.baidu.com/
@@ -18,24 +18,24 @@ awards:
     category: "current"
     link: https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia/fellows/
   
-  - name: "Global Top 100 Rising Stars in Artiﬁcial Intelligence"
+  - name: "Global Top 100 Rising Star in Artiﬁcial Intelligence"
     year: "2021"
     category: "current"
     link: https://xueshu.baidu.com/usercenter/index/aischolar
   
-  - name: "Yuanqing Yang Scholarship"
+  - name: "Yuanqing Yang Scholarship (only 3 master students from the CS department)"
     year: "2019"
     category: "current"
   
-  - name: "Lixin Tang Scholarship"
+  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in SJTU)"
     year: "2017, 2018"
     category: "current"
   
-  - name: "National Scholarship (top 1%)"
+  - name: "National Scholarship (less than 1% for undergraduate students in China)"
     year: "2016, 2017"
     category: "current"
   
-  - name: "The 1st-Class Academic Excellence Scholarship"
+  - name: "The 1st-Class Academic Excellence Scholarship (top 1 in the department)"
     year: "2016, 2017"
     category: "current"
 
@@ -53,10 +53,10 @@ awards:
     year: "2015"
     category: "current"
   
-  - name: "Outstanding Graduate of Shanghai"
+  - name: "Outstanding Graduate of Shanghai (only 5%)"
     year: "2018"
     category: "current"
   
-  - name: "Outstanding Thesis of Undergraduates"
+  - name: "Outstanding Thesis of Undergraduates (only 20%)"
     year: "2018"
     category: "current"
