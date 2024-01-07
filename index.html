@@ -276,7 +276,7 @@ title: Home
   {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
   {% for awards in current_awards %}
   <div class="service">
-    <p class="title"> {{ awards.name }}, <i>{{ awards.year }}</i> {% if talk.link %} <a href={{talk.link}} target="_blank">[link]</a> {% endif %}</p>
+    <p class="title"> {{ awards.name }}, <i>{{ awards.year }}</i> {% if awards.link %} <a href={{awards.link}} target="_blank">[link]</a> {% endif %}</p>
   </div>
   {% endfor %}
 </div>

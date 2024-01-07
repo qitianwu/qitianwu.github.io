@@ -4,16 +4,16 @@ awards:
     year: "2023"
     category: "current"
 
-  - name: "National PhD Scholarship (less than 0.4% for PhD students in China)"
+  - name: "National Scholarship (only 0.2% for PhD students in China)"
     year: "2022, 2023"
     category: "current"
   
-  - name: "Baidu PhD Fellowship (only 10 from worldwide PhD students)"
+  - name: "Baidu PhD Fellowship (only 10 recipients worldwide)"
     year: "2021"
     category: "current"
     link: http://scholarship.baidu.com/
   
-  - name: "Microsoft Research PhD Fellowship (only 11 in Asia)"
+  - name: "Microsoft Research PhD Fellowship (only 11 recipients in Asia)"
     year: "2021"
     category: "current"
     link: https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia/fellows/
@@ -23,15 +23,15 @@ awards:
     category: "current"
     link: https://xueshu.baidu.com/usercenter/index/aischolar
   
-  - name: "Yuanqing Yang Scholarship (only 3 master students from the CS department)"
+  - name: "Yuanqing Yang Scholarship (only 3 master students in the CS department)"
     year: "2019"
     category: "current"
   
-  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in SJTU)"
+  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
     year: "2017, 2018"
     category: "current"
   
-  - name: "National Scholarship (less than 1% for undergraduate students in China)"
+  - name: "National Scholarship (only 1% for undergraduate students)"
     year: "2016, 2017"
     category: "current"
   
