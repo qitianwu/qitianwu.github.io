@@ -216,7 +216,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
     content: ""
-    selected: n
+    selected: y
     
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
     authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
