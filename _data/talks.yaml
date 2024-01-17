@@ -3,7 +3,7 @@ talks:
     - name: "ByteDance AI Lab"
       time: "Oct. 2023"
       title: "Learning with Non-IID Data from Physics Principles"
-      slides: "assets/slides/physics-inspired non-iid"
+      slides: "assets/slides/physics-inspired non-iid.pdf"
       category: "current"
     - name: "LOG Seminar"
       time: "July 2023"

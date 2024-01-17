@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Simplifying and Empowering Transformers for Large-Graph Representations"
+  - title: "SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Chenxiao Yang, Hengrui Zhang, Fan Nie, Haitian Jiang, Yatao Bian and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
     paper_pdf: "https://arxiv.org/pdf/2306.10759.pdf"
