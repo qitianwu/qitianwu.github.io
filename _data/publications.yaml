@@ -97,7 +97,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2210.13005.pdf"
     code: "https://github.com/chr26195/Caseq"
     content: "Summary: We use causal analysis to reveal the limitations of Maximum Likelihood Estimation for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
-    selected: n
+    selected: y
   
   - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
     authors: "Zenan Li, <b>Qitian Wu</b>, Fan Nie and Junchi Yan"
