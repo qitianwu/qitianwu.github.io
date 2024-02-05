@@ -98,7 +98,7 @@ title: Home
   <div class="tab-content">
     <div class="tab-pane" id="papers-representative">
       {% assign representative_papers = site.data.publications.papers | where: "representative", "y" %}
-      {% for paper in selected_papers %}
+      {% for paper in representative_papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
