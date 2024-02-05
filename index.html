@@ -91,7 +91,7 @@ title: Home
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button active" data-ref="#papers-all">All</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
 
   <div class="tab-content">
@@ -146,7 +146,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane active" id="papers-all">
+    <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
