@@ -59,6 +59,7 @@ papers:
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
     note: "spotlight presentation, avg. ranking among top 0.5%"
     selected: y
+    representative: y
 
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
@@ -91,6 +92,7 @@ papers:
     content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in O(N) complexity. The global attention over 2M nodes only requires 4GB memory."
     note: "spotlight presentation (less than 5%)"
     selected: y
+    representative: y
   
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
     authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
@@ -150,6 +152,7 @@ papers:
     poster: "assets/publications/iclr2022-eerm/poster.png"
     content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage (causal) invariance principle for handling graph-based distribution shifts."
     selected: y
+    representative: y
   
   - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jipeng Jin, Junwei Pan, Xiaofeng Gao, and Guihai Chen"

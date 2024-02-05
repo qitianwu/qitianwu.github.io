@@ -91,11 +91,62 @@ title: Home
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button active" data-ref="#papers-all">All</div></li>
+    <li><div class="button" data-ref="#papers-all">All</div></li>
   </ul>
 
   <div class="tab-content">
-    <div class="tab-pane" id="papers-selected">
+    <div class="tab-pane" id="papers-representative">
+      {% assign representative_papers = site.data.publications.papers | where: "representative", "y" %}
+      {% for paper in selected_papers %}
+        <div class="paper">
+          <p class="title"><b>{{ paper.title }}</b></p>
+          <p>{{ paper.authors }}</p>
+          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
+           <div class="paper-buttons">
+            {% if paper.paper_pdf %}
+              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
+            {% endif %}
+
+            {% if paper.slides %}
+              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
+            {% endif %}
+
+            {% if paper.poster %}
+              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
+            {% endif %}
+
+            {% if paper.video %}
+              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
+            {% endif %}
+
+            {% if paper.code %}
+              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
+            {% endif %}
+
+            {% if paper.data %}
+              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
+            {% endif %}
+
+            {% if paper.blogc %}
+              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
+            {% endif %}
+
+            {% if paper.bloge %}
+              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
+            {% endif %}
+
+            {% if paper.tutorial %}
+              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
+            {% endif %}
+          </div>
+          {% if paper.content %}
+            <p>{{ paper.content }}</p>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+
+    <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
@@ -146,7 +197,7 @@ title: Home
       {% endfor %}
     </div>
 
-    <div class="tab-pane active" id="papers-all">
+    <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
