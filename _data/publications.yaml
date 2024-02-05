@@ -1,5 +1,23 @@
 papers:
 
+  - title: "Rethinking Graph Out-of-Distribution Generalization with Causality Principles"
+    authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
+    venue: "The Web Conference (WWW) 2024"
+    paper_pdf: ""
+    code: ""
+  
+  - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
+    authors: "Wujiang Xu, <b>Qitian Wu</b>, Runzhong Wang, Mingming Ha, Qiongxu Ma, Linxun Chen, Bing Han and Junchi Yan"
+    venue: "The Web Conference (WWW) 2024"
+    paper_pdf: ""
+    code: ""
+  
+  - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
+    authors: "Yongduo Sui, <b>Qitian Wu</b>, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang and Xiangnan He"
+    venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
+    paper_pdf: "https://openreview.net/pdf?id=hIGZujtOQv"
+    code: "https://github.com/yongduosui/AIA."
+
   - title: "SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Chenxiao Yang, Hengrui Zhang, Fan Nie, Haitian Jiang, Yatao Bian and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
