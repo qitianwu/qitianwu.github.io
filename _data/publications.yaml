@@ -1,6 +1,6 @@
 papers:
 
-  - title: "Rethinking Graph Out-of-Distribution Generalization with Causality Principles"
+  - title: "Graph Out-of-Distribution Generalization via Causal Intervention"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
     venue: "The Web Conference (WWW) 2024"
     paper_pdf: ""

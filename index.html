@@ -12,9 +12,9 @@ title: Home
   I achieved the Bachelor (Microelectronics, Mathematics) and Master (Computer Science) degrees from SJTU, and worked as research intern at Tencent WeChat, Amazon AI Lab and BioMap. 
 
   <p>
-    My research interest predominantly revolves around machine learning (ML) foundations and applications. 
-    On the foundation side, I build theoretically principled and practically useful methodology, particularly for learning with complex structures that can be observed (e.g., graphs, sequences, etc.) or unobserved (e.g., data manifold geometries).
-    On the application side, I explore the intersection with interdisciplinary areas such as social science, life science and natural science. 
+    My research interest predominantly revolves around machine learning foundations and applications. 
+    On the foundation side, I build theoretically principled and practically useful methodology, particularly for learning with complex structures and distribution shifts.
+    I also explore the intersection with interdisciplinary areas such as life sciences (e.g., drug discovery and healthcare) and data mining (e.g., recommender systems), and sought inspirations from physics. 
     My research is supported by <a href="https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia/#!fellows">Microsoft PhD Fellowship</a> and <a href="http://scholarship.baidu.com/">Baidu PhD Fellowship</a>.
   </p>
 
@@ -50,12 +50,12 @@ title: Home
 
 <div class="docs-section" id="bio">
   <h4>Research Summary</h4>
-  <p>
+  <!-- <p>
     <img class="u-max-full-width" src="/assets/pics/research.png">
-  </p>
+  </p> -->
 
-  <p>
-    My recent works are dedicated to pushing the frontier in machine learning with geometries and structures, especially making neural networks more broadly applicable and reliable
+  <!-- <p>
+    My recent works are dedicated to pushing the frontier in machine learning with structured data, especially making the models more expressive, generalizable and reliable.
     in both closed-world and open-world regimes.
       <ul>
         <li>In the <b><i>closed-world regime</i></b>, wherein training and test data distributions are overlapped, my research focus is how to build foundation models as general-purpose encoder backbones for obtaining high-quality representation.
@@ -75,10 +75,27 @@ title: Home
             different than training, i.e., out-of-distribution detection.
         </ul>
       </ul>
-    </p>
+    </p> -->
+    <p>
+      My recent works focus on machine learning foundations that can make the models expressive, generalizable and reliable.
+        <ul>
+          <li><b>Representation Learning with Structured Data</b>: For data involving observed structures (e.g., graphs) or unobserved structures (e.g., latent geometries), one fundamental challenge is how to obtain the high-quality representations. 
+            My recent works build expressive foundation encoders for structured data, leading to a family of <b>scalable Transformers on graphs</b>:
+            <a href="https://arxiv.org/pdf/2306.08385.pdf"><b>NodeFormer</b></a> <b>on NeurIPS'22</b> which has linear complexity w.r.t. graph sizes,
+            <a href="https://arxiv.org/pdf/2301.09474.pdf"><b>DIFFormer</b></a> <b>on ICLR'23</b> equipped with principled attentions inspired by geometric diffusion,
+            <a href="https://arxiv.org/pdf/2306.10759.pdf"><b>SGFormer</b></a> <b>on NeurIPS'23</b> based on a simplified and efficient Transformer architecture.
+          <li><b>Generalization with Distribution Shifts</b>: How to endow machine learning algorithms with generalization capability to out-of-distribution data is an important open question, particularly when the distribution shifts involve structures in data.
+            My recent works attempt to mathematically formulate this challenge for better understanding the generalization limits of existing models.
+            Furthermore, I explore different perspectives for devising provably generalizable algorithms, through the lens of invariance principle <a href="https://arxiv.org/pdf/2202.02466.pdf"><b>EERM</b></a> <b>on ICLR'22</b>, 
+            causality (<a href="https://arxiv.org/pdf/2402.11494.pdf"><b>CaNet</b></a> <b>on WWW'24</b>) and diffusion PDE (<a href="https://arxiv.org/pdf/2310.06417.pdf"><b>ADiT</b></a>).
+          <li><b>AI Reliability and Safety</b>: Another important problem is the uncertainty estimation of AI systems, especially in high-stake applications. My recent works leverage generative modeling and probabilistic inference techniques to
+            design principled approaches for out-of-distribution detection with graph-structured data (<a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> <b>on ICLR'23</b>,
+            <a href="https://openreview.net/pdf?id=mSiPuHIP7t8"><b>GraphDE</b></a> <b>on NeurIPS'22</b>).
+        </ul>
+      </p>
   
     <!-- <b><i> <font color="red">I am now on the job market. If you are interested in my research feel free to contact me via email.</font> </i></b> -->
-  <!-- <b><i>I am always open for collaborations and if you are interested in my research feel free to contact me via email or WeChat (id: myronwqt228). </i></b> -->
+  <b><i>I am always open for collaborations and if you are interested feel free to contact me via email. </i></b>
 
 </div>
 
