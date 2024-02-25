@@ -15,7 +15,7 @@ talks:
       time: "Mar. 2023"
       title: "Transformers induced by Energy-Constrained Diffusion"
       category: "current"
-    - name: "Huawei Noah's Ark Lab"
+    - name: "Bosch AI Center"
       time: "Mar. 2022"
       title: "Learning on Graphs Under Open-world Assumptions"
       slides: "assets/slides/learning-on-graphs-under-open-world.pdf"
