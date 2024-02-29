@@ -4,6 +4,7 @@ papers:
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
     venue: "The Web Conference (WWW) 2024"
     paper_pdf: ""
+    note: "oral presentation"
     code: ""
   
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
