@@ -1,5 +1,23 @@
 papers:
 
+  - title: "Learning Divergence Fields for Shift-Robust Message Passing"
+    authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
+    venue: "International Conference on Machine Learning (ICML) 2024"
+    paper_pdf: ""
+    code: ""
+
+  - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
+    authors: "Chenxiao Yang, <b>Qitian Wu</b>, David Wipf, Ruoyu Sun and Junchi Yan"
+    venue: "International Conference on Machine Learning (ICML) 2024"
+    paper_pdf: ""
+    code: ""
+  
+  - title: "Graph Out-of-Distribution Detection Goes Neighborhood Shaping"
+    authors: "Tianyi Bao, <b>Qitian Wu</b>, Zetian Jiang, Yiting Chen, Jiawei Sun and Junchi Yan"
+    venue: "International Conference on Machine Learning (ICML) 2024"
+    paper_pdf: ""
+    code: ""
+
   - title: "Graph Out-of-Distribution Generalization via Causal Intervention"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
     venue: "The Web Conference (WWW) 2024"
