@@ -211,7 +211,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1909.13035"
     code: "https://github.com/qitianwu/SteinBridging"
     content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
-    selected: n
+    selected: y
   
   - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
     authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
@@ -254,7 +254,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
     content: ""
-    selected: y
+    selected: n
     
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
     authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
@@ -270,7 +270,7 @@ papers:
     paper_pdf: ""
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
     content: "Summary: We use a duality perspective for unifying two sequential information retrieval problems into one model with mutual enhancement enabled. "
-    selected: y
+    selected: n
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
     authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Peng He, Paul Weng, Han Gao and Guihai Chen"
@@ -279,7 +279,7 @@ papers:
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
     note: "long oral representation (only 1/2 among all accepted long papers)"
-    selected: y
+    selected: n
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
     authors: "<b>Qitian Wu</b>, Chaoqi Yang, Xiaofeng Gao, Peng He and Guihai Chen"
