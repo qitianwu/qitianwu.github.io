@@ -5,6 +5,7 @@ papers:
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2406.04963"
     code: "https://github.com/fannie1208/GLIND"
+    slides: "assets/publications/icml2024-glind/slides.pdf"
     selected: y
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
@@ -25,6 +26,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2402.11494"
     note: "oral presentation"
     code: "https://github.com/fannie1208/CaNet"
+    slides: "assets/publications/www2024-canet/slides.pdf"
     selected: y
   
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
