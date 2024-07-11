@@ -1,10 +1,10 @@
 
 awards:
-  - name: "Scholar Star in SJTU (the highest academic award for PhD students across all research areas)"
+  - name: "Scholar Star in SJTU (the highest academic award for PhD students in the university)"
     year: "2023"
     category: "current"
 
-  - name: "National Scholarship (only 0.2% for PhD students in China)"
+  - name: "National Scholarship (only 0.2% for Chinese PhD students)"
     year: "2022, 2023"
     category: "current"
   
@@ -23,10 +23,24 @@ awards:
     category: "current"
     link: https://xueshu.baidu.com/usercenter/index/aischolar
   
-  - name: "Yuanqing Yang Scholarship (only 3 master students in CS department)"
+  - name: "Yuanqing Yang Scholarship (only 3 master students in the department)"
     year: "2019"
     category: "current"
+
+  - name: "Outstanding Graduate in Shanghai (only 5%)"
+    year: "2018"
+    category: "current"
   
+  - name: "Outstanding Thesis of Undergraduates"
+    year: "2018"
+    category: "current"
+
+  - name: "Outstanding Winner, INFORMS Awards, Mathematical Contest in Modeling, Data Insights Problem
+                (top 3 out of 4748 teams in the worldwide, the INFORMS Awards selects only one team)"
+    year: "2018"
+    category: "current"
+    link: assets/others/certificate_mcm_2018.pdf
+
   - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
     year: "2017, 2018"
     category: "current"
@@ -38,25 +52,11 @@ awards:
   - name: "The 1st-Class Academic Excellence Scholarship (top 1 in the department)"
     year: "2016, 2017"
     category: "current"
-
-  - name: "Outstanding Winner, INFORMS Awards, Mathematical Contest in Modeling, Data Insights Problem
-                (top 3 out of 4748 teams, the INFORMS Awards selects one team among all the participants)"
-    year: "2018"
-    category: "current"
-    link: assets/others/certificate_mcm_2018.pdf
   
   - name: "National Second Award, China Undergraduate Mathematical Contest in Modeling"
     year: "2016"
     category: "current"
   
-  - name: "First Award, Physics Competition of Chinese College Students"
+  - name: "First Award, Physics Contest of Chinese College Students"
     year: "2015"
-    category: "current"
-  
-  - name: "Outstanding Graduate of Shanghai (only 5%)"
-    year: "2018"
-    category: "current"
-  
-  - name: "Outstanding Thesis of Undergraduates (only 20%)"
-    year: "2018"
     category: "current"
