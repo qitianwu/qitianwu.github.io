@@ -75,7 +75,7 @@ papers:
     slides: "assets/publications/iclr2023-difformer/slides.pdf"
     poster: "assets/publications/iclr2023-difformer/poster.png"
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
-    note: "spotlight presentation, ranking among top 0.5%"
+    note: "oral presentation, ranking among top 0.5%"
     selected: y
     representative: y
 
