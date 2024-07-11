@@ -188,6 +188,17 @@ papers:
     content: ""
     selected: n
 
+  - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
+    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
+    venue: "International Conference on Machine Learning (ICML) 2021"
+    paper_pdf: "https://arxiv.org/abs/2007.04833"
+    code: "https://github.com/qitianwu/IDCF"
+    slides: "assets/publications/icml2021-idcf/slides.pdf"
+    poster: "assets/publications/icml2021-idcf/poster.png"
+    content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
+    selected: y
+    note: "spotlight presentation"
+
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
@@ -213,17 +224,6 @@ papers:
     code: "https://github.com/qitianwu/SteinBridging"
     content: "Summary: We leverage the Stein's distance as a novel tool to construct a theoretically grounded bridging term between two families of deep generative models."
     selected: y
-  
-  - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
-    venue: "International Conference on Machine Learning (ICML) 2021"
-    paper_pdf: "https://arxiv.org/abs/2007.04833"
-    code: "https://github.com/qitianwu/IDCF"
-    slides: "assets/publications/icml2021-idcf/slides.pdf"
-    poster: "assets/publications/icml2021-idcf/poster.png"
-    content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
-    selected: y
-    note: "spotlight presentation"
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
@@ -281,7 +281,7 @@ papers:
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
     note: "long oral representation"
-    selected: n
+    selected: y
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
     authors: "<b>Qitian Wu</b>, Chaoqi Yang, Xiaofeng Gao, Peng He and Guihai Chen"
