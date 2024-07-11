@@ -28,6 +28,7 @@ papers:
     code: "https://github.com/fannie1208/CaNet"
     slides: "assets/publications/www2024-canet/slides.pdf"
     selected: y
+    note: "oral presentation"
   
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
     authors: "Wujiang Xu, <b>Qitian Wu</b>, Runzhong Wang, Mingming Ha, Qiongxu Ma, Linxun Chen, Bing Han and Junchi Yan"
@@ -74,7 +75,7 @@ papers:
     slides: "assets/publications/iclr2023-difformer/slides.pdf"
     poster: "assets/publications/iclr2023-difformer/poster.png"
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
-    note: "spotlight presentation, avg. ranking among top 0.5%"
+    note: "spotlight presentation, ranking among top 0.5%"
     selected: y
     representative: y
 
@@ -107,7 +108,7 @@ papers:
     blogc: "https://zhuanlan.zhihu.com/p/587086593"
     bloge: "https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4"
     content: "Summary: We propose a scalable graph Transformer with efficient all-pair message passing achieved in O(N) complexity. The global attention over 2M nodes only requires 4GB memory."
-    note: "spotlight presentation (less than 5%)"
+    note: "spotlight presentation"
     selected: y
     representative: y
   
@@ -117,7 +118,7 @@ papers:
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
     content: "Summary: We propose a invariant learning approach for molecular property prediction under distribution shifts and achieve SOTA results on OGB-mol and DrugOOD benchmarks."
-    note: "spotlight presentation (less than 5%)"
+    note: "spotlight presentation"
     selected: y
   
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
@@ -222,6 +223,7 @@ papers:
     poster: "assets/publications/icml2021-idcf/poster.png"
     content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
     selected: y
+    note: "spotlight presentation"
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
@@ -229,7 +231,7 @@ papers:
     paper_pdf: ""
     code: ""
     content: ""
-    note: "spotlight presentation (only 1/3 among accepted papers)"
+    note: "spotlight presentation"
     selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
@@ -278,7 +280,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
     content: "Summary: We propose a dual graph attention model that captures the social homophily and influence effects among users and items in recommender systems. "
-    note: "long oral representation (only 1/2 among all accepted long papers)"
+    note: "long oral representation"
     selected: n
   
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
