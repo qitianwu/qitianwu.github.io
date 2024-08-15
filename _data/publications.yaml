@@ -6,6 +6,8 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/2406.04963"
     code: "https://github.com/fannie1208/GLIND"
     slides: "assets/publications/icml2024-glind/slides.pdf"
+    blogc: "https://zhuanlan.zhihu.com/p/709125359"
+    bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
     selected: y
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
@@ -27,6 +29,8 @@ papers:
     note: "oral presentation"
     code: "https://github.com/fannie1208/CaNet"
     slides: "assets/publications/www2024-canet/slides.pdf"
+    blogc: "https://zhuanlan.zhihu.com/p/709125359"
+    bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
     selected: y
     note: "oral presentation"
   
@@ -44,6 +48,7 @@ papers:
     # video : "https://www.bilibili.com/video/BV1dP411C7Ti/?buvid=XY729417DDABD224B28563FDCA59E8989DC24&is_story_h5=false&mid=ZfzUUcF3iqvAIhO1cqcsRA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=9189ae47-7f65-49dd-8030-eb709b647de1&share_source=WEIXIN&share_tag=s_i&timestamp=1688827613&unique_k=I24eVxt&up_id=379472457&vd_source=dd4795a9e34dbf19550fff1087216477"
     slides: "assets/publications/neurips2023-sgformer/slides.pdf"
     # poster: "assets/publications/iclr2023-difformer/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/674548352"
     content: "Summary: We propose an efficient Transformer that only uses one-layer global attention and significantly reduces computation cost for large-graph representations."
     # note: "spotlight oral talk, avg. ranking among top 0.5%"
     selected: y
@@ -74,6 +79,7 @@ papers:
     video : "https://www.bilibili.com/video/BV1dP411C7Ti/?buvid=XY729417DDABD224B28563FDCA59E8989DC24&is_story_h5=false&mid=ZfzUUcF3iqvAIhO1cqcsRA%3D%3D&p=1&plat_id=116&share_from=ugc&share_medium=android&share_plat=android&share_session_id=9189ae47-7f65-49dd-8030-eb709b647de1&share_source=WEIXIN&share_tag=s_i&timestamp=1688827613&unique_k=I24eVxt&up_id=379472457&vd_source=dd4795a9e34dbf19550fff1087216477"
     slides: "assets/publications/iclr2023-difformer/slides.pdf"
     poster: "assets/publications/iclr2023-difformer/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/622970740"
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
     note: "oral presentation, ranking among top 0.5%"
     selected: y
@@ -168,6 +174,8 @@ papers:
     code: "https://github.com/qitianwu/GraphOOD-EERM"
     slides: "assets/publications/iclr2022-eerm/slides.pdf"
     poster: "assets/publications/iclr2022-eerm/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/580112987"
+    bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
     content: "Summary: We formulate out-of-distribution generalization on graphs and discuss how to leverage (causal) invariance principle for handling graph-based distribution shifts."
     selected: y
     representative: y
