@@ -92,6 +92,7 @@ papers:
     code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
     slides: "assets/publications/iclr2023-gnnsafe/slides.pdf"
     poster: "assets/publications/iclr2023-gnnsafe/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/609178151"
     content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
     selected: y
   
@@ -100,6 +101,7 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2212.09034"
     code: "https://github.com/chr26195/PMLP"
+    blogc: "https://zhuanlan.zhihu.com/p/625104565"
     content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
     selected: y
 
@@ -123,6 +125,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
+    blogc: "https://zhuanlan.zhihu.com/p/594089868"
     content: "Summary: We propose a invariant learning approach for molecular property prediction under distribution shifts and achieve SOTA results on OGB-mol and DrugOOD benchmarks."
     note: "spotlight presentation"
     selected: y
@@ -132,6 +135,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
     code: "https://github.com/chr26195/GKD"
+    blogc: "https://zhuanlan.zhihu.com/p/625217611"
     content: "Summary: We explore geometric knowledge distillation, empowered by neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
     selected: y
   
@@ -140,6 +144,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13005.pdf"
     code: "https://github.com/chr26195/Caseq"
+    blogc: "https://zhuanlan.zhihu.com/p/603012617"
     content: "Summary: We use causal analysis to reveal the limitations of Maximum Likelihood Estimation for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
     selected: y
   
@@ -148,6 +153,7 @@ papers:
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=mSiPuHIP7t8"
     code: "https://github.com/Emiyalzn/GraphDE"
+    blogc: ""
     content: "Summary: We identify the fundamental connection between debiased learning and out-of-distribution detection through probabilistic modeling and introduce a generative framework for graph data."
     selected: n
 
@@ -203,6 +209,7 @@ papers:
     code: "https://github.com/qitianwu/IDCF"
     slides: "assets/publications/icml2021-idcf/slides.pdf"
     poster: "assets/publications/icml2021-idcf/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/451858601"
     content: "Summary: We propose a latent structure inference model to handle new unseen users in the testing phase of recommender systems. "
     selected: y
     note: "spotlight presentation"
@@ -214,6 +221,7 @@ papers:
     code: "https://github.com/qitianwu/FATE"
     slides: "assets/publications/nips2021-fate/slides.pdf"
     poster: "assets/publications/nips2021-fate/poster.png"
+    blogc: "https://zhuanlan.zhihu.com/p/636902580"
     content: "Summary: We propose a graph representation learning approach for handling feature space expansion from training data to testing data. "
     selected: y
 
