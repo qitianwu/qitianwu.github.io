@@ -1,5 +1,25 @@
 papers:
 
+  - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
+    authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
+    venue: "International Conference on Learning Representations (ICLR) 2025"
+    paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
+    code: "https://github.com/hengruizhang98/DiffPuter"
+    selected: y
+
+  - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
+    authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
+    venue: "International Conference on Learning Representations (ICLR) 2025"
+    paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
+    code: "https://github.com/WujiangXu/SLMRec"
+    selected: n
+
+  - title: "Regularizing Energy among Training Samples for Out-of-Distribution Generalization"
+    authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
+    venue: "International Conference on Learning Representations (ICLR) 2025"
+    paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
+    selected: n
+
   - title: "Learning Divergence Fields for Shift-Robust Message Passing"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
@@ -15,12 +35,14 @@ papers:
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2310.05105"
     code: "https://github.com/chr26195/ResidualPropagation"
+    selected: y
   
   - title: "Graph Out-of-Distribution Detection Goes Neighborhood Shaping"
     authors: "Tianyi Bao, <b>Qitian Wu</b>, Zetian Jiang, Yiting Chen, Jiawei Sun and Junchi Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://openreview.net/pdf/6c9472c0a253596a0d8bbab5a7cfe80e2603ca7d.pdf"
     code: ""
+    selected: n
 
   - title: "Graph Out-of-Distribution Generalization via Causal Intervention"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
@@ -39,6 +61,7 @@ papers:
     venue: "The Web Conference (WWW) 2024"
     paper_pdf: "https://arxiv.org/pdf/2311.04590"
     code: "https://github.com/WujiangXu/AMID"
+    selected: n
 
   - title: "SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Chenxiao Yang, Hengrui Zhang, Fan Nie, Haitian Jiang, Yatao Bian and Junchi Yan"
