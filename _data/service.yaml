@@ -1,5 +1,9 @@
 
 service:
-    - name: "<br/> ICML: 2021, 2022, 2023 <br/> NeurIPS: 2021, 2022, 2023 <br/> ICLR: 2022, 2023, 2024 <br/> SIGKDD: 2023 <br/> WWW: 2023 <br/> AAAI: 2021, 2022, 2023 <br/> IJCAI: 2021, 2022, 2023 <br/> CVPR: 2021, 2022, 2023 <br/> ICCV: 2021 <br/> TKDE  <br/> TNNLS"
-      title: "Program Committee/Reviewer"
+    - name: "<br/> ICML (2021-2024), NeurIPS (2021-2025), ICLR (2022-2025, SIGKDD (2023), WWW (2023), <br/> AAAI (2021-2023), IJCAI (2021-2023), CVPR (2021-2023), ICCV (2021)"
+      title: "Area Chair/Reviewer for Conferences"
+      category: "current"
+    
+    - name: "<br/> Nature Bio. Eng., TPAMI, TKDE, TNNLS"
+      title: "Reviewer for Journals"
       category: "current"
