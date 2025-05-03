@@ -4,6 +4,6 @@ service:
       title: "Area Chair/Reviewer for Conferences"
       category: "current"
     
-    - name: "<br/> Nature Bio. Eng., TPAMI, TKDE, TNNLS"
+    - name: "<br/> Nature BioMed. Eng., TPAMI, TKDE, TNNLS"
       title: "Reviewer for Journals"
       category: "current"
