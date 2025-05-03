@@ -1,5 +1,23 @@
 papers:
 
+  - title: "Advective Diffusion Induced Graph Transformers"
+    authors : <b>Qitian Wu</b>, Chenxiao Yang, Kaipeng Zeng and Michael Bronstein
+    venue: "International Conference on Machine Learning (ICML) 2025"
+    paper_pdf: ""
+    selected: y
+
+  - title: "Predictive Consistency Learning with Gradual Label Modeling"
+    authors : Yang Li, Jiale Ma, Yebin Yang, <b>Qitian Wu</b>, Hongyuan Zha and Junchi Yan
+    venue: "International Conference on Machine Learning (ICML) 2025"
+    paper_pdf: ""
+    selected: n
+  
+  - title: "Diffusion-Nested Non-Autoregressive Transformer for the Synthesis and Imputation of Heterogeneous Tabular Data"
+    authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
+    venue: "International Conference on Machine Learning (ICML) 2025"
+    paper_pdf: ""
+    selected: n
+  
   - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
     venue: "International Conference on Learning Representations (ICLR) 2025"
