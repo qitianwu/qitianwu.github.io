@@ -15,17 +15,14 @@ awards:
   - name: "Baidu Scholarship (only 10 recipients worldwide)"
     year: "2021"
     category: "current"
-    link: http://scholarship.baidu.com/
   
   - name: "Microsoft Research PhD Fellowship (only 11 recipients in Asia)"
     year: "2021"
     category: "current"
-    link: https://www.microsoft.com/en-us/research/academic-program/fellowships-microsoft-research-asia/fellows/
   
   - name: "Global Top 100 Rising Star in Artiﬁcial Intelligence"
     year: "2021"
     category: "current"
-    link: https://xueshu.baidu.com/usercenter/index/aischolar
   
   - name: "Yuanqing Yang Scholarship (only 3 master students in the department)"
     year: "2019"
@@ -43,7 +40,6 @@ awards:
                 (top 3 out of 4748 teams in the worldwide, the INFORMS Awards selects only one team)"
     year: "2018"
     category: "current"
-    link: assets/others/certificate_mcm_2018.pdf
 
   - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
     year: "2017, 2018"
