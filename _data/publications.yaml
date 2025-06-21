@@ -3,6 +3,7 @@ papers:
   - title: "Neural Message Passing Induced by Energy-Constrained Diffusion"
     authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
     venue: "Journal of Machine Learning Research (JMLR) 2025"
+    note: "extended version from DIFFormer (ICLR 2023)"
     paper_pdf: "https://arxiv.org/pdf/2409.09111"
     code: "https://github.com/qitianwu/DIFFormer"
     selected: y
