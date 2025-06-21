@@ -1,9 +1,17 @@
 papers:
 
+  - title: "Neural Message Passing Induced by Energy-Constrained Diffusion"
+    authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
+    venue: "Journal of Machine Learning Research (JMLR) 2025"
+    paper_pdf: "https://arxiv.org/pdf/2409.09111"
+    code: "https://github.com/qitianwu/DIFFormer"
+    selected: y
+
   - title: "Supercharging Graph Transformers with Advective Diffusion"
     authors : <b>Qitian Wu</b>, Chenxiao Yang, Kaipeng Zeng and Michael Bronstein
     venue: "International Conference on Machine Learning (ICML) 2025"
-    paper_pdf: ""
+    paper_pdf: "https://arxiv.org/pdf/2310.06417"
+    code: "https://github.com/qitianwu/AdvDIFFormer"
     selected: y
 
   - title: "Generative Modeling Reinvents Supervised Learning: Label Repurposing with Predictive Consistency Learning"
