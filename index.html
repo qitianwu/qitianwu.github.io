@@ -18,11 +18,11 @@ title: Home
     On the methodology side, I am currently focusing on
     empowering foundation models with multi-modal reasoning capabilities,
     scaling up computational backbones (e.g., Transformers) to large-scale data, 
-    and enhancing the reliability (e.g., out-of-distribution generalization) of AI systems. 
+    and enhancing the reliability of AI systems. 
     On the applidation side, I explore applying these methods to critical challenges in biomedical science and recommender systems.
 
     <p>
-    I am the recipients of Microsoft PhD Fellowship, Baidu Scholarship and Rising Star in Artiﬁcial Intelligence.
+    I am the recipients of Microsoft Research PhD Fellowship, Baidu PhD Fellowship and Rising Star in Artiﬁcial Intelligence.
   </p>
 
   <!-- <b><i> <font color="red">I am now on the job market. If you are interested in my research feel free to contact me via email.</font> </i></b> -->
@@ -58,17 +58,34 @@ title: Home
           </ul>
       </ul>
     </p> -->
-<!-- 
+
 <div class="docs-section" id="bio">
-  <h4>Summary of PhD Research</h4>
+  <h4>Research Highlight</h4>
   <p>
     <img class="u-max-full-width" src="/assets/pics/research.png">
   </p>
 
   <p>
-    My research generally aims at improving and broadening the capabilities of AI models to complex structured data.
-    My recent works unfold under two learning settings, i.e., closed-world and open-world hypothesis, along which my works explore the methodology for representation and generalization challenges. 
-      <ul>
+    My research aims at improving and broadening the capabilities of AI models, especially in terms of the scalability and generalizablity. 
+     <!-- with major applications to data with complex structures and science.      -->
+    <ul>
+      <li>For scalability, our works explore new Transformer architectures that scale up global attention to large graphs.
+        The first model <a href="https://arxiv.org/pdf/2306.08385.pdf"><b>NodeFormer</b></a> introduces a pioneering Transformer for graph data that reduces the quadratic complexity to linearity.
+        The second model <a href="https://arxiv.org/pdf/2306.10759.pdf"><b>SGFormer</b></a> adopts a simplified single-layer attention that achieves linear complexity without any approximation.
+        (in its <a href="https://arxiv.org/pdf/2409.09007"><b>extended version</b></a> we supplement theoretical understandings on the model design).
+        Beyond computational efficiency, we investigate how to understand the inherent mechanism of modern neural networks.  
+        Our work <a href="https://arxiv.org/pdf/2301.09474.pdf"><b>DIFFormer</b></a> derives a new scalable attention network from physical process, i.e., diffusion equations with energy constraint 
+        (in its <a href="https://arxiv.org/pdf/2409.09111"><b>extended version</b></a> we present an in-depth discussion on how modern neural networks can be cast into this unified framework).
+        Along this path, our recent work <a href="https://arxiv.org/pdf/2310.06417"><b>AdvDIFFormer</b></a> further extends the model from advective diffusion equations that endows it with better generalization.
+        
+      <li>For generalizability, our works endeavor to understand the generalization limits of neural networks under distribution shifts.
+         One line of our works devise new learning algorithms that provably enhance the out-of-distribution generalization capability of ML models,
+         including <a href="https://arxiv.org/pdf/2202.02466.pdf"><b>EERM</b></a> (from invariance principle) and <a href="https://arxiv.org/pdf/2402.11494"><b>CaNet</b></a> (from causal intervention). 
+         Another line of our works target out-of-distribution detection for AI safety consideration,
+         e.g., <a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> (from energy-based modeling).
+    </ul>  
+    
+    <!-- <ul>
         <li>In the <b><i>closed-world regime</i></b>, wherein training and test data distributions are overlapped, my research targets building foundation models as general-purpose encoder backbones (e.g., Transformers) for obtaining high-quality representation.
           My recent works particularly focus on the scalability and interpretability, two key challenges concerning building foundation models for data involving geometries and structures. 
           <ul>
@@ -85,12 +102,12 @@ title: Home
             and the follow-up work (<a href="https://arxiv.org/pdf/2406.04963"><b>GLIND</b></a> <b>on ICML'24</b>) further extends the causal perspective to geometric diffusion systems.
             The proposed methodology is applied to handling distribution shifts in molecular discovery (<a href="https://openreview.net/pdf?id=2nWUNTnFijm"><b>MoleOOD</b></a> <b>on NeurIPS'22</b>) and recommender systems (<a href="https://arxiv.org/pdf/2210.13005.pdf"><b>Caseq</b></a> <b>on NeurIPS'22</b>). -->
           <!-- <li>For enhancing the <b>robustness</b>, our work (<a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> <b>on ICLR'23</b>) targets how to endow the pre-trained model with capabilities for identifying data from distributions
-            different than training, i.e., out-of-distribution detection.
-        </ul>
-      </ul>
+            different than training, i.e., out-of-distribution detection. -->
+        <!-- </ul>
+      </ul> -->
     </p>
 
-    <b><i>I am always open for collaborations, and if you are interested, feel free to have a chat. </i></b> -->
+    <!-- <b><i>I am always open for collaborations, and if you are interested, feel free to have a chat. </i></b> --> -->
 
 
     <!-- <p>
@@ -125,7 +142,9 @@ title: Home
     <!-- <b><i> <font color="red">I am now on the job market. If you feel free to contact me via email.</font> </i></b> -->
   <!-- <b><i>I am always open for collaborations and if you are interested feel free to contact me via email. </i></b> -->
 
-<!-- </div> -->
+</div>
+
+
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
