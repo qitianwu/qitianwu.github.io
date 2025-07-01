@@ -31,7 +31,7 @@ papers:
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
     venue: "International Conference on Learning Representations (ICLR) 2025"
     note: "spotlight presentation"
-    paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
+    paper_pdf: "https://arxiv.org/pdf/2405.20690"
     code: "https://github.com/hengruizhang98/DiffPuter"
     selected: y
 
