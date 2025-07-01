@@ -1,6 +1,6 @@
 papers:
 
-  - title: "From Diffusion to Transformers: A Unified Framework for Neural Message Passing"
+  - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
     authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
     venue: "Journal of Machine Learning Research (JMLR) 2025"
     note: "extended from DIFFormer (ICLR 2023)"
