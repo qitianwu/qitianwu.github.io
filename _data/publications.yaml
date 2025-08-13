@@ -25,7 +25,7 @@ papers:
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: ""
-    selected: n
+    selected: y
   
   - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
@@ -46,7 +46,7 @@ papers:
     authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
-    selected: y
+    selected: n
 
   - title: "Learning Divergence Fields for Shift-Robust Message Passing"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
