@@ -25,7 +25,7 @@ papers:
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: ""
-    selected: n
+    selected: y
   
   - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
@@ -33,20 +33,20 @@ papers:
     note: "spotlight presentation"
     paper_pdf: "https://arxiv.org/pdf/2405.20690"
     code: "https://github.com/hengruizhang98/DiffPuter"
-    selected: y
+    selected: n
 
   - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
     authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
     code: "https://github.com/WujiangXu/SLMRec"
-    selected: n
+    selected: y
 
   - title: "Regularizing Energy among Training Samples for Out-of-Distribution Generalization"
     authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
-    selected: n
+    selected: y
 
   - title: "Learning Divergence Fields for Shift-Robust Message Passing"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
@@ -56,7 +56,7 @@ papers:
     slides: "assets/publications/icml2024-glind/slides.pdf"
     blogc: "https://zhuanlan.zhihu.com/p/709125359"
     bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
-    selected: y
+    selected: n
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, David Wipf, Ruoyu Sun and Junchi Yan"
@@ -81,7 +81,7 @@ papers:
     slides: "assets/publications/www2024-canet/slides.pdf"
     blogc: "https://zhuanlan.zhihu.com/p/709125359"
     bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
-    selected: y
+    selected: n
     note: "oral presentation"
   
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
@@ -188,7 +188,7 @@ papers:
     code: "https://github.com/chr26195/GKD"
     blogc: "https://zhuanlan.zhihu.com/p/625217611"
     content: "Summary: We explore geometric knowledge distillation, empowered by neural heat kernel, that can generalize the topological knowledge from larger GNNs to smaller one."
-    selected: y
+    selected: n
   
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Qingsong Wen, Zhiqiang Zhou, Liang Sun and Junchi Yan"
@@ -274,7 +274,7 @@ papers:
     poster: "assets/publications/nips2021-fate/poster.png"
     blogc: "https://zhuanlan.zhihu.com/p/636902580"
     content: "Summary: We propose a graph representation learning approach for handling feature space expansion from training data to testing data. "
-    selected: y
+    selected: n
 
   - title: "From Canonical Correlation Analysis to Self-supervised Graph Neural Networks"
     authors: "Hengrui Zhang, <b>Qitian Wu</b>, Junchi Yan, David Wipf and Philip S. Yu"
@@ -323,7 +323,7 @@ papers:
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
     content: ""
-    selected: n
+    selected: y
     
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
     authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
