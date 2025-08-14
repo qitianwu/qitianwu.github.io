@@ -19,13 +19,13 @@ papers:
     authors : Yang Li, Jiale Ma, Yebin Yang, <b>Qitian Wu</b>, Hongyuan Zha and Junchi Yan
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: ""
-    selected: n
+    selected: y
   
   - title: "TabNAT: A Continuous-Discrete Joint Generative Framework for Tabular Data"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: ""
-    selected: y
+    selected: n
   
   - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
