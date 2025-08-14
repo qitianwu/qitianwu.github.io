@@ -18,7 +18,8 @@ papers:
   - title: "Generative Modeling Reinvents Supervised Learning: Label Repurposing with Predictive Consistency Learning"
     authors : Yang Li, Jiale Ma, Yebin Yang, <b>Qitian Wu</b>, Hongyuan Zha and Junchi Yan
     venue: "International Conference on Machine Learning (ICML) 2025"
-    paper_pdf: ""
+    paper_pdf: "https://openreview.net/pdf?id=FO2fu3daSL"
+    code: "https://github.com/Thinklab-SJTU/predictive-consistency-learning"
     selected: y
   
   - title: "TabNAT: A Continuous-Discrete Joint Generative Framework for Tabular Data"
@@ -38,7 +39,7 @@ papers:
   - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
     authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
     venue: "International Conference on Learning Representations (ICLR) 2025"
-    paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
+    paper_pdf: "https://arxiv.org/pdf/2405.17890"
     code: "https://github.com/WujiangXu/SLMRec"
     selected: y
 
