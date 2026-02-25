@@ -161,11 +161,11 @@ title: Home
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <!-- <li><div class="button" data-ref="#papers-representative">Representative</div></li> -->
     <li><div class="button" data-ref="#papers-all">All (in chronological order)</div></li>
+    <li><div class="button" data-ref="#papers-representative">Representative</div></li>
   </ul>
 
-  <!-- <div class="tab-content">
+  <div class="tab-content">
     <div class="tab-pane" id="papers-representative">
       {% assign representative_papers = site.data.publications.papers | where: "representative", "y" %}
       {% for paper in representative_papers %}
@@ -215,7 +215,7 @@ title: Home
           {% endif %}
         </div>
       {% endfor %}
-    </div> -->
+    </div>
 
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
