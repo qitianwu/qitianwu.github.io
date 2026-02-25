@@ -7,26 +7,29 @@ title: Home
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
   <p>
-  I am currently a postdoctoral fellow at Broad Institute of MIT and Harvard, working with Caroline Uhler. 
-  Prior to this, I finished the PhD in School of Computer Science from Shanghai Jiao Tong University (SJTU), 
-  supervised by Junchi Yan and had the fortune to work closely with David Wipf, Hongyuan Zha and Michael Bronstein. 
-  Before that, I did the Bachelor (Microelectronics, minor in Mathematics) and Master (Computer Science) from SJTU.
-  I also worked as applied and research intern at Tencent WeChat, Amazon Web Service and BioMap AI Lab. 
+  I am a research scientist at Google Research in New York City. 
 
   <p>
+  Prior to this, I was a postdoctoral fellow at Broad Institute of MIT and Harvard, where I worked with Caroline Uhler on the intersection between machine learning and biomedical science.
+  
+  <p>
+  I completed the PhD in School of Computer Science from Shanghai Jiao Tong University, advised by Junchi Yan, with my research expertise in graph machine learning especially in terms of developing scalable graph Transformers and learning algorithms for out-of-distribution reliability.
+  I did the Bachelor (Microelectronics, minor in Mathematics) and Master (Computer Science) at the same university.
+  
+  I also worked as applied and research intern at Tencent WeChat and Amazon Web Service. 
+  My research was generously supported by Eric and Wendy Schmidt Center Postdoc Fellowship, 
+  Microsoft Research PhD Fellowship, 
+  and Baidu PhD Fellowship.
+
+  <!-- <p>
     My research interest generally lies in scalable and generalizable machine learning, 
     particularly aiming at broadening and enhancing the capabilities of ML/AI models to address complex problems,
     such as improved scaling, reasoning with structures and multi-modalities, and provably reliable learning with distribution shifts. 
-    I also explore applying the algorithmic innovations to resolve critical challenges in science and industry applications.
+    I also explore applying the algorithmic innovations to resolve critical challenges in science and industry applications. -->
 
-    <p>
-    My research was generously supported by Eric and Wendy Schmidt Center Postdoc Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Fellowship.
+    <!-- <p>
+    My research was generously supported by Eric and Wendy Schmidt Center Postdoc Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Fellowship. -->
   </p>
-
-  <!-- <b><i> <font color="red">I am now on the job market. If you are interested in my research feel free to contact me via email.</font> </i></b> -->
-  <!-- <p>
-    He is an incoming postdoctoral researcher at the Broad Institute of MIT and Harvard.
-  </p> -->
 
   <!-- <b><i>I am always open for collaborations and if you are interested in my research feel free to contact me via email or WeChat (id: myronwqt228). </i></b> -->
 
@@ -155,11 +158,11 @@ title: Home
 
   <ul class="tab-nav">
     <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-representative">Representative</div></li>
+    <!-- <li><div class="button" data-ref="#papers-representative">Representative</div></li> -->
     <li><div class="button" data-ref="#papers-all">All (in chronological order)</div></li>
   </ul>
 
-  <div class="tab-content">
+  <!-- <div class="tab-content">
     <div class="tab-pane" id="papers-representative">
       {% assign representative_papers = site.data.publications.papers | where: "representative", "y" %}
       {% for paper in representative_papers %}
@@ -209,7 +212,7 @@ title: Home
           {% endif %}
         </div>
       {% endfor %}
-    </div>
+    </div> -->
 
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
