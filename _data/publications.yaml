@@ -1,5 +1,12 @@
 papers:
 
+  - title: "Physics-inspired all-pair interaction learning for 3d dynamics modeling"
+    authors : Kai Yang, Yuqi Huang, Junheng Tao, Wanyu Wang and <b>Qitian Wu</b>
+    venue: "International Conference on Learning Representations (ICLR) 2026"
+    paper_pdf: "https://arxiv.org/pdf/2510.04233"
+    # code: "https://github.com/qitianwu/DIFFormer"
+    selected: y
+
   - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
     authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
     venue: "Journal of Machine Learning Research (JMLR) 2025"
