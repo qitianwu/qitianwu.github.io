@@ -5,7 +5,7 @@ papers:
     venue: "International Conference on Learning Representations (ICLR) 2026"
     paper_pdf: "https://arxiv.org/pdf/2510.04233"
     # code: "https://github.com/qitianwu/DIFFormer"
-    selected: y
+    selected: n
 
   - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
     authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
