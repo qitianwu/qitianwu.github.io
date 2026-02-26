@@ -8,6 +8,6 @@ service:
       title: "Reviewer for Conferences:"
       category: "current"
     
-    - name: "<br/> Nature Biomedical Engineering, Nature Computational Science, <br/> IEEE TPAMI, IEEE TKDE, IEEE TNNLS"
+    - name: "<br/> Nature Biomedical Engineering, Nature Computational Science, <br/> JMLR, TPAMI, TKDE, TNNLS"
       title: "Reviewer for Journals:"
       category: "current"
