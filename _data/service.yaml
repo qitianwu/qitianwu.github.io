@@ -1,7 +1,7 @@
 
 service:
-    - name: "NeurIPS (2025-)"
-      title: "Area Chair:"
+    - name: "NeurIPS (2025-), AAAI (2026-)"
+      title: "Area Chair / Senior Program Committee:"
       category: "current"
     
     - name: "TMLR (2026-)"

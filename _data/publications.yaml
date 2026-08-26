@@ -1,11 +1,18 @@
 papers:
 
+  - title: "SGFormer: Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
+    authors : <b>Qitian Wu</b>, Kai Yang, Hengrui Zhang, David Wipf and Junchi Yan
+    venue: "Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2026"
+    paper_pdf: "https://arxiv.org/pdf/2409.09007"
+    code: "https://github.com/qitianwu/SGFormer"
+    selected: y
+
   - title: "Physics-inspired all-pair interaction learning for 3d dynamics modeling"
     authors : Kai Yang, Yuqi Huang, Junheng Tao, Wanyu Wang and <b>Qitian Wu</b>
     venue: "International Conference on Learning Representations (ICLR) 2026"
     paper_pdf: "https://arxiv.org/pdf/2510.04233"
-    # code: "https://github.com/qitianwu/DIFFormer"
-    selected: n
+    code: "https://github.com/Icarus1411/PAINET"
+    selected: y
 
   - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
     authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
@@ -26,7 +33,7 @@ papers:
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: "https://openreview.net/pdf?id=FO2fu3daSL"
     code: "https://github.com/Thinklab-SJTU/predictive-consistency-learning"
-    selected: y
+    selected: n
   
   - title: "TabNAT: A Continuous-Discrete Joint Generative Framework for Tabular Data"
     authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S Yu
@@ -40,14 +47,14 @@ papers:
     note: "spotlight presentation"
     paper_pdf: "https://arxiv.org/pdf/2405.20690"
     code: "https://github.com/hengruizhang98/DiffPuter"
-    selected: y
+    selected: n
 
   - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
     authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://arxiv.org/pdf/2405.17890"
     code: "https://github.com/WujiangXu/SLMRec"
-    selected: y
+    selected: n
 
   - title: "Regularizing Energy among Training Samples for Out-of-Distribution Generalization"
     authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
@@ -63,14 +70,14 @@ papers:
     slides: "assets/publications/icml2024-glind/slides.pdf"
     blogc: "https://zhuanlan.zhihu.com/p/709125359"
     bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
-    selected: n
+    selected: y
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, David Wipf, Ruoyu Sun and Junchi Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2310.05105"
     code: "https://github.com/chr26195/ResidualPropagation"
-    selected: y
+    selected: n
   
   - title: "Graph Out-of-Distribution Detection Goes Neighborhood Shaping"
     authors: "Tianyi Bao, <b>Qitian Wu</b>, Zetian Jiang, Yiting Chen, Jiawei Sun and Junchi Yan"
@@ -88,7 +95,7 @@ papers:
     slides: "assets/publications/www2024-canet/slides.pdf"
     blogc: "https://zhuanlan.zhihu.com/p/709125359"
     bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
-    selected: n
+    selected: y
     note: "oral presentation"
   
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
@@ -161,7 +168,7 @@ papers:
     code: "https://github.com/chr26195/PMLP"
     blogc: "https://zhuanlan.zhihu.com/p/625104565"
     content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
-    selected: y
+    selected: n
 
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
@@ -186,7 +193,7 @@ papers:
     blogc: "https://zhuanlan.zhihu.com/p/594089868"
     content: "Summary: We propose a invariant learning approach for molecular property prediction under distribution shifts and achieve SOTA results on OGB-mol and DrugOOD benchmarks."
     note: "spotlight presentation"
-    selected: y
+    selected: n
   
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
     authors: "Chenxiao Yang, <b>Qitian Wu</b> and Junchi Yan"
@@ -204,7 +211,7 @@ papers:
     code: "https://github.com/chr26195/Caseq"
     blogc: "https://zhuanlan.zhihu.com/p/603012617"
     content: "Summary: We use causal analysis to reveal the limitations of Maximum Likelihood Estimation for sequential prediction under distribution shifts and propose an effective treatment based on backdoor adjustment."
-    selected: y
+    selected: n
   
   - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
     authors: "Zenan Li, <b>Qitian Wu</b>, Fan Nie and Junchi Yan"
@@ -289,7 +296,7 @@ papers:
     paper_pdf: "https://arxiv.org/abs/2106.12484"
     code: "https://github.com/hengruizhang98/CCA-SSG"
     content: "Summary: We introduce a simple-yet-effective contrastive objective for self-supervised learning on graphs."
-    selected: y
+    selected: n
 
   - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
     authors: "<b>Qitian Wu</b>, Han Gao and Hongyuan Zha"
