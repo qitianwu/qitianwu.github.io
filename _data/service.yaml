@@ -1,10 +1,10 @@
 
 service:
-    - name: "NeurIPS (2025-), AAAI (2026-)"
+    - name: "NeurIPS, ICLR, AAAI, IJCAI"
       title: "Area Chair / Senior Program Committee:"
       category: "current"
     
-    - name: "TMLR (2026-)"
+    - name: "TMLR"
       title: "Associate / Action Editor:"
       category: "current"
     
