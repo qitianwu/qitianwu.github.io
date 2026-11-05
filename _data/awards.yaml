@@ -36,14 +36,6 @@ awards:
     year: "2019"
     category: "current"
 
-  # - name: "Outstanding Graduate in Shanghai (only 5%)"
-  #   year: "2018"
-  #   category: "current"
-  
-  # - name: "Outstanding Thesis of Undergraduates"
-  #   year: "2018"
-  #   category: "current"
-
   - name: "Outstanding Winner, INFORMS Awards, Mathematical Contest in Modeling, Data Insights Problem
                 (top 3 out of 4748 teams in the worldwide, the INFORMS Awards selects only one team)"
     year: "2018"
@@ -52,15 +44,3 @@ awards:
   - name: "National Scholarship (only 1% for undergraduate students)"
     year: "2016, 2017"
     category: "current"
-  
-  # - name: "The 1st-Class Academic Excellence Scholarship (top 1 in the department)"
-  #   year: "2016, 2017"
-  #   category: "current"
-  
-  # - name: "National Second Award, China Undergraduate Mathematical Contest in Modeling"
-  #   year: "2016"
-  #   category: "current"
-  
-  # - name: "First Award, Physics Contest of Chinese College Students"
-  #   year: "2015"
-  #   category: "current"
