@@ -1,10 +1,14 @@
 
 awards:
+  - name: "Elsevier/Stanford World's Top 2\% Scientists (Artificial Intelligence)"
+    year: "2026"
+    category: "current"
+
   - name: "Eric and Wendy Schmidt Center Postdoctoral Fellowship"
     year: "2024"
     category: "current"
 
-  - name: "SJTU Scholar Star (the highest academic award for PhD students in university level)"
+  - name: "SJTU Academic Scholar (the highest academic award for PhD students in university level)"
     year: "2023"
     category: "current"
 
@@ -24,39 +28,39 @@ awards:
     year: "2021"
     category: "current"
   
-  - name: "Yuanqing Yang Scholarship (only 3 master students in the department)"
+  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
+    year: "2018, 2019, 2020"
+    category: "current"
+
+  - name: "Yuanqing Yang Scholarship (only 3 master students in CS department)"
     year: "2019"
     category: "current"
 
-  - name: "Outstanding Graduate in Shanghai (only 5%)"
-    year: "2018"
-    category: "current"
+  # - name: "Outstanding Graduate in Shanghai (only 5%)"
+  #   year: "2018"
+  #   category: "current"
   
-  - name: "Outstanding Thesis of Undergraduates"
-    year: "2018"
-    category: "current"
+  # - name: "Outstanding Thesis of Undergraduates"
+  #   year: "2018"
+  #   category: "current"
 
   - name: "Outstanding Winner, INFORMS Awards, Mathematical Contest in Modeling, Data Insights Problem
                 (top 3 out of 4748 teams in the worldwide, the INFORMS Awards selects only one team)"
     year: "2018"
-    category: "current"
-
-  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
-    year: "2017, 2018"
     category: "current"
   
   - name: "National Scholarship (only 1% for undergraduate students)"
     year: "2016, 2017"
     category: "current"
   
-  - name: "The 1st-Class Academic Excellence Scholarship (top 1 in the department)"
-    year: "2016, 2017"
-    category: "current"
+  # - name: "The 1st-Class Academic Excellence Scholarship (top 1 in the department)"
+  #   year: "2016, 2017"
+  #   category: "current"
   
-  - name: "National Second Award, China Undergraduate Mathematical Contest in Modeling"
-    year: "2016"
-    category: "current"
+  # - name: "National Second Award, China Undergraduate Mathematical Contest in Modeling"
+  #   year: "2016"
+  #   category: "current"
   
-  - name: "First Award, Physics Contest of Chinese College Students"
-    year: "2015"
-    category: "current"
+  # - name: "First Award, Physics Contest of Chinese College Students"
+  #   year: "2015"
+  #   category: "current"

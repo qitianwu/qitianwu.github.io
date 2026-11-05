@@ -1,6 +1,6 @@
 papers:
 
-  - title: "SGFormer: Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
+  - title: "Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
     authors : <b>Qitian Wu</b>, Kai Yang, Hengrui Zhang, David Wipf and Junchi Yan
     venue: "Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2026"
     paper_pdf: "https://arxiv.org/pdf/2409.09007"
@@ -26,7 +26,7 @@ papers:
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: "https://arxiv.org/pdf/2310.06417"
     code: "https://github.com/qitianwu/AdvDIFFormer"
-    selected: y
+    selected: n
 
   - title: "Generative Modeling Reinvents Supervised Learning: Label Repurposing with Predictive Consistency Learning"
     authors : Yang Li, Jiale Ma, Yebin Yang, <b>Qitian Wu</b>, Hongyuan Zha and Junchi Yan
@@ -47,20 +47,20 @@ papers:
     note: "spotlight presentation"
     paper_pdf: "https://arxiv.org/pdf/2405.20690"
     code: "https://github.com/hengruizhang98/DiffPuter"
-    selected: n
+    selected: y
 
   - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
     authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://arxiv.org/pdf/2405.17890"
     code: "https://github.com/WujiangXu/SLMRec"
-    selected: n
+    selected: y
 
   - title: "Regularizing Energy among Training Samples for Out-of-Distribution Generalization"
     authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
-    selected: n
+    selected: y
 
   - title: "Learning Divergence Fields for Shift-Robust Message Passing"
     authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
@@ -70,14 +70,14 @@ papers:
     slides: "assets/publications/icml2024-glind/slides.pdf"
     blogc: "https://zhuanlan.zhihu.com/p/709125359"
     bloge: "https://medium.com/towards-data-science/towards-generalization-on-graphs-from-invariance-to-causality-c81a174ac37b"
-    selected: y
+    selected: n
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, David Wipf, Ruoyu Sun and Junchi Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2310.05105"
     code: "https://github.com/chr26195/ResidualPropagation"
-    selected: n
+    selected: y
   
   - title: "Graph Out-of-Distribution Detection Goes Neighborhood Shaping"
     authors: "Tianyi Bao, <b>Qitian Wu</b>, Zetian Jiang, Yiting Chen, Jiawei Sun and Junchi Yan"
@@ -116,25 +116,28 @@ papers:
     blogc: "https://zhuanlan.zhihu.com/p/674548352"
     content: "Summary: We propose an efficient Transformer that only uses one-layer global attention and significantly reduces computation cost for large-graph representations."
     # note: "spotlight oral talk, avg. ranking among top 0.5%"
-    selected: y
+    selected: n
 
   - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
     authors: "Yongduo Sui, <b>Qitian Wu</b>, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
     paper_pdf: "https://openreview.net/pdf?id=hIGZujtOQv"
     code: "https://github.com/yongduosui/AIA."
+    selected: n
 
   - title: "GraphGlow: Universal and Genralizable Structure Learning for Graph Neural Networks"
     authors: "Wentao Zhao, <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2023"
     paper_pdf: "https://arxiv.org/pdf/2306.11264.pdf"
     code: "https://github.com/wtaozhao/graphglow"
+    selected: n
   
   - title: "MoleRec: Combinatorial Drug Recommendation with SubstructureAware Molecular Representation Learning"
     authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Junchi Yan"
     venue: "The Web Conference (WWW) 2023"
     paper_pdf: "https://www.researchgate.net/publication/368454974_MoleRec_Combinatorial_Drug_Recommendation_with_Substructure-Aware_Molecular_Representation_Learning"
     code: "https://github.com/yangnianzu0515/MoleRec"
+    selected: n
 
   - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
@@ -159,7 +162,7 @@ papers:
     poster: "assets/publications/iclr2023-gnnsafe/poster.png"
     blogc: "https://zhuanlan.zhihu.com/p/609178151"
     content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
-    selected: y
+    selected: n
   
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
     authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
@@ -257,7 +260,7 @@ papers:
     paper_pdf: ""
     code: ""
     content: ""
-    selected: n
+    selected: y
 
   - title: "ScaleGCN: Efficient and Effective Graph Convolution via Channel-Wise Scale Transformation"
     authors: "Tianqi Zhang, <b>Qitian Wu</b>, Junchi Yan, Yunan Zhao and Bing Han"
