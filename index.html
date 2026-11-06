@@ -3,476 +3,101 @@ layout: default
 title: Home
 ---
 
-<!-- ========== BIO ========== -->
-<div class="docs-section" id="bio">
-  <h4>Bio</h4>
+<!-- ========== ABOUT ========== -->
+<div class="docs-section" id="about">
+  <h4>About</h4>
   <p>
-  I am at Research Scientist at Google Research. 
-  I currently work on LLM post-training, agentic systems and expanding their capabilities to complex engineering problems.  
-
-  <p>
-  Previously, I was a Postdoctoral Fellow at Broad Institute of MIT and Harvard, 
-  where I worked on foundation model pretraining for multi-modal representation and reasoning in science and discovery.
-  
-  <p>
-  I completed the PhD in Computer Science from Shanghai Jiao Tong University, 
-  advised by Junchi Yan. My PhD research is about scalable and generalizable machine learning. This work was supported by Microsoft Research PhD fellowship and Baidu PhD fellowship.
-
-  <p>
-  I worked as research intern at Amazon Web Services (AWS) where I worked on scalable Transformer architectures for textual and non-textual data.
-  I also worked as applied research intern at Tencent WeChat Group, where I built deep learning models for industry-scale recommender systems.
-  
-
-  <!-- <p>
-    My research interest generally lies in scalable and generalizable machine learning, 
-    particularly aiming at broadening and enhancing the capabilities of ML/AI models to address complex problems,
-    such as improved scaling, reasoning with structures and multi-modalities, and provably reliable learning with distribution shifts. 
-    I also explore applying the algorithmic innovations to resolve critical challenges in science and industry applications. -->
-
-    <!-- <p>
-    My research was generously supported by Eric and Wendy Schmidt Center Postdoc Fellowship, Microsoft Research PhD Fellowship, and Baidu PhD Fellowship. -->
+    I am a Research Scientist at Google Research, working on LLM post-training and agents,
+    building hands-on across the stack from data and training environments to evaluation and production deployment. My recent projects:
   </p>
-
-  <!-- <b><i>I am always open for collaborations and if you are interested in my research feel free to contact me via email or WeChat (id: myronwqt228). </i></b> -->
-
-<!-- </div> -->
-  <!-- <p>
-    Here are some of my highlighted recent works:
-      <ul>
-        <li>Scalable Graph Transformers (see a recent English <a href="https://towardsdatascience.com/scalable-graph-transformers-for-million-nodes-2f0014ceb9d4">blog</a> for details): 
-          <ul>
-            <li>[<a href="https://openreview.net/pdf?id=sMezXGG5So">NodeFormer</a>] All-pair attention with linear complexity (<b><i>NeurIPS22</i></b>) 
-            <li>[<a href="https://openreview.net/pdf?id=j6zUzrapY3L">DIFFormer</a>] Principled global attention induced by diffusion perspective (<b><i>ICLR23</i></b>) 
-            <li>[<a href="https://openreview.net/pdf?id=j6zUzrapY3L">SGFormer</a>] One-layer global attention efficient Transformers (<b><i>NeurIPS23</i></b>) 
-          </ul>
-        <li>Out-of-Distribution Generalization (see this Chinese <a href="https://www.zhihu.com/column/c_1571878639037202432">zhuanlan</a> for detailed introduction): 
-          <ul>
-            <li>[<a href="https://arxiv.org/abs/2202.02466">EERM</a>] Environment exploration invariant learning for graph OOD generalization (<b><i>ICLR22</i></b>) 
-            <li>[<a href="https://openreview.net/pdf?id=2nWUNTnFijm">MoleOOD</a>] Environment inference invariant learning for OOD molecular recognition (<b><i>NeurIPS22</i></b>) 
-            <li>[<a href="https://arxiv.org/abs/2210.13005">Caseq</a>] Causal intervention for OOD sequential recommendation/prediction (<b><i>NeurIPS22</i></b>) 
-            <li>[<a href="https://arxiv.org/abs/2210.13014">GKD</a>] Geometric knowledge distillation for topological shifts (<b><i>NeurIPS22</i></b>) 
-            <li>[<a href="https://arxiv.org/abs/2007.04833">IDCF</a>] Inductive collaborative filtering for user expansion in recommendation (<b><i>ICML21</i></b>) 
-            <li>[<a href="https://arxiv.org/abs/2110.04514">FATE</a>] Graph-enhanced learning for attribute feature shifts (<b><i>NeurIPS21</i></b>) 
-          </ul>
-        <li>Out-of-Distribution Detection:
-          <ul>
-            <li>[<a href="https://openreview.net/pdf?id=mSiPuHIP7t8">GraphDE</a>] Generative OOD detection for graph classification (<b><i>NeurIPS22</i></b>) 
-            <li>[<a href="https://openreview.net/pdf?id=zoz7Ze4STUL">GNNSafe</a>] Energy-based detection model for OOD nodes on graphs  (<b><i>ICLR23</i></b>) 
-          </ul>
-      </ul>
-    </p> -->
-
-<!-- <div class="docs-section" id="bio">
-  <h4>Research Summary</h4> -->
-  <!-- <p>
-    <img class="u-max-full-width" src="/assets/pics/research.png">
-  </p> -->
-  <!-- <p>
-    My current research aims at improving and broadening the capabilities of AI models, especially in terms of the scalability and generalizablity, 
-    via developing theoretically principled and practically useful methodology 
-    that sheds insights on ML algorithmic designs
-    and facilitates problem solving in real applications.
-    <ul>
-      <li>For scalability, our works explore new Transformer architectures that scale up global attention to large interconnected data.
-        The first model <a href="https://arxiv.org/pdf/2306.08385.pdf"><b>NodeFormer</b></a> [<b>in NeurIPS'22</b>] introduces a pioneering Transformer for large graphs that reduces the quadratic complexity to linearity.
-        The follow-up model <a href="https://arxiv.org/pdf/2306.10759.pdf"><b>SGFormer</b></a> [<b>in NeurIPS'23</b>] adopts a simplified single-layer attention that achieves linear complexity without any approximation.
-        In its <a href="https://arxiv.org/pdf/2409.09007"><b>extended version</b></a> we supplement theoretical understandings on the model design.
-        Beyond computational efficiency, we investigate how to understand the inherent mechanism of neural architectures.  
-        To this end, our work <a href="https://arxiv.org/pdf/2301.09474.pdf"><b>DIFFormer</b></a> [<b>in ICLR'23</b>] derives a scalable attention model inspired by physical process, i.e., diffusion equations with energy constraint. 
-        In its <a href="https://arxiv.org/pdf/2409.09111"><b>extended version</b></a> [<b>in JMLR</b>] we present more in-depth discussion on how energy-constrained diffusion can serve as a unified framework for different architectures (MLP, GNNs and Transformers).
-        Along this path, our recent work <a href="https://arxiv.org/pdf/2310.06417"><b>AdvDIFFormer</b></a> [<b>in ICML'25</b>] further extends the model from advective diffusion equations that endows Transformers with inherent generalization power.
-        
-      <li>For generalizability, our works endeavor to understand the generalization limits of neural networks under distribution shifts.
-         On one side, we study the challenging out-of-distribution generalization problem.  
-         The first work <a href="https://arxiv.org/pdf/2202.02466.pdf"><b>EERM</b></a> [<b>in ICLR'22
-         </b>] formulates this problem with structured data and introduces a new learning algorithm through invariance principle. 
-         The follow-up works explore addressing this challenge through causal intervention, 
-         including <a href="https://arxiv.org/pdf/2402.11494"><b>CaNet</b></a> [<b>in WWW'24</b>] and <a href="https://arxiv.org/pdf/2406.04963"><b>GLIND</b></a> [<b>in ICML'24</b>].
-         On another side, we study out-of-distribution detection that aims to improve the reliablity of AI systems,
-         e.g., <a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> [<b>in ICLR'23</b>].
-    </ul>  
+  <ul class="projects">
+    <li>
+      <b>Gemini post-training for Text-to-SQL generation</b>: post-trained Gemini to the top of the <a href="https://bird-bench.github.io/" target="_blank">BIRD</a> Text-to-SQL leaderboard.
+      <span class="skills">(Synthetic data generation, sandbox environments with tool use, reward models)</span>
+    </li>
+    <li>
+      <b>Self-evolving agents for systems optimization</b>: built an agent that autonomously optimizes production code from benchmark feedback, deployed in compiler systems.
+      <span class="skills">(Agentic harness, long-horizon reasoning, endpoint serving)</span>
+    </li>
+    <li>
+      <b>Gemini reasoning for network-state observability</b>: turned large-scale cluster telemetry into LLM reasoning data and evaluation pipelines.
+      <span class="skills">(Data curation and filtering, evaluation harnesses and pipelines)</span>
+    </li>
+  </ul>
+  <p>
+    Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with Caroline Uhler),
+    I led the <b>pretraining of a multi-modal foundation model from scratch</b>, from data pipelines to distributed training on GPU clusters,
+    and applied it to the discovery of candidate therapeutic targets in biomedicine
+    (<a href="https://www.biorxiv.org/content/10.1101/2026.07.31.741265" target="_blank">paper</a>).
   </p>
-</div> -->
-    <!-- <ul>
-        <li>In the <b><i>closed-world regime</i></b>, wherein training and test data distributions are overlapped, my research targets building foundation models as general-purpose encoder backbones (e.g., Transformers) for obtaining high-quality representation.
-          My recent works particularly focus on the scalability and interpretability, two key challenges concerning building foundation models for data involving geometries and structures. 
-          <ul>
-            <li>For <b>scalability</b>, our works (<a href="https://arxiv.org/pdf/2306.08385.pdf"><b>NodeFormer</b></a> <b>on NeurIPS'22</b> and <a href="https://arxiv.org/pdf/2306.10759.pdf"><b>SGFormer</b></a> <b>on NeurIPS'23</b>) 
-              explore designing scalable and efficient models that can leverage all-pair global interactions with the cost of linear complexity.
-            <li>For <b>interpretability</b>, our work (<a href="https://arxiv.org/pdf/2301.09474.pdf"><b>DIFFormer</b></a> <b>on ICLR'23</b>)
-              probes into the analogy between neural message passing and energy-constrained diffusion systems, yielding a physics-inspired interpretable framework for architectural designs. 
-          </ul>
-        <li>In the <b><i>open-world regime</i></b>, wherein training and test data come from disparate distributions, the research focus is how to handle the distribution shifts in the wild.
-        My recent works endeavor to understand the generalization limits of neural networks and develop provably generalizable learning algorithms to address various distribution shifts.
-        <ul>
-          <li>For studying the <b>generalizability</b>, our work (<a href="https://arxiv.org/pdf/2202.02466.pdf"><b>EERM</b></a> <b>on ICLR'22</b>) formulates the out-of-distribution generalization problem on graphs and proposes a provably generalizable learning algorithm with invariance principles.
-            From another standpoint, our work (<a href="https://arxiv.org/pdf/2402.11494"><b>CaNet</b></a> <b>on WWW'24</b>) discusses how causal intervention can be utilized for guiding generalization, 
-            and the follow-up work (<a href="https://arxiv.org/pdf/2406.04963"><b>GLIND</b></a> <b>on ICML'24</b>) further extends the causal perspective to geometric diffusion systems.
-            The proposed methodology is applied to handling distribution shifts in molecular discovery (<a href="https://openreview.net/pdf?id=2nWUNTnFijm"><b>MoleOOD</b></a> <b>on NeurIPS'22</b>) and recommender systems (<a href="https://arxiv.org/pdf/2210.13005.pdf"><b>Caseq</b></a> <b>on NeurIPS'22</b>). -->
-          <!-- <li>For enhancing the <b>robustness</b>, our work (<a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> <b>on ICLR'23</b>) targets how to endow the pre-trained model with capabilities for identifying data from distributions
-            different than training, i.e., out-of-distribution detection. -->
-        <!-- </ul>
-      </ul> -->
-    
-
-    <!-- <b><i>I am always open for collaborations, and if you are interested, feel free to have a chat. </i></b> -->
-
-
-    <!-- <p>
-      My recent works focus on machine learning foundations for expressive, generalizable and reliable purpose.
-        <ul>
-          <li><b>Representation Learning with Structured Data</b>: For data involving observed structures (e.g., graphs) or unobserved structures (e.g., latent geometries), one fundamental challenge is how to obtain the high-quality representations. 
-            My recent works build expressive foundation encoders for structured data, leading to a family of <b>scalable Transformers</b> on graphs:
-            <ul>
-              <li><a href="https://arxiv.org/pdf/2306.08385.pdf"><b>NodeFormer</b></a> <b>on NeurIPS'22</b> which has linear complexity w.r.t. graph sizes</li>
-              <li><a href="https://arxiv.org/pdf/2301.09474.pdf"><b>DIFFormer</b></a> <b>on ICLR'23</b> a principled interpretable attention inspired by diffusion systems</li>
-              <li><a href="https://arxiv.org/pdf/2306.10759.pdf"><b>SGFormer</b></a> <b>on NeurIPS'23</b> a simplified and efficient architecture for large graphs</li>
-            </ul>
-          <li><b>Generalization with Distribution Shifts</b>: How to endow machine learning algorithms with generalization capability to out-of-distribution (OOD) data is an important open question, particularly when the distribution shifts involve structures in data.
-            My recent works attempt to mathematically formulate this challenge for understanding the generalization limits of existing models.
-            I also explore various perspectives for building provably generalizable algorithms:
-            <ul>
-              <li><a href="https://arxiv.org/pdf/2202.02466.pdf"><b>EERM</b></a> <b>on ICLR'22</b> an invariant learning algorithm for OOD generalization</li>
-              <li><a href="https://arxiv.org/pdf/2402.11494.pdf"><b>CaNet</b></a> <b>on WWW'24</b> a causal intervention approach for OOD generalization</li>
-              <li><a href="https://arxiv.org/pdf/2310.06417.pdf"><b>ADiT</b></a> topological generalization from diffusion PDE perspectives</li>
-              <li>Applications in molecule representations (<a href="https://proceedings.neurips.cc/paper_files/paper/2022/file/547108084f0c2af39b956f8eadb75d1b-Paper-Conference.pdf"><b>MoleOOD</b></a> <b>on NeurIPS'22</b>), 
-                sequential data (<a href="https://arxiv.org/pdf/2210.13005.pdf"><b>CaSeq</b></a> <b>on NeurIPS'22</b>), 
-                recommender systems (<a href="https://arxiv.org/pdf/2202.02466.pdf"><b>IDCF</b></a> <b>on ICML'21</b>), 
-                advertisement (<a href="https://arxiv.org/pdf/2202.02466.pdf"><b>FATE</b></a> <b>on NeurIPS'21</b>).</li>
-              <li><a href="https://arxiv.org/pdf/2202.02466.pdf"><b>FATE</b></a> <b>on NeurIPS'21</b> feature space extrapolation with graph learning</li>
-              <li><a href="https://arxiv.org/pdf/2202.02466.pdf"><b>IDCF</b></a> <b>on ICML'21</b> inductive matrix completion with structure inference</li> -->
-            <!-- </ul>
-          <li><b>AI Reliability and Safety</b>: Another important problem is the uncertainty estimation of AI systems, especially in high-stake applications. My recent works leverage generative modeling and probabilistic inference techniques to
-            design principled approaches for out-of-distribution detection: <a href="https://arxiv.org/pdf/2302.02914.pdf"><b>GNNSafe</b></a> <b>on ICLR'23</b> and
-              <a href="https://openreview.net/pdf?id=mSiPuHIP7t8"><b>GraphDE</b></a> <b>on NeurIPS'22</b></li> 
-      </p> -->
-  
-    <!-- <b><i> <font color="red">I am now on the job market. If you feel free to contact me via email.</font> </i></b> -->
-  <!-- <b><i>I am always open for collaborations and if you are interested feel free to contact me via email. </i></b> -->
+  <p>
+    During my PhD, I worked as a part-time research intern at Amazon Web Services, designing <b>linear-complexity attention</b>
+    that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects
+    (<a href="https://github.com/qitianwu/NodeFormer" target="_blank">NodeFormer</a>,
+    <a href="https://github.com/qitianwu/SGFormer" target="_blank">SGFormer</a>,
+    <a href="https://github.com/qitianwu/DIFFormer" target="_blank">DIFFormer</a>).
+    Earlier, I was an applied research intern at Tencent WeChat, building deep learning models for industry-scale recommender systems.
+  </p>
+  <p>
+    I received my Ph.D., M.E. and B.E. degrees from Shanghai Jiao Tong University, with my PhD advised by Junchi Yan.
+    My research has been published at top venues including NeurIPS, ICML, ICLR, JMLR and TPAMI, and has been recognized with
+    the Microsoft Research PhD Fellowship, the Baidu PhD Fellowship and the Elsevier/Stanford World's Top 2% Scientists list.
+    I serve as an Area Chair for NeurIPS and ICLR.
+  </p>
+</div>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Publications</h4>
+  <h4>Selected Publications</h4>
+  <p class="pub-intro">
+    Full list on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.
+  </p>
 
-  <!-- <p>The most recent works can be found at <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.<br/> -->
-  <!-- <sup>*</sup> indicates equal contribution. -->
-  <!-- </p> -->
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#papers-selected">Selected</div></li>
-    <li><div class="button" data-ref="#papers-all">All (in chronological order)</div></li>
-    <!-- <li><div class="button" data-ref="#papers-representative">Representative</div></li> -->
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane" id="papers-representative">
-      {% assign representative_papers = site.data.publications.papers | where: "representative", "y" %}
-      {% for paper in representative_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-            {% if paper.blogc %}
-              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
-            {% endif %}
-
-            {% if paper.bloge %}
-              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
-            {% endif %}
-
-            {% if paper.tutorial %}
-              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
-            {% endif %}
-          </div>
-          {% if paper.content %}
-            <p>{{ paper.content }}</p>
-          {% endif %}
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane active" id="papers-selected">
-      {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
-      {% for paper in selected_papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-            {% if paper.blogc %}
-              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
-            {% endif %}
-
-            {% if paper.bloge %}
-              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
-            {% endif %}
-
-            {% if paper.tutorial %}
-              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
-            {% endif %}
-          </div>
-          <!-- {% if paper.content %}
-            <p>{{ paper.content }}</p>
-          {% endif %} -->
-        </div>
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="papers-all">
-      {% for paper in site.data.publications.papers %}
-        <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          <p><i>{{ paper.venue }} {% if paper.note %} <font color="red">{{ paper.note }}</font> {% endif %}</i></p>
-          <!-- <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
-            {% if paper.blogc %}
-              <a class="button" href="{{ paper.blogc }}" target="_blank">Blog (Chinese)</a>
-            {% endif %}
-
-            {% if paper.bloge %}
-              <a class="button" href="{{ paper.bloge }}" target="_blank">Blog (English)</a>
-            {% endif %}
-
-            {% if paper.tutorial %}
-              <a class="button" href="{{ paper.tutorial }}" target="_blank">Tutorial</a>
-            {% endif %}
-          </div> -->
-        </div>
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
-<!-- ========== PROJECTS ==========
-<div class="docs-section" id="projects">
-  <h4>Projects</h4>
-
-  <ul class="tab-nav">
-    <li><div class="button active" data-ref="#projects-selected">Selected</div></li>
-    <li><div class="button" data-ref="#projects-all">All</div></li>
-  </ul>
-
-  <div class="tab-content">
-    <div class="tab-pane active" id="projects-selected">
-      {% assign selected_projects = site.data.projects.projects | where: "selected", "y" %}
-      {% for project in selected_projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-
-    <div class="tab-pane" id="projects-all">
-      {% for project in site.data.projects.projects %}
-        {% assign index_modulo = forloop.index0 | modulo:3 %}
-        {% if index_modulo == 0 %}
-          <div class="row">
-        {% endif %}
-
-          <div class="four columns">
-            <div class="project-container">
-
-                <div class="project-image-container">
-                  <a href="{{ project.url }}">
-                    <img src="{{ project.thumbnail }}" class="u-max-full-width" />
-                  </a>
-                </div>
-
-                <div class="project-caption">
-                  <b>{{ project.title }}</b> <br/>
-                  {{ project.subtitle }}
-                </div>
-
-            </div>
-          </div>
-
-        {% if index_modulo == 2 %}
-          </div>
-        {% endif %}
-      {% endfor %}
-    </div>
-  </div>
-
-</div>
--->
-
-<!-- ========== Honors ========== -->
-<div class="docs-section" id="awards">
-  <h4>Honors & Awards</h4>
-  {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
-  {% for awards in current_awards %}
-  <div class="service">
-    <p class="title"> {{ awards.name }}, <i>{{ awards.year }}</i> {% if awards.link %} <a href={{awards.link}} target="_blank">[link]</a> {% endif %}</p>
-  </div>
-  {% endfor %}
-</div>
-
-
-<!-- ========== TALKS ========== -->
-<!-- <div class="docs-section" id="talks">
-  <h4>Invited Talks</h4>
-  {% assign current_talks = site.data.talks.talks | where: "category", "current" %}
-  {% for talk in current_talks %}
-  <div class="talk">
-    <p class="title"> {{ talk.title }}, <i>{{ talk.time }}, {{ talk.name }}</i> {% if talk.video %} <a href={{talk.video}} target="_blank">[video]</a> {% endif %} {% if talk.slides %} <a href={{talk.slides}} target="_blank">[slides]</a> {% endif %}</p>
-  </div>
-  {% endfor %}
-</div> -->
-
-
-<!-- ========== SERVICE ========== -->
-<div class="docs-section" id="service">
-  <h4>Service</h4>
-  {% assign current_services = site.data.service.service | where: "category", "current" %}
-  {% for service in current_services %}
-  <div class="service">
-    <p class="title"> <b>{{ service.title }}</b> {{ service.name }} </p>
-  </div>
-  {% endfor %}
-</div>
-
-
-<!-- ========== RESUME ========== -->
-<!-- <div class="docs-section" id="resume">
-  <h4>Resume</h4>
-
-  <p>Full Resume in <a href={{ "/assets/cv/tao_yu_cv.pdf" | prepend: site.baseurl }} target="_blank">PDF</a>.</p> -->
-
-  <!-- The Timeline -->
-  <!-- <ul class="timeline">
-    {% for exp in site.data.experience.experiences %}
-    <li>
-      {% if exp.category == "work" %}
-      <div class="direction-l">
+  {% assign groups = "llm|LLMs, Agents & Foundation Models;transformers|Scalable Transformer Architectures;theory|Theory of Machine Learning & Generative Models;ood|Generalization under Distribution Shift" | split: ";" %}
+  {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
+  {% for g in groups %}
+    {% assign gk = g | split: "|" | first %}
+    {% assign gl = g | split: "|" | last %}
+    <h5 class="pub-group">{{ gl }}</h5>
+    {% assign gpapers = selected_papers | where: "group", gk | sort: "rank" %}
+    {% for paper in gpapers %}
+      {% if paper.venue contains "(" %}
+        {% assign venue = paper.venue | split: "(" | last | remove: ")" %}
       {% else %}
-      <div class="direction-r">
+        {% assign venue = paper.venue %}
       {% endif %}
-        <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
-          <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
-        </div>
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+      <div class="paper">
+        <p class="title">
+          {% if paper.paper_pdf and paper.paper_pdf != "" %}<a class="paper-link" href="{{ paper.paper_pdf }}" target="_blank"><b>{{ paper.title }}</b></a>{% else %}<b>{{ paper.title }}</b>{% endif %}
+        </p>
+        <p>{{ paper.authors }}</p>
+        <p><span class="pub-venue">{{ venue }}</span>{% if paper.note contains "oral" %} <span class="pub-note">Oral</span>{% elsif paper.note contains "spotlight" %} <span class="pub-note">Spotlight</span>{% endif %}</p>
       </div>
-    </li>
     {% endfor %}
-  </ul>
-</div> -->
-
-
-<!-- <div class="docs-section" id="misc">
-    <h4>Misc.</h4>
-    <p>
-    I did a <a href="/assets/pics/cycliing.jpeg">cycling tour</a> (~2 weeks) at the top of the world, <a href="/assets/pics/tibet.jpeg">Tibet</a> (avg elevation: ~4500 meters). I am also a <a href="/assets/pics/pilot.jpeg">student pilot</a>.
-    I enjoy <a href="/assets/pics/hiking.jpeg">hiking</a>, <a href="/assets/pics/nyc_pilot.jpeg">travelling</a>, and <a href="/assets/pics/food_dinner.JPG">cooking</a>. I ski and skate, and I am learning tennis.
-    <p>
-
-    <p>
-    I am from <a href="/assets/pics/ningdu.jpeg">Ningdu</a> (a less developed but beautiful county), Jiangxi Province in China. I’ve lived in (stayed for over 3 months) more than 15 cities including Zhongshan, Beijing, Shanghai, Salt Lake City, New York City, San Francisco, New Haven, Columbus, Honolulu, and San Diego etc. I've also visited over 60 cities around the world.
-    <p>
-</div> -->
-
-<!-- <div class="docs-section" id="template">
-  <a href="https://clustrmaps.com/site/1bv28"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=iV5rHso67PUhHljJSsqUk2EPWUBey9H9AA4I1jKjL90&cl=ffffff" /></a>
+  {% endfor %}
 </div>
 
-<div class="docs-section" id="template">
-    <h4>Acknowledgement</h4>
-    This website is built on the <a href="https://github.com/msaveski/www_personal">template by Martin Saveski</a>
-</div> -->
+<!-- ========== AWARDS ========== -->
+<div class="docs-section" id="awards">
+  <h4>Selected Awards</h4>
+  {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
+  {% for award in current_awards %}
+  <div class="row-item">
+    <span>{{ award.name }}{% if award.detail %}, <i>{{ award.detail }}</i>{% endif %}{% if award.link %} <a href="{{ award.link }}" target="_blank">[link]</a>{% endif %}</span>
+    <span class="row-time">{{ award.year }}</span>
+  </div>
+  {% endfor %}
+</div>
 
-
+<!-- ========== LEADERSHIP & SERVICE ========== -->
+<div class="docs-section" id="service">
+  <h4>Leadership &amp; Service</h4>
+  <table class="kv">
+    <tbody>
+    {% assign current_services = site.data.service.service | where: "category", "current" %}
+    {% for service in current_services %}
+      <tr><td class="kv-key">{{ service.title }}</td><td>{{ service.name }}</td></tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>

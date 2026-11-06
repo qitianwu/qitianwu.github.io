@@ -1,17 +1,18 @@
-
+# "current" entries are shown on the homepage and match the CV's "Leadership & Service".
 service:
-    - name: "NeurIPS, ICLR, AAAI, IJCAI"
-      title: "Area Chair / Senior Program Committee:"
+    - title: "Conferences"
+      name: "Area Chair, NeurIPS and ICLR; Senior Program Committee, AAAI and IJCAI"
       category: "current"
-    
-    - name: "TMLR"
-      title: "Associate / Action Editor:"
+
+    - title: "Journals"
+      name: "Action Editor, TMLR; Editorial Board Reviewer, JMLR"
       category: "current"
-    
-    - name: "<br/> ICML (2021-2025), NeurIPS (2021-2024), ICLR (2022-2025), SIGKDD (2023), WWW (2023), <br/> AAAI (2021-2023), IJCAI (2021-2023), CVPR (2021-2023), ICCV (2021)"
-      title: "Reviewer for Conferences:"
-      category: "current"
-    
-    - name: "<br/> Nature Biomedical Engineering, Nature Computational Science, <br/> JMLR, TPAMI, TKDE, TNNLS"
-      title: "Reviewer for Journals:"
-      category: "current"
+
+    # Detailed reviewing history; not on the CV, hidden from the homepage.
+    - title: "Reviewer for Conferences"
+      name: "ICML (2021-2025), NeurIPS (2021-2024), ICLR (2022-2025), SIGKDD (2023), WWW (2023), AAAI (2021-2023), IJCAI (2021-2023), CVPR (2021-2023), ICCV (2021)"
+      category: "past"
+
+    - title: "Reviewer for Journals"
+      name: "Nature Biomedical Engineering, Nature Computational Science, JMLR, TPAMI, TKDE, TNNLS"
+      category: "past"

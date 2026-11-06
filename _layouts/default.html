@@ -6,9 +6,10 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
   <title>{{ site.data.main_info.name }} | {{ page.title }}</title>
-  <meta name="description" content="About Me @ Qitian Wu">
+  <meta name="description" content="Qitian Wu — Research Scientist at Google Research working on LLM post-training and agents.">
   <meta name="author" content="Qitian Wu">
   <meta property="og:title" content="Qitian Wu" />
+  <meta property="og:description" content="Research Scientist at Google Research working on LLM post-training and agents." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://qitianwu.github.io/" />
   <meta property="og:site_name" content="Qitian Wu" />
@@ -28,30 +29,9 @@
   <link rel="stylesheet" href={{ "/libs/external/skeleton/skeleton.css" | prepend: site.baseurl }}>
   <link rel="stylesheet" href={{ "/libs/custom/my_css.css" | prepend: site.baseurl }}>
 
-  <!-- JQuery
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
-
-  <!-- Font-Awesome
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/font-awesome-4.7.0/css/font-awesome.min.css" | prepend: site.baseurl }}>
-
-  <!-- Academicons
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/academicons-1.8.6/css/academicons.min.css" | prepend: site.baseurl }}>
-
-  <!-- Skeleton tabs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/skeleton_tabs/skeleton-tabs.css" | prepend: site.baseurl }}>
-  <script src={{ "/libs/external/skeleton_tabs/skeleton-tabs.js" | prepend: site.baseurl }}></script>
-
-  <!-- Timeline
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href={{ "/libs/external/timeline.css" | prepend: site.baseurl }}>
-
   <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <!--<link rel="stylesheet" href={{ "/libs/external/github-prettify-theme.css" | prepend: site.baseurl }}>-->
+  <script src={{ "/libs/external/jquery-3.1.1.min.js" | prepend: site.baseurl }}></script>
   <script src={{ "/libs/custom/my_js.js" | prepend: site.baseurl }}></script>
 
   <!-- Favicon
@@ -62,198 +42,39 @@
 </head>
 <body>
 
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="container">
 
     <section class="header">
       <div class="row">
         <div class="three columns">
-          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}'></a>
+          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}' alt="{{ site.data.main_info.name }}"></a>
         </div>
         <div class="nine columns main-description">
-            <h1>{{ site.data.main_info.name }}</h1>
-            <p>{{ site.data.main_info.title }}</p>
-            <p>{{ site.data.main_info.email }}</p>
-            <p>
-              <a href="https://scholar.google.com/citations?user=m01-2qUAAAAJ">Google Scholar</a> |
-              <a href="https://github.com/qitianwu">Github</a> 
-              <!-- <a href="https://twitter.com/qitianwu_">Twitter</a> |
-              <a href="https://medium.com/@qitianwu228">Medium</a>  -->
-              <!-- <a href="https://dblp.org/pid/224/2507.html">DBLP</a> | -->
-              <!-- <a href="https://www.researchgate.net/profile/Qitian-Wu">ResearchGate</a> -->
-            </p>
-            <!-- <p>
-              <a href=https://orcid.org/my-orcid?orcid=0000-0001-7734-5945 >Orcid</a> |
-              <a href="https://twitter.com/qitianwu_">Twitter</a> |
-              <a href="https://medium.com/@qitianwu228">Medium</a> |
-              <a href="https://www.zhihu.com/people/wu-qi-tian-33">Zhihu</a>
-            </p> -->
-            <!-- <p>
-              <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-                <i class="fa fa-github" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
-
-              <span onclick="window.open('{{ site.data.main_info.wechat }}')" style="cursor: pointer">
-                <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-              </span>
-            </p> -->
+          <h1>{{ site.data.main_info.name }}</h1>
+          <p class="header-title">{{ site.data.main_info.title }} &bull; {{ site.data.main_info.tagline }}</p>
+          <p>{{ site.data.main_info.location }} &bull; {{ site.data.main_info.email }}</p>
+          <p class="header-links">
+            <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a> |
+            <a href="{{ site.data.main_info.github }}" target="_blank">GitHub</a> |
+            <a href="{{ site.data.main_info.linkedin }}" target="_blank">LinkedIn</a>
+          </p>
         </div>
       </div>
     </section>
-
-    <!-- <h4>What's News</h4>
-  <div style="height:200px;overflow-y:auto;background:#ffffff;">
-    <li>
-      [2025.06] Our extended paper from DIFFormer (ICLR'23) was accepted to JMLR.
-    </li>
-    <li>
-      [2025.05] Three papers were accepted to ICML, congrats to Yang and Hengrui.
-    </li>
-    <li>
-      [2025.05] Gave a talk on scaling up graph Transformers in NESS at Yale.
-    </li>
-    <li>
-      [2025.04] I will serve as Area Chair of NeurIPS 2025.
-    </li>
-    <li>
-      [2025.01] Three papers with one selected as spotlight were accepted to ICLR.
-    </li>
-    <li>
-      [2024.11] Gave a talk on scaling up graph Transformers at LoG seminar in New York.
-    </li>
-    <li>
-      [2024.09] Joined Broad Institute of MIT and Harvard as a postdoc fellow.
-    </li>
-    <li>
-      [2024.05] Three papers were accepted to ICML, congrats to Chenxiao and Tianyi.
-    </li>
-    <li>
-      [2024.01] Two papers (with one selected as Oral) were accepted to WWW. See you in Singapore.
-    </li>
-    <li>
-      [2023.12] Honored to be awarded with the Academic Scholar Star in SJTU.
-    </li>
-    <li>
-      [2023.10] Gave a talk on physics-inspired learning with non-IID data at ByteDance AI Lab.
-    </li>
-    <li>
-      [2023.09] Two papers were accepted to NeurIPS2023. See you in New Orleans.
-    </li>
-    <li>
-      [2023.09] Honored to be awarded with National PhD Scholarship.
-  </li>
-    <li>
-      [2023.07] Gave a talk on graph Transformers on LOG seminar (in Chinese). See the <a href="https://www.bilibili.com/video/BV1dP411C7Ti/?share_source=copy_web&vd_source=28f0a1823e05d5df3685cb9737bba371">video</a> here.
-    </li>
-    <li>
-      [2023.05] One paper is accepted to KDD2023, congrats to Wentao.
-  </li>
-  <li>
-    [2023.03] Gave a talk on learning on graphs with open world assumptions at Bosch AI Center.
-  </li>
-    <li>
-      [2023.02] One paper about combinatorial drug recommendation is accepted to WWW2023, congrats to Nianzu.
-  </li>
-    <li>
-      [2023.02] Gave a talk on graph Transformers at AI Times.
-  </li>
-    <li>
-      [2023.01] Three papers with one spotlight (notably-top-25%) were accepted to ICLR 2023, congrats to Chenxiao.
-  </li>
-    <li>
-      [2022.11] Two papers are selected as spotlight presentation (less than 5%) on NeurIPS 2022!
-  </li>
-  <li>
-      [2022.10] I was awarded with National PhD Scholarship (top 1%).
-  </li>
-  <li>
-    [2022.10] I will give a talk on graph OOD generalization at LoG seminar.
-</li>
-  <li>
-      [2022.09] Five papers on OOD generalization and graph Transformers were accepted to NeurIPS'22.
-  </li>
-  <li>
-      [2022.05] Two papers on GNNs and causal learning were accepted to SIGKDD'22.
-  </li>
-  <li>
-      [2022.04] One paper on negative sampling was accepted to IJCAI'22.
-  </li>
-<li>
-  [2022.03] I will give a talk on out-of-distribution generalization at AI Drive PaperWeekly.
-</li>
-  <li>
-      [2022.01] One paper on learning with graph distribution shifts was accepted to ICLR'22.
-  </li>
-  <li>
-     [2021.12] I will give a talk on open-world learning at Baiyulan young researcher forum.
-  </li>
-  <li>
-      [2021.11] I was awarded with Baidu Scholarship (only 10 from worldwide).
-  </li>
-  <li>
-      [2021.10] I was awarded with Microsoft Research PhD Fellowship (only 11 from Asia).
-  </li>
-  <li>
-      [2021.09] Three papers were accepted to NeurIPS'21.
-  </li>
-  <li>
-      [2021.08] One paper on sequential recommendation was accepted to CIKM'21 as spotlight.
-  </li>
-  <li>
-      [2021.04] I was elected as Global Top 100 AI Rising Star!
-  </li>
-    </div> -->
-
-    <br/>
-    <br/>
 
     <div class="navbar-spacer"></div>
     <nav class="navbar">
       <div class="container">
         <ul class="navbar-list">
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#bio" | prepend: site.baseurl }}>Bio</a></li>
+          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#about" | prepend: site.baseurl }}>About</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#publications" | prepend: site.baseurl }}>Publications</a></li>
-     <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#projects" | prepend: site.baseurl }}>Projects</a></li> -->
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#awards" | prepend: site.baseurl }}>Awards</a></li>
-          <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#talks" | prepend: site.baseurl }}>Talks</a></li>
           <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#service" | prepend: site.baseurl }}>Service</a></li>
-          <!-- <li class="navbar-item"><a class="navbar-link" href={{ "/index.html#resume" | prepend: site.baseurl }}>Resume</a></li> -->
-          <!-- <li class="navbar-item"><a class="navbar-link" href="https://hkunlp.github.io/">Group (Join Us!)</a></li> -->
         </ul>
       </div>
     </nav>
 
-    {{ content}}
-
-    <!-- <div class="footer">
-      <div class="row">
-        <div class="four columns">
-          {{ site.data.main_info.name }}
-        </div>
-        <div class="four columns">
-          {{ site.data.main_info.email }}
-        </div>
-        <div class="four columns">
-          <span onclick="window.open('{{ site.data.main_info.twitter }}')" style="cursor: pointer">
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.linkedin }}')" style="cursor: pointer">
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.github }}')" style="cursor: pointer">
-            <i class="fa fa-github" aria-hidden="true"></i>
-          </span>
-          <span onclick="window.open('{{ site.data.main_info.google_scholar }}')" style="cursor: pointer">
-            <i class="ai ai-google-scholar ai-lg" aria-hidden="true"></i>
-          </span>
-        </div>
-      </div>
-    </div> -->
+    {{ content }}
 
   </div>
 
@@ -264,7 +85,5 @@
   <span id="62cd7b7da1aff3196fdc26b60e396df9"></span>
    -->
 
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
 </html>

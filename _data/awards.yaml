@@ -1,46 +1,52 @@
-
+# "current" entries are shown on the homepage and match the CV's "Selected Awards".
 awards:
-  - name: "Elsevier/Stanford World's Top 2\% Scientists (Artificial Intelligence)"
+  - name: "Elsevier/Stanford World's Top 2% Scientists (Artificial Intelligence)"
     year: "2026"
     category: "current"
 
-  - name: "Eric and Wendy Schmidt Center Postdoctoral Fellowship"
+  - name: "Eric and Wendy Schmidt Center Postdoctoral Fellowship, Broad Institute of MIT and Harvard"
     year: "2024"
     category: "current"
 
-  - name: "SJTU Academic Scholar (the highest academic award for PhD students in university level)"
+  - name: "SJTU Academic Scholar"
+    detail: "highest university-level award for PhD students"
     year: "2023"
     category: "current"
 
-  - name: "National Scholarship (only 0.2% for PhD students in national level)"
+  - name: "National Scholarship for PhD students"
+    detail: "top 0.2% nationally"
     year: "2022, 2023"
     category: "current"
-  
-  - name: "Baidu PhD Fellowship (only 10 recipients worldwide)"
+
+  - name: "Baidu PhD Fellowship"
+    detail: "10 recipients worldwide"
     year: "2021"
     category: "current"
-  
-  - name: "Microsoft Research PhD Fellowship (only 11 recipients in Asia)"
+
+  - name: "Microsoft Research PhD Fellowship"
+    detail: "11 recipients in Asia"
     year: "2021"
     category: "current"
-  
-  - name: "Global Top 100 Rising Star in Artiﬁcial Intelligence"
+
+  - name: "Global Top 100 Chinese Rising Stars in Artificial Intelligence"
     year: "2021"
     category: "current"
-  
+
+  - name: "Outstanding Winner & INFORMS Award, Mathematical Contest in Modeling"
+    detail: "top 3 of 4,748 teams"
+    year: "2018"
+    category: "current"
+
+  - name: "National Scholarship for undergraduates"
+    detail: "top 1% nationally"
+    year: "2016, 2017"
+    category: "current"
+
+  # Not on the CV; hidden from the homepage.
   - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
     year: "2018, 2019, 2020"
-    category: "current"
+    category: "past"
 
   - name: "Yuanqing Yang Scholarship (only 3 master students in CS department)"
     year: "2019"
-    category: "current"
-
-  - name: "Outstanding Winner, INFORMS Awards, Mathematical Contest in Modeling, Data Insights Problem
-                (top 3 out of 4748 teams in the worldwide, the INFORMS Awards selects only one team)"
-    year: "2018"
-    category: "current"
-  
-  - name: "National Scholarship (only 1% for undergraduate students)"
-    year: "2016, 2017"
-    category: "current"
+    category: "past"
