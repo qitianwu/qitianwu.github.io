@@ -6,44 +6,8 @@ title: Home
 <!-- ========== ABOUT ========== -->
 <div class="docs-section" id="about">
   <h4>About</h4>
-  <p>
-    I am a Research Scientist at Google Research, working on LLM post-training and agents,
-    with hands-on across the stack from data and training environments to evaluation and production deployment. My recent projects:
-  </p>
-  <ul class="projects">
-    <li>
-      <b>Gemini post-training for Text-to-SQL generation</b>: post-trained Gemini to the top of the <a href="https://bird-bench.github.io/" target="_blank">BIRD</a> Text-to-SQL leaderboard.
-      <span class="skills">(Synthetic data generation, sandbox environments with tool use, reward models)</span>
-    </li>
-    <li>
-      <b>Agents for systems optimization</b>: built a closed-loop agent system that optimizes production code from evolving environments, deployed in compiler systems.
-      <span class="skills">(Agentic harness, long-horizon reasoning, endpoint serving)</span>
-    </li>
-    <li>
-      <b>Gemini reasoning for network-state observability</b>: partnered with infrastructure teams to scope large-scale cluster telemetry into an LLM reasoning task.
-      <span class="skills">(Data curation and filtering, evaluation pipelines)</span>
-    </li>
-  </ul>
-  <p>
-    Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with Caroline Uhler),
-    I led the <b>pretraining of a multi-modal foundation model from scratch</b>, from data pipelines to distributed training on GPU clusters,
-    and applied it to discovery of therapeutic targets in biomedicine
-    (<a href="https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1" target="_blank">paper</a>).
-  </p>
-  <p>
-    During my PhD, I worked as a part-time research intern at Amazon Web Services for three years, designing <b>linear-complexity attention</b>
-    that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects
-    (<a href="https://github.com/qitianwu/NodeFormer" target="_blank">NodeFormer</a>,
-    <a href="https://github.com/qitianwu/SGFormer" target="_blank">SGFormer</a>,
-    <a href="https://github.com/qitianwu/DIFFormer" target="_blank">DIFFormer</a>).
-    Earlier, I was an applied research intern at Tencent WeChat, building deep learning models for industry-scale recommender systems.
-  </p>
-  <p>
-    I received my Ph.D., M.E. and B.E. degrees from Shanghai Jiao Tong University, with my PhD advised by Junchi Yan.
-    My research has been published at top venues including NeurIPS, ICML, ICLR, JMLR and TPAMI, and has been recognized with
-    the Microsoft Research PhD Fellowship, the Baidu PhD Fellowship and the Elsevier/Stanford World's Top 2% Scientists list.
-    I serve as an Area Chair for NeurIPS and ICLR.
-  </p>
+  {% capture about %}{% include about.md %}{% endcapture %}
+  {{ about | markdownify }}
 </div>
 
 <!-- ========== PUBLICATIONS ========== -->
