@@ -26,7 +26,7 @@ papers:
     group: "llm"
     rank: 5
 
-  - title: "Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
+  - title: "SGFormer: Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
     authors: "<b>Qitian Wu</b>, K. Yang, H. Zhang, D. Wipf, J. Yan"
     venue: "Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2026"
     paper_pdf: "https://arxiv.org/pdf/2409.09007"
@@ -193,7 +193,7 @@ papers:
     poster: "assets/publications/iclr2023-difformer/poster.png"
     blogc: "https://zhuanlan.zhihu.com/p/622970740"
     content: "Summary: We propose a geometric diffusion framework with energy constraints and show its solution aligns with widely used attention networks, upon which we propose diffusion-based Transformers."
-    note: "oral presentation, ranking among top 0.5%"
+    note: "spotlight presentation, ranking among top 0.5%"
     representative: y
     selected: y
     group: "transformers"
