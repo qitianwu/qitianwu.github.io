@@ -68,7 +68,7 @@ title: Home
       {% endif %}
       <div class="paper">
         <p class="title">
-          {% if paper.paper_pdf and paper.paper_pdf != "" %}<a class="paper-link" href="{{ paper.paper_pdf }}" target="_blank"><b>{{ paper.title }}</b></a>{% else %}<b>{{ paper.title }}</b>{% endif %}
+          {% if paper.paper_pdf and paper.paper_pdf != "" %}<a class="paper-link" href="{{ paper.paper_pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
         </p>
         <p>{{ paper.authors }}</p>
         <p><span class="pub-venue">{{ venue }}</span>{% if paper.note contains "oral" %} <span class="pub-note">Oral</span>{% elsif paper.note contains "spotlight" %} <span class="pub-note">Spotlight</span>{% endif %}</p>
