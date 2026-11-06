@@ -14,7 +14,7 @@ papers:
   - title: "Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferable Digital Pathology at Single-Cell Resolution"
     authors: "<b>Qitian Wu</b>, Q. Gong, L. Yuan, Z. Li, O. Ashenberg, F. Chen, R. Xavier, C. Uhler"
     venue: "bioRxiv 2026.07.31.741265"
-    paper_pdf: "https://www.biorxiv.org/content/10.1101/2026.07.31.741265"
+    paper_pdf: "https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1"
     selected: y
     group: "llm"
     rank: 3
