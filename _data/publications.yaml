@@ -4,7 +4,7 @@ papers:
   # (groups: llm, transformers, theory, ood). Keep in sync with the CV.
 
   - title: "Resolving Action Bottleneck: Agentic Reinforcement Learning Informed by Token-Level Energy"
-    authors: "L. He, J. Zhu, Y. Zhou, Z. Gu, J. Liu, W.-C. Huang, H. P. Zou, David Wipf, Philip S. Yu and <b>Qitian Wu</b>"
+    authors: "L. He, J. Zhu, Y. Zhou, Z. Gu, J. Liu, W.-C. Huang, H. P. Zou, D. Wipf, P. S. Yu, <b>Qitian Wu</b>"
     venue: "arXiv:2605.14558"
     paper_pdf: "https://arxiv.org/abs/2605.14558"
     selected: y
@@ -12,7 +12,7 @@ papers:
     rank: 2
 
   - title: "Multi-Modal Foundation Model with Whole-Slide Attention Enables Transferable Digital Pathology at Single-Cell Resolution"
-    authors: "<b>Qitian Wu</b>, Q. Gong, L. Yuan, Z. Li, O. Ashenberg, F. Chen, R. Xavier and Caroline Uhler"
+    authors: "<b>Qitian Wu</b>, Q. Gong, L. Yuan, Z. Li, O. Ashenberg, F. Chen, R. Xavier, C. Uhler"
     venue: "bioRxiv 2026.07.31.741265"
     paper_pdf: "https://www.biorxiv.org/content/10.1101/2026.07.31.741265"
     selected: y
@@ -20,14 +20,14 @@ papers:
     rank: 3
 
   - title: "Lock Before Reveal: Valid Causal Inference When LLM Agents Search Relational Data"
-    authors: "L. He, <b>Qitian Wu</b> and David Wipf"
+    authors: "L. He, <b>Qitian Wu</b>, D. Wipf"
     venue: "Under review at TMLR"
     selected: y
     group: "llm"
     rank: 5
 
   - title: "Simplifying and Scaling Graph Transformers with Single-Layer Attention and Approximation-Free Linear Complexity"
-    authors : <b>Qitian Wu</b>, Kai Yang, Hengrui Zhang, David Wipf and Junchi Yan
+    authors: "<b>Qitian Wu</b>, K. Yang, H. Zhang, D. Wipf, J. Yan"
     venue: "Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2026"
     paper_pdf: "https://arxiv.org/pdf/2409.09007"
     code: "https://github.com/qitianwu/SGFormer"
@@ -36,14 +36,14 @@ papers:
     rank: 4
 
   - title: "Physics-inspired all-pair interaction learning for 3d dynamics modeling"
-    authors : Kai Yang, Yuqi Huang, Junheng Tao, Wanyu Wang and <b>Qitian Wu</b>
+    authors: "K. Yang, Y. Huang, J. Tao, W. Wang, <b>Qitian Wu</b>"
     venue: "International Conference on Learning Representations (ICLR) 2026"
     paper_pdf: "https://arxiv.org/pdf/2510.04233"
     code: "https://github.com/Icarus1411/PAINET"
     selected: n
 
   - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
-    authors : <b>Qitian Wu</b>, David Wipf and Junchi Yan
+    authors: "<b>Qitian Wu</b>, D. Wipf, J. Yan"
     venue: "Journal of Machine Learning Research (JMLR) 2025"
     paper_pdf: "https://arxiv.org/pdf/2409.09111"
     code: "https://github.com/qitianwu/DIFFormer"
@@ -52,7 +52,7 @@ papers:
     rank: 1
 
   - title: "Supercharging Graph Transformers with Advective Diffusion"
-    authors : <b>Qitian Wu</b>, Chenxiao Yang, Kaipeng Zeng and Michael Bronstein
+    authors: "<b>Qitian Wu</b>, C. Yang, K. Zeng, M. Bronstein"
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: "https://arxiv.org/pdf/2310.06417"
     code: "https://github.com/qitianwu/AdvDIFFormer"
@@ -61,7 +61,7 @@ papers:
     rank: 5
 
   - title: "Generative Modeling Reinvents Supervised Learning: Label Repurposing with Predictive Consistency Learning"
-    authors : Yang Li, Jiale Ma, Yebin Yang, <b>Qitian Wu</b>, Hongyuan Zha and Junchi Yan
+    authors: "Y. Li, J. Ma, Y. Yang, <b>Qitian Wu</b>, H. Zha, J. Yan"
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: "https://openreview.net/pdf?id=FO2fu3daSL"
     code: "https://github.com/Thinklab-SJTU/predictive-consistency-learning"
@@ -69,14 +69,14 @@ papers:
     selected: n
 
   - title: "TabNAT: A Continuous-Discrete Joint Generative Framework for Tabular Data"
-    authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S. Yu
+    authors: "H. Zhang, L. Fang, <b>Qitian Wu</b>, P. S. Yu"
     venue: "International Conference on Machine Learning (ICML) 2025"
     paper_pdf: ""
   
     selected: n
 
   - title: "DiffPuter: Empowering Diffusion Models for Missing Data Imputation"
-    authors : Hengrui Zhang, Liancheng Fang, <b>Qitian Wu</b> and Philip S. Yu
+    authors: "H. Zhang, L. Fang, <b>Qitian Wu</b>, P. S. Yu"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     note: "spotlight presentation"
     paper_pdf: "https://arxiv.org/pdf/2405.20690"
@@ -86,7 +86,7 @@ papers:
     rank: 2
 
   - title: "SLMRec: Distilling Large Language Models into Small for Sequential Recommendation"
-    authors : Wujiang Xu, <b>Qitian Wu</b>, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin and Yongfeng Zhang
+    authors: "W. Xu, <b>Qitian Wu</b>, Z. Liang, J. Han, X. Ning, Y. Shi, W. Lin, Y. Zhang"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://arxiv.org/pdf/2405.17890"
     code: "https://github.com/WujiangXu/SLMRec"
@@ -95,13 +95,13 @@ papers:
     rank: 4
 
   - title: "Regularizing Energy among Training Samples for Out-of-Distribution Generalization"
-    authors: "Yiting Chen, <b>Qitian Wu</b> and Junchi Yan"
+    authors: "Y. Chen, <b>Qitian Wu</b>, J. Yan"
     venue: "International Conference on Learning Representations (ICLR) 2025"
     paper_pdf: "https://openreview.net/pdf?id=Lbx9zdURxe"
     selected: n
 
   - title: "Learning Divergence Fields for Shift-Robust Message Passing"
-    authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, F. Nie, C. Yang, J. Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2406.04963"
     code: "https://github.com/fannie1208/GLIND"
@@ -111,7 +111,7 @@ papers:
     selected: n
 
   - title: "How Graph Neural Networks Learn: Lessons from Training Dynamics"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b>, David Wipf, Ruoyu Sun and Junchi Yan"
+    authors: "C. Yang, <b>Qitian Wu</b>, D. Wipf, R. Sun, J. Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://arxiv.org/pdf/2310.05105"
     code: "https://github.com/chr26195/ResidualPropagation"
@@ -119,14 +119,14 @@ papers:
     selected: n
 
   - title: "Graph Out-of-Distribution Detection Goes Neighborhood Shaping"
-    authors: "Tianyi Bao, <b>Qitian Wu</b>, Zetian Jiang, Yiting Chen, Jiawei Sun and Junchi Yan"
+    authors: "T. Bao, <b>Qitian Wu</b>, Z. Jiang, Y. Chen, J. Sun, J. Yan"
     venue: "International Conference on Machine Learning (ICML) 2024"
     paper_pdf: "https://openreview.net/pdf/6c9472c0a253596a0d8bbab5a7cfe80e2603ca7d.pdf"
     code: ""
     selected: n
 
   - title: "Graph Out-of-Distribution Generalization via Causal Intervention"
-    authors: "<b>Qitian Wu</b>, Fan Nie, Chenxiao Yang, Tianyi Bao and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, F. Nie, C. Yang, T. Bao, J. Yan"
     venue: "The Web Conference (WWW) 2024"
     paper_pdf: "https://arxiv.org/pdf/2402.11494"
     note: "oral presentation"
@@ -140,14 +140,14 @@ papers:
     rank: 2
 
   - title: "Rethinking Cross-Domain Sequential Recommendation Under Open-World Assumptions"
-    authors: "Wujiang Xu, <b>Qitian Wu</b>, Runzhong Wang, Mingming Ha, Qiongxu Ma, Linxun Chen, Bing Han and Junchi Yan"
+    authors: "W. Xu, <b>Qitian Wu</b>, R. Wang, M. Ha, Q. Ma, L. Chen, B. Han, J. Yan"
     venue: "The Web Conference (WWW) 2024"
     paper_pdf: "https://arxiv.org/pdf/2311.04590"
     code: "https://github.com/WujiangXu/AMID"
     selected: n
 
   - title: "SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations"
-    authors: "<b>Qitian Wu</b>, Wentao Zhao, Chenxiao Yang, Hengrui Zhang, Fan Nie, Haitian Jiang, Yatao Bian and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, W. Zhao, C. Yang, H. Zhang, F. Nie, H. Jiang, Y. Bian, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
     paper_pdf: "https://arxiv.org/pdf/2306.10759.pdf"
     code: "https://github.com/qitianwu/SGFormer"
@@ -162,14 +162,14 @@ papers:
     rank: 2
 
   - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
-    authors: "Yongduo Sui, <b>Qitian Wu</b>, Jiancan Wu, Qing Cui, Longfei Li, Jun Zhou, Xiang Wang, Xiangnan He"
+    authors: "Y. Sui, <b>Qitian Wu</b>, J. Wu, Q. Cui, L. Li, J. Zhou, X. Wang, X. He"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2023"
     paper_pdf: "https://openreview.net/pdf?id=hIGZujtOQv"
     code: "https://github.com/yongduosui/AIA."
     selected: n
 
   - title: "GraphGlow: Universal and Genralizable Structure Learning for Graph Neural Networks"
-    authors: "Wentao Zhao, <b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
+    authors: "W. Zhao, <b>Qitian Wu</b>, C. Yang, J. Yan"
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2023"
     paper_pdf: "https://arxiv.org/pdf/2306.11264.pdf"
     code: "https://github.com/wtaozhao/graphglow"
@@ -177,14 +177,14 @@ papers:
     selected: n
 
   - title: "MoleRec: Combinatorial Drug Recommendation with SubstructureAware Molecular Representation Learning"
-    authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Junchi Yan"
+    authors: "N. Yang, K. Zeng, <b>Qitian Wu</b>, J. Yan"
     venue: "The Web Conference (WWW) 2023"
     paper_pdf: "https://www.researchgate.net/publication/368454974_MoleRec_Combinatorial_Drug_Recommendation_with_Substructure-Aware_Molecular_Representation_Learning"
     code: "https://github.com/yangnianzu0515/MoleRec"
     selected: n
 
   - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
-    authors: "<b>Qitian Wu</b>, Chenxiao Yang, Wentao Zhao, Yixuan He, David Wipf and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, C. Yang, W. Zhao, Y. He, D. Wipf, J. Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2301.09474"
     code: "https://github.com/qitianwu/DIFFormer"
@@ -200,7 +200,7 @@ papers:
     rank: 3
 
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
-    authors: "<b>Qitian Wu</b>, Yiting Chen, Chenxiao Yang, and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, Y. Chen, C. Yang, J. Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2302.02914"
     code: "https://github.com/qitianwu/GraphOOD-GNNSafe"
@@ -212,7 +212,7 @@ papers:
     selected: n
 
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jiahua Wang and Junchi Yan"
+    authors: "C. Yang, <b>Qitian Wu</b>, J. Wang, J. Yan"
     venue: "International Conference on Learning Representations (ICLR) 2023"
     paper_pdf: "https://arxiv.org/abs/2212.09034"
     code: "https://github.com/chr26195/PMLP"
@@ -221,7 +221,7 @@ papers:
     selected: n
 
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
-    authors: "<b>Qitian Wu</b>, Wentao Zhao, Zenan Li, David Wipf and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, W. Zhao, Z. Li, D. Wipf, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2306.08385.pdf"
     code: "https://github.com/qitianwu/NodeFormer"
@@ -239,7 +239,7 @@ papers:
     rank: 1
 
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
-    authors: "Nianzu Yang, Kaipeng Zeng, <b>Qitian Wu</b>, Xiaosong Jia and Junchi Yan"
+    authors: "N. Yang, K. Zeng, <b>Qitian Wu</b>, X. Jia, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=2nWUNTnFijm"
     code: "https://github.com/yangnianzu0515/MoleOOD"
@@ -250,7 +250,7 @@ papers:
     selected: n
 
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b> and Junchi Yan"
+    authors: "C. Yang, <b>Qitian Wu</b>, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13014.pdf"
     code: "https://github.com/chr26195/GKD"
@@ -260,7 +260,7 @@ papers:
     selected: n
 
   - title: "Towards Out-of-Distribution Sequential Event Prediction: A Causal Treatment"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Qingsong Wen, Zhiqiang Zhou, Liang Sun and Junchi Yan"
+    authors: "C. Yang, <b>Qitian Wu</b>, Q. Wen, Z. Zhou, L. Sun, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://arxiv.org/pdf/2210.13005.pdf"
     code: "https://github.com/chr26195/Caseq"
@@ -270,7 +270,7 @@ papers:
     selected: n
 
   - title: "GraphDE: A Generative Framework for Debiased Learning and Out-of-Distribution Detection on Graphs"
-    authors: "Zenan Li, <b>Qitian Wu</b>, Fan Nie and Junchi Yan"
+    authors: "Z. Li, <b>Qitian Wu</b>, F. Nie, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2022"
     paper_pdf: "https://openreview.net/pdf?id=mSiPuHIP7t8"
     code: "https://github.com/Emiyalzn/GraphDE"
@@ -279,7 +279,7 @@ papers:
     selected: n
 
   - title: "Variational Inference for Training Graph Neural Networks in Low-Data Regime through Joint Structure-Label Estimation"
-    authors: "Danning Lao, Xinyu Yang, <b>Qitian Wu</b>, Junchi Yan"
+    authors: "D. Lao, X. Yang, <b>Qitian Wu</b>, J. Yan"
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
     paper_pdf: "https://www.researchgate.net/publication/362690138_Variational_Inference_for_Training_Graph_Neural_Networks_in_Low-Data_Regime_through_Joint_Structure-Label_Estimation"
     code: "https://github.com/Thinklab-SJTU/WSGNN"
@@ -287,7 +287,7 @@ papers:
     selected: n
 
   - title: "DICE: Domain-attack Invariant Causal Learning for Improved Data Privacy Protection and Adversarial Robustness"
-    authors: "Qibing Ren, Yiting Chen, Yichuan Mo, <b>Qitian Wu</b>, Junchi Yan"
+    authors: "Q. Ren, Y. Chen, Y. Mo, <b>Qitian Wu</b>, J. Yan"
     venue: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (SIGKDD) 2022"
     paper_pdf: "https://www.researchgate.net/publication/362690364_DICE_Domain-attack_Invariant_Causal_Learning_for_Improved_Data_Privacy_Protection_and_Adversarial_Robustness?_sg%5B0%5D=cDyg8WFuIqif-j1J518O3YKYFW_J6KjPdqhSX1WYZwbKycEd5nvWy8ONpY2oFvzmUvYlI1ihHMtnNeuGpEg7AGA9KAWZLGMckkGwXoE0.aiBpdK_eb6Ix7LStob03PsN8wXnORVkc-Guq4cGGHfECqsHufLiB7eXPab7oMhG1CqXEU1v71b9Hj71UIdrRbQ"
     code: "https://github.com/Thinklab-SJTU/DICE"
@@ -295,7 +295,7 @@ papers:
     selected: n
 
   - title: "Handling Distribution Shifts on Graphs: An Invariance Perspective"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Junchi Yan and David Wipf"
+    authors: "<b>Qitian Wu</b>, H. Zhang, J. Yan, D. Wipf"
     venue: "International Conference on Learning Representations (ICLR) 2022"
     paper_pdf: "https://arxiv.org/abs/2202.02466"
     code: "https://github.com/qitianwu/GraphOOD-EERM"
@@ -311,7 +311,7 @@ papers:
     rank: 1
 
   - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
-    authors: "Chenxiao Yang, <b>Qitian Wu</b>, Jipeng Jin, Junwei Pan, Xiaofeng Gao, and Guihai Chen"
+    authors: "C. Yang, <b>Qitian Wu</b>, J. Jin, J. Pan, X. Gao, G. Chen"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2022"
     paper_pdf: ""
     code: ""
@@ -319,7 +319,7 @@ papers:
     selected: n
 
   - title: "ScaleGCN: Efficient and Effective Graph Convolution via Channel-Wise Scale Transformation"
-    authors: "Tianqi Zhang, <b>Qitian Wu</b>, Junchi Yan, Yunan Zhao and Bing Han"
+    authors: "T. Zhang, <b>Qitian Wu</b>, J. Yan, Y. Zhao, B. Han"
     venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2022"
     paper_pdf: "https://www.researchgate.net/publication/362926666_ScaleGCN_Efficient_and_Effective_Graph_Convolution_via_Channel-Wise_Scale_Transformation"
     code: ""
@@ -327,7 +327,7 @@ papers:
     selected: n
 
   - title: "Towards Open-World Recommendation: An Inductive Model-based Collaborative Filtering Approach"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Junchi Yan and Hongyuan Zha"
+    authors: "<b>Qitian Wu</b>, H. Zhang, X. Gao, J. Yan, H. Zha"
     venue: "International Conference on Machine Learning (ICML) 2021"
     paper_pdf: "https://arxiv.org/abs/2007.04833"
     code: "https://github.com/qitianwu/IDCF"
@@ -339,7 +339,7 @@ papers:
     selected: n
 
   - title: "Towards Open-World Feature Extrapolation: An Inductive Graph Learning Approach"
-    authors: "<b>Qitian Wu</b>, Chenxiao Yang and Junchi Yan"
+    authors: "<b>Qitian Wu</b>, C. Yang, J. Yan"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
     paper_pdf: "https://arxiv.org/abs/2110.04514"
     code: "https://github.com/qitianwu/FATE"
@@ -350,7 +350,7 @@ papers:
     selected: n
 
   - title: "From Canonical Correlation Analysis to Self-supervised Graph Neural Networks"
-    authors: "Hengrui Zhang, <b>Qitian Wu</b>, Junchi Yan, David Wipf and Philip S. Yu"
+    authors: "H. Zhang, <b>Qitian Wu</b>, J. Yan, D. Wipf, P. S. Yu"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
     paper_pdf: "https://arxiv.org/abs/2106.12484"
     code: "https://github.com/hengruizhang98/CCA-SSG"
@@ -358,7 +358,7 @@ papers:
     selected: n
 
   - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
-    authors: "<b>Qitian Wu</b>, Rui Gao and Hongyuan Zha"
+    authors: "<b>Qitian Wu</b>, R. Gao, H. Zha"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2021"
     paper_pdf: "https://arxiv.org/abs/1909.13035"
     code: "https://github.com/qitianwu/SteinBridging"
@@ -368,7 +368,7 @@ papers:
     rank: 3
 
   - title: "Seq2Bubbles: Region-Based Embedding Learning for User Behaviors in Sequential Recommenders"
-    authors: "<b>Qitian Wu</b>, Chenxiao Yang, Shuodian Yu, Xiaofeng Gao and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, C. Yang, S. Yu, X. Gao, G. Chen"
     venue: "ACM International Conference on Information & Knowledge Management (CIKM) 2021"
     paper_pdf: ""
     code: ""
@@ -377,7 +377,7 @@ papers:
     selected: n
 
   - title: "Learning High-Order Graph Convolutional Networks via Adaptive Layerwise Aggregation Combination"
-    authors: "Tianqi Zhang, <b>Qitian Wu</b> and Junchi Yan"
+    authors: "T. Zhang, <b>Qitian Wu</b>, J. Yan"
     venue: "IEEE Transactions on Neural Networks and Learning Systems (TNNLS) 2021"
     paper_pdf: ""
     code: ""
@@ -386,7 +386,7 @@ papers:
     selected: n
 
   - title: "Sentimem: Attentive memory networks for sentiment classification in user review"
-    authors: "Xiaosong Jia, <b>Qitian Wu</b>, Xiaofeng Gao and Guihai Chen"
+    authors: "X. Jia, <b>Qitian Wu</b>, X. Gao, G. Chen"
     venue: "International Conference on Database Systems for Advanced Applications (DASFAA) 2020"
     paper_pdf: ""
     code: ""
@@ -394,7 +394,7 @@ papers:
     selected: n
 
   - title: "Learning Latent Process from High-Dimensional Event Sequences via Efficient Sampling"
-    authors: "<b>Qitian Wu</b>, Zixuan Zhang, Xiaofeng Gao, Junchi Yan and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, Z. Zhang, X. Gao, J. Yan, G. Chen"
     venue: "Advances in Neural Information Processing Systems (NeurIPS) 2019"
     paper_pdf: "https://arxiv.org/pdf/1910.12469.pdf"
     code: "https://github.com/zhangzx-sjtu/LANTERN-NeurIPS-2019"
@@ -403,7 +403,7 @@ papers:
     selected: n
 
   - title: "Feature Evolution Based Multi-Task Learning for Collaborative Filtering with Social Trust"
-    authors: "<b>Qitian Wu</b>, Lei Jiang, Xiaofeng Gao, Xiaochun Yang and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, L. Jiang, X. Gao, X. Yang, G. Chen"
     venue: "International Joint Conference on Artificial Intelligence (IJCAI) 2019"
     paper_pdf: ""
     code: ""
@@ -411,7 +411,7 @@ papers:
     selected: n
 
   - title: "Dual Sequential Prediction Models Linking Sequential Recommendation and Information Dissemination"
-    authors: "<b>Qitian Wu</b>, Yirui Gao, Xiaofeng Gao, Paul Weng and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, Y. Gao, X. Gao, P. Weng, G. Chen"
     venue: "ACM SIGKDD International Conference on Knowledge Discovery and Data Mining (KDD) 2019"
     paper_pdf: ""
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
@@ -419,7 +419,7 @@ papers:
     selected: n
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
-    authors: "<b>Qitian Wu</b>, Hengrui Zhang, Xiaofeng Gao, Peng He, Paul Weng, Han Gao and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, H. Zhang, X. Gao, P. He, P. Weng, H. Gao, G. Chen"
     venue: "The Web Conference (WWW) 2019"
     paper_pdf: "https://arxiv.org/abs/1903.10433"
     code: "https://github.com/qitianwu/DANSER-WWW-19"
@@ -429,7 +429,7 @@ papers:
     selected: n
 
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
-    authors: "<b>Qitian Wu</b>, Chaoqi Yang, Xiaofeng Gao, Peng He and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, C. Yang, X. Gao, P. He, G. Chen"
     venue: "IEEE international conference on data mining (ICDM) 2018"
     paper_pdf: ""
     content: ""
@@ -437,7 +437,7 @@ papers:
     selected: n
 
   - title: "Adversarial training model unifying feature driven and point process perspectives for event popularity prediction"
-    authors: "<b>Qitian Wu</b>, Chaoqi Yang, Hengrui Zhang, Xiaofeng Gao, Paul Weng and Guihai Chen"
+    authors: "<b>Qitian Wu</b>, C. Yang, H. Zhang, X. Gao, P. Weng, G. Chen"
     venue: "ACM International Conference on Information & Knowledge Management (CIKM) 2018"
     paper_pdf: ""
     content: ""
@@ -445,7 +445,7 @@ papers:
     selected: n
 
   - title: "EPOC: A survival perspective early pattern detection model for outbreak cascades"
-    authors: "Chaoqi Yang, <b>Qitian Wu</b>, Xiaofeng Gao and Guihai Chen"
+    authors: "C. Yang, <b>Qitian Wu</b>, X. Gao, G. Chen"
     venue: "International Conference on Database and Expert Systems Applications (DEXA) 2018"
     paper_pdf: ""
     content: ""

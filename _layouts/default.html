@@ -45,19 +45,15 @@
   <div class="container">
 
     <section class="header">
-      <div class="row">
-        <div class="three columns">
-          <a href="{{ site.baseurl }}/"><img class="u-max-full-width" src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}' alt="{{ site.data.main_info.name }}"></a>
-        </div>
-        <div class="nine columns main-description">
-          <h1>{{ site.data.main_info.name }}</h1>
-          <p class="header-title">{{ site.data.main_info.title }} &bull; {{ site.data.main_info.tagline }}</p>
-          <p>{{ site.data.main_info.location }} &bull; {{ site.data.main_info.email }}</p>
-          <p class="header-links">
-            <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a> |
-            <a href="{{ site.data.main_info.github }}" target="_blank">GitHub</a> |
-            <a href="{{ site.data.main_info.linkedin }}" target="_blank">LinkedIn</a>
-          </p>
+      <a class="header-photo" href="{{ site.baseurl }}/"><img src='{{ site.baseurl }}{{ site.data.main_info.profile_pic }}' alt="{{ site.data.main_info.name }}"></a>
+      <div class="header-text">
+        <h1 class="header-name">{{ site.data.main_info.name }}</h1>
+        <p class="header-title">{{ site.data.main_info.title }}</p>
+        <p class="header-contact">{{ site.data.main_info.location }}<span class="dot">&middot;</span>{{ site.data.main_info.email }}</p>
+        <div class="header-links">
+          <a class="pill" href="{{ site.data.main_info.google_scholar }}" target="_blank" rel="noopener">Google Scholar</a>
+          <a class="pill" href="{{ site.data.main_info.github }}" target="_blank" rel="noopener">GitHub</a>
+          <a class="pill" href="{{ site.data.main_info.linkedin }}" target="_blank" rel="noopener">LinkedIn</a>
         </div>
       </div>
     </section>

@@ -83,10 +83,70 @@ h4 {
 
 
 /*  ================ Header ================ */
+.header {
+  display: flex;
+  align-items: center;
+  gap: 3.2rem; }
+.header-photo {
+  flex: 0 0 auto; }
+.header-photo img {
+  display: block;
+  width: 168px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12); }
+.header-text p {
+  margin-bottom: 0; }
+h1.header-name {
+  font-size: 4.4rem;
+  font-weight: 400;
+  letter-spacing: -.05rem;
+  line-height: 1.1;
+  margin: 0 0 .6rem 0; }
 .header-title {
-  font-weight: 600; }
+  font-size: 1.9rem;
+  font-weight: 600;
+  color: #333; }
+.header-contact {
+  font-size: 1.5rem;
+  color: #777;
+  margin-top: .3rem; }
+.header-contact .dot {
+  margin: 0 .8rem;
+  color: #bbb; }
 .header-links {
-  margin-top: 6px; }
+  display: flex;
+  flex-wrap: wrap;
+  gap: .8rem;
+  margin-top: 1.4rem; }
+.header-links .pill {
+  display: inline-block;
+  padding: .3rem 1.4rem;
+  border: 1px solid #d0d7de;
+  border-radius: 999px;
+  font-size: 1.35rem;
+  font-weight: 600;
+  letter-spacing: .03rem;
+  color: #333;
+  text-decoration: none;
+  transition: border-color .15s, color .15s, background .15s; }
+.header-links .pill:hover {
+  border-color: #1EAEDB;
+  color: #1EAEDB;
+  background: #f3fbfe; }
+
+@media (max-width: 549px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.8rem; }
+  .header-photo img {
+    width: 120px;
+    height: 120px; }
+  h1.header-name {
+    font-size: 3.4rem; }
+}
 
 /*  ================ About: project list ================ */
 ul.projects {
