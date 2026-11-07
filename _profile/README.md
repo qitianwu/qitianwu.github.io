@@ -2,12 +2,12 @@
 
 👨‍💻 I am a Research Scientist at **Google Research**, working on LLM post-training and agents. Specifically:
 
-- 🏆 **Gemini post-training for Text-to-SQL generation**: post-trained Gemini to the top of the [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard.
-  *(Synthetic data generation, sandbox environments with tool use, reward models)*
+- 🏆 **Gemini post-training for Text-to-SQL generation**: post-trained Gemini to **🥇 #1** on the [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard.
+  *(Synthetic data generation, sandbox environments with tool use, reward modeling)*
 - 🤖 **Agents for systems optimization**: built an agentic system that iteratively optimizes production code in evolving environments, deployed in compilers.
   *(Agentic harness, long-horizon reasoning, endpoint serving)*
-- 🌐 **Gemini reasoning for network-state observability**: partnered with infrastructure teams to scope large-scale cluster telemetry into an LLM reasoning task.
-  *(Data curation and filtering, evaluation pipelines)*
+- 🌐 **Gemini reasoning for network-state observability**: partnered with SRE and infrastructure teams to frame production-cluster observability as a Gemini reasoning task.
+  *(Data curation and filtering, evaluation pipelines, RLHF)*
 
 🧬 Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with [Caroline Uhler](https://www.carolineuhler.com/)),
 I led the **pretraining of a biomedical foundation model from scratch**, from data pipelines to distributed training on GPU clusters,
