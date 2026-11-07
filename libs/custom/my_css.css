@@ -199,9 +199,18 @@ table.kv td.kv-key {
 .pub-note {
   color: #c62828;
   font-weight: 600; }
-.pub-note:before {
+.pub-note:before,
+.pub-impact:before {
   content: "· ";
   color: #999; }
+.pub-impact {
+  color: #2e7d32; }
+a.pub-impact {
+  text-decoration: none; }
+a.pub-impact:hover {
+  text-decoration: underline; }
+.stat {
+  color: #666; }
 
 @media (max-width: 549px) {
   .row-item {

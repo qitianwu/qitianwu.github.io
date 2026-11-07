@@ -31,16 +31,16 @@ title: Home
   </p>
   <p>
     During my PhD, I worked as a part-time research intern at Amazon Web Services for three years, designing <b>linear-complexity attention</b>
-    that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects
-    (<a href="https://github.com/qitianwu/NodeFormer" target="_blank">NodeFormer</a>,
-    <a href="https://github.com/qitianwu/SGFormer" target="_blank">SGFormer</a>,
-    <a href="https://github.com/qitianwu/DIFFormer" target="_blank">DIFFormer</a>).
+    that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects:
+    <a href="https://github.com/qitianwu/NodeFormer" target="_blank">NodeFormer</a> <span class="stat">(300+ GitHub stars)</span>,
+    <a href="https://github.com/qitianwu/SGFormer" target="_blank">SGFormer</a> <span class="stat">(280+ GitHub stars)</span> and
+    <a href="https://github.com/qitianwu/DIFFormer" target="_blank">DIFFormer</a> <span class="stat">(300+ GitHub stars)</span>.
     Earlier, I was an applied research intern at Tencent WeChat, building deep learning models for industry-scale recommender systems.
   </p>
   <p>
     I received my Ph.D., M.E. and B.E. degrees from Shanghai Jiao Tong University, with my PhD advised by Junchi Yan.
-    My research has been published at top venues including NeurIPS, ICML, ICLR, JMLR and TPAMI, and has been recognized with
-    the Microsoft Research PhD Fellowship, the Baidu PhD Fellowship and the Elsevier/Stanford World's Top 2% Scientists list.
+    My research has received <b>4,700+ citations</b> and been recognized with
+    the <b>Microsoft Research PhD Fellowship</b>, the <b>Baidu PhD Fellowship</b> and the <b>World's Top 2% Scientists</b> list (Elsevier/Stanford).
     I serve as an Area Chair for NeurIPS and ICLR.
   </p>
 </div>
@@ -70,7 +70,7 @@ title: Home
           {% if paper.paper_pdf and paper.paper_pdf != "" %}<a class="paper-link" href="{{ paper.paper_pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
         </p>
         <p>{{ paper.authors }}</p>
-        <p><span class="pub-venue">{{ venue }}</span>{% if paper.note contains "oral" %} <span class="pub-note">Oral</span>{% elsif paper.note contains "spotlight" %} <span class="pub-note">Spotlight</span>{% endif %}</p>
+        <p><span class="pub-venue">{{ venue }}</span>{% if paper.note contains "oral" %} <span class="pub-note">Oral</span>{% elsif paper.note contains "spotlight" %} <span class="pub-note">Spotlight</span>{% endif %}{% if paper.citations %} <span class="pub-impact">{{ paper.citations }} citations</span>{% endif %}{% if paper.stars %} <a class="pub-impact" href="{{ paper.code }}" target="_blank">{{ paper.stars }} GitHub stars</a>{% endif %}{% if paper.impact %} <span class="pub-impact">{{ paper.impact }}</span>{% endif %}</p>
       </div>
     {% endfor %}
   {% endfor %}

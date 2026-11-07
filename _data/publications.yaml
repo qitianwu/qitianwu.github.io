@@ -1,7 +1,8 @@
 papers:
 
   # Homepage shows entries with `selected: y`, grouped by `group` and ordered by `rank`
-  # (groups: llm, transformers, theory, ood). Keep in sync with the CV.
+  # (groups: llm, transformers, theory, ood). Optional impact fields shown next to the venue:
+  # `citations` (Google Scholar, only for 100+), `stars` (GitHub stars of `code`), `impact` (free text). Keep in sync with the CV.
 
   - title: "Resolving Action Bottleneck: Agentic Reinforcement Learning Informed by Token-Level Energy"
     authors: "L. He, J. Zhu, Y. Zhou, Z. Gu, J. Liu, W.-C. Huang, H. P. Zou, D. Wipf, P. S. Yu, <b>Qitian Wu</b>"
@@ -31,16 +32,16 @@ papers:
     venue: "Transactions on Pattern Analysis and Machine Intelligence (TPAMI) 2026"
     paper_pdf: "https://arxiv.org/pdf/2409.09007"
     code: "https://github.com/qitianwu/SGFormer"
+    selected: n
+
+  - title: "PAINET: A Principled Efficient Transformer for 3D Dynamics Modeling"
+    authors: "K. Yang, Y. Huang, J. Tao, W. Wang, <b>Qitian Wu</b>"
+    venue: "International Conference on Learning Representations (ICLR) 2026"
+    paper_pdf: "https://arxiv.org/abs/2510.04233"
+    code: "https://github.com/Icarus1411/PAINET"
     selected: y
     group: "transformers"
     rank: 4
-
-  - title: "Physics-inspired all-pair interaction learning for 3d dynamics modeling"
-    authors: "K. Yang, Y. Huang, J. Tao, W. Wang, <b>Qitian Wu</b>"
-    venue: "International Conference on Learning Representations (ICLR) 2026"
-    paper_pdf: "https://arxiv.org/pdf/2510.04233"
-    code: "https://github.com/Icarus1411/PAINET"
-    selected: n
 
   - title: "Transformers from Diffusion: A Unified Framework for Neural Message Passing"
     authors: "<b>Qitian Wu</b>, D. Wipf, J. Yan"
@@ -160,6 +161,9 @@ papers:
     selected: y
     group: "transformers"
     rank: 2
+    citations: "440+"
+    stars: "280+"
+    impact: "Integrated into PyTorch Geometric, incl. its LLM GraphRAG pipeline"
 
   - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
     authors: "Y. Sui, <b>Qitian Wu</b>, J. Wu, Q. Cui, L. Li, J. Zhou, X. Wang, X. He"
@@ -182,6 +186,7 @@ papers:
     paper_pdf: "https://www.researchgate.net/publication/368454974_MoleRec_Combinatorial_Drug_Recommendation_with_Substructure-Aware_Molecular_Representation_Learning"
     code: "https://github.com/yangnianzu0515/MoleRec"
     selected: n
+    citations: "190+"
 
   - title: "DIFFormer: Scalable (Graph) Transformers Induced by Energy Constrained Diffusion"
     authors: "<b>Qitian Wu</b>, C. Yang, W. Zhao, Y. He, D. Wipf, J. Yan"
@@ -198,6 +203,8 @@ papers:
     selected: y
     group: "transformers"
     rank: 3
+    citations: "260+"
+    stars: "300+"
 
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Y. Chen, C. Yang, J. Yan"
@@ -210,6 +217,7 @@ papers:
     content: "Summary: We extract a OOD detection model from GNN classifier through energy-based models and energy-based belief propagation, reducing FPR95 over SOTAs by up to 44.8%."
   
     selected: n
+    citations: "190+"
 
   - title: "Graph Neural Networks are Inherently Good Generalizers: Insights by Bridging GNNs and Multi-Layer Perceptrons"
     authors: "C. Yang, <b>Qitian Wu</b>, J. Wang, J. Yan"
@@ -219,6 +227,7 @@ papers:
     blogc: "https://zhuanlan.zhihu.com/p/625104565"
     content: "Summary: We identify that the efficacy of GNNs over MLP mostly stems from its inherent better generalization, demonstrated by experiments on sixteen benchmarks and neural tangent kernel theory."
     selected: n
+    citations: "130+"
 
   - title: "NodeFormer: A Scalable Graph Structure Learning Transformer for Node Classification"
     authors: "<b>Qitian Wu</b>, W. Zhao, Z. Li, D. Wipf, J. Yan"
@@ -237,6 +246,8 @@ papers:
     selected: y
     group: "transformers"
     rank: 1
+    citations: "640+"
+    stars: "300+"
 
   - title: "Learning Substructure Invariance for Out-of-Distribution Molecular Representations"
     authors: "N. Yang, K. Zeng, <b>Qitian Wu</b>, X. Jia, J. Yan"
@@ -248,6 +259,7 @@ papers:
     note: "spotlight presentation"
   
     selected: n
+    citations: "200+"
 
   - title: "Geometric Knowledge Distillation: Topology Compression for Graph Neural Networks"
     authors: "C. Yang, <b>Qitian Wu</b>, J. Yan"
@@ -309,6 +321,7 @@ papers:
     selected: y
     group: "ood"
     rank: 1
+    citations: "400+"
 
   - title: "Trading Hard Negatives and True Negatives: A Debiased Contrastive Collaborative Filtering Approach"
     authors: "C. Yang, <b>Qitian Wu</b>, J. Jin, J. Pan, X. Gao, G. Chen"
@@ -356,6 +369,7 @@ papers:
     code: "https://github.com/hengruizhang98/CCA-SSG"
     content: "Summary: We introduce a simple-yet-effective contrastive objective for self-supervised learning on graphs."
     selected: n
+    citations: "440+"
 
   - title: "Bridging Explicit and Implicit Deep Generative Models via Neural Stein Estimators"
     authors: "<b>Qitian Wu</b>, R. Gao, H. Zha"
@@ -417,6 +431,7 @@ papers:
     code: "https://github.com/qitianwu/DEEMS-KDD-19"
     content: "Summary: We use a duality perspective for unifying two sequential information retrieval problems into one model with mutual enhancement enabled. "
     selected: n
+    citations: "100+"
 
   - title: "Dual Graph Attention Networks for Deep Latent Representation of Multifaceted Social Effects in Recommender Systems"
     authors: "<b>Qitian Wu</b>, H. Zhang, X. Gao, P. He, P. Weng, H. Gao, G. Chen"
@@ -427,6 +442,7 @@ papers:
     note: "long oral representation"
   
     selected: n
+    citations: "470+"
 
   - title: "EPAB: Early pattern aware bayesian model for social content popularity prediction"
     authors: "<b>Qitian Wu</b>, C. Yang, X. Gao, P. He, G. Chen"
