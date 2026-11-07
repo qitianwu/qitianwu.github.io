@@ -1,7 +1,21 @@
 # "current" entries are shown on the homepage and match the CV's "Selected Awards".
+# `highlight: y` marks the top awards (medal icon, bold).
 awards:
   - name: "Elsevier/Stanford World's Top 2% Scientists (Artificial Intelligence)"
+    highlight: y
     year: "2026"
+    category: "current"
+
+  - name: "Microsoft Research PhD Fellowship"
+    highlight: y
+    detail: "11 recipients in Asia"
+    year: "2021"
+    category: "current"
+
+  - name: "Baidu PhD Fellowship"
+    highlight: y
+    detail: "10 recipients worldwide"
+    year: "2021"
     category: "current"
 
   - name: "Eric and Wendy Schmidt Center Postdoctoral Fellowship, Broad Institute of MIT and Harvard"
@@ -16,16 +30,6 @@ awards:
   - name: "National Scholarship for PhD students"
     detail: "top 0.2% nationally"
     year: "2022, 2023"
-    category: "current"
-
-  - name: "Baidu PhD Fellowship"
-    detail: "10 recipients worldwide"
-    year: "2021"
-    category: "current"
-
-  - name: "Microsoft Research PhD Fellowship"
-    detail: "11 recipients in Asia"
-    year: "2021"
     category: "current"
 
   - name: "Global Top 100 Chinese Rising Stars in Artificial Intelligence"

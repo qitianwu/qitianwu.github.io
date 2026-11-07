@@ -16,14 +16,16 @@ and applied it to discovery of therapeutic targets in biomedicine
 
 ⚡ During my PhD, I worked as a part-time research intern at **Amazon Web Services** for three years, designing **linear-complexity attention**
 that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects:
-[NodeFormer](https://github.com/qitianwu/NodeFormer) (⭐ 300+),
-[SGFormer](https://github.com/qitianwu/SGFormer) (⭐ 280+) and
-[DIFFormer](https://github.com/qitianwu/DIFFormer) (⭐ 300+).
+[NodeFormer](https://github.com/qitianwu/NodeFormer),
+[SGFormer](https://github.com/qitianwu/SGFormer) and
+[DIFFormer](https://github.com/qitianwu/DIFFormer),
+with **1,300+ citations** and **⭐ 900+ GitHub stars** in total.
 Earlier, I was an applied research intern at **Tencent WeChat**, building deep learning models for industry-scale recommender systems.
 
 🎓 I received my Ph.D., M.E. and B.E. degrees from **Shanghai Jiao Tong University**, with my PhD advised by Junchi Yan.
 My research has received **4,700+ citations** and been recognized with
-the **Microsoft Research PhD Fellowship**, the **Baidu PhD Fellowship** and the **World's Top 2% Scientists** list (Elsevier/Stanford).
+the **Microsoft Research PhD Fellowship** (**11 recipients** in Asia), the **Baidu PhD Fellowship** (**10 recipients** worldwide)
+and the Elsevier/Stanford **World's Top 2% Scientists** list in Artificial Intelligence.
 I serve as an Area Chair for NeurIPS and ICLR.
 
 📫 [Homepage](https://qitianwu.github.io/) · [Google Scholar](https://scholar.google.com/citations?user=m01-2qUAAAAJ) · [LinkedIn](https://www.linkedin.com/in/qitian-wu-80a517297/)

@@ -2,7 +2,8 @@ papers:
 
   # Homepage shows entries with `selected: y`, grouped by `group` and ordered by `rank`
   # (groups: llm, transformers, theory, ood). Optional impact fields shown next to the venue:
-  # `citations` (Google Scholar, only for 100+), `stars` (GitHub stars of `code`), `impact` (free text). Keep in sync with the CV.
+  # `citations` (Google Scholar, only for 100+; shown as a badge), `stars` (any value shows a live
+  # GitHub-stars badge for `code`; only for 100+), `impact` (free text, shown on its own line). Keep in sync with the CV.
 
   - title: "Resolving Action Bottleneck: Agentic Reinforcement Learning Informed by Token-Level Energy"
     authors: "L. He, J. Zhu, Y. Zhou, Z. Gu, J. Liu, W.-C. Huang, H. P. Zou, D. Wipf, P. S. Yu, <b>Qitian Wu</b>"
@@ -163,7 +164,7 @@ papers:
     rank: 2
     citations: "440+"
     stars: "280+"
-    impact: "Integrated into PyTorch Geometric, incl. its LLM GraphRAG pipeline"
+    impact: "📦 Integrated into PyTorch Geometric as a built-in model and attention layer"
 
   - title: "Unleashing the Power of Graph Data Augmentation on Covariate Distribution Shift"
     authors: "Y. Sui, <b>Qitian Wu</b>, J. Wu, Q. Cui, L. Li, J. Zhou, X. Wang, X. He"
@@ -205,6 +206,7 @@ papers:
     rank: 3
     citations: "260+"
     stars: "300+"
+    impact: "🔥 Rated top 8 / 4,966 ICLR 2023 submissions"
 
   - title: "Energy-based Out-of-Distribution Detection for Graph Neural Networks"
     authors: "<b>Qitian Wu</b>, Y. Chen, C. Yang, J. Yan"

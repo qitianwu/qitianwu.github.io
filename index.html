@@ -5,49 +5,48 @@ title: Home
 
 <!-- ========== ABOUT ========== -->
 <div class="docs-section" id="about">
-  <h4>About</h4>
+  <h4>👋 About</h4>
   <p>
-    I am a Research Scientist at Google Research, working on LLM post-training and agents. My recent projects:
+    🔬 I am a Research Scientist at <b>Google Research</b>, working on LLM post-training and agents. My recent projects:
   </p>
   <ul class="projects">
-    <li>
+    <li><span class="li-icon">🥇</span>
       <b>Gemini post-training for Text-to-SQL generation</b>: post-trained Gemini to the top of the <a href="https://bird-bench.github.io/" target="_blank">BIRD</a> Text-to-SQL leaderboard.
       <span class="skills">(Synthetic data generation, sandbox environments with tool use, reward models)</span>
     </li>
-    <li>
-      <b>Agents for systems optimization</b>: built a closed-loop agent system optimizing production code from evolving environments, deployed in compiler systems.
+    <li><span class="li-icon">🤖</span>
+      <b>Agents for systems optimization</b>: built an agentic optimization system that iterates on production code in evolving environments, deployed in compiler systems.
       <span class="skills">(Agentic harness, long-horizon reasoning, endpoint serving)</span>
     </li>
-    <li>
+    <li><span class="li-icon">🌐</span>
       <b>Gemini reasoning for network-state observability</b>: partnered with infrastructure teams to scope large-scale cluster telemetry into an LLM reasoning task.
       <span class="skills">(Data curation and filtering, evaluation pipelines)</span>
     </li>
   </ul>
   <p>
-    Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with Caroline Uhler),
-    I led the <b>pretraining of a multi-modal foundation model from scratch</b>, from data pipelines to distributed training on GPU clusters,
+    🧬 Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with Caroline Uhler),
+    I led the <b>pretraining of a biomedical foundation model from scratch</b>, from data pipelines to distributed training on GPU clusters,
     and applied it to discovery of therapeutic targets in biomedicine
     (<a href="https://www.biorxiv.org/content/10.64898/2026.07.31.741265v1" target="_blank">paper</a>).
   </p>
   <p>
-    During my PhD, I worked as a part-time research intern at Amazon Web Services for three years, designing <b>linear-complexity attention</b>
-    that scales Transformers to 1M-token contexts on a single 16GB GPU, and releasing the resulting models as widely used open-source projects:
-    <a href="https://github.com/qitianwu/NodeFormer" target="_blank">NodeFormer</a> <span class="stat">(300+ GitHub stars)</span>,
-    <a href="https://github.com/qitianwu/SGFormer" target="_blank">SGFormer</a> <span class="stat">(280+ GitHub stars)</span> and
-    <a href="https://github.com/qitianwu/DIFFormer" target="_blank">DIFFormer</a> <span class="stat">(300+ GitHub stars)</span>.
-    Earlier, I was an applied research intern at Tencent WeChat, building deep learning models for industry-scale recommender systems.
+    ⚡ During my PhD, I worked as a part-time research intern at <b>Amazon Web Services</b> for three years, designing <b>linear-complexity attention</b>
+    for 1M-token contexts and developing scalable Transformer architectures (NodeFormer, DIFFormer and SGFormer) as widely used open-source models,
+    with <span class="hl">1,300+ citations</span> and <span class="hl">900+ GitHub stars</span> in total.
+    Earlier, I was an applied research intern at <b>Tencent WeChat</b>, building deep learning models for industry-scale recommender systems.
   </p>
   <p>
-    I received my Ph.D., M.E. and B.E. degrees from Shanghai Jiao Tong University, with my PhD advised by Junchi Yan.
-    My research has received <b>4,700+ citations</b> and been recognized with
-    the <b>Microsoft Research PhD Fellowship</b>, the <b>Baidu PhD Fellowship</b> and the <b>World's Top 2% Scientists</b> list (Elsevier/Stanford).
+    🎓 I received my Ph.D., M.E. and B.E. degrees from <b>Shanghai Jiao Tong University</b>, with my PhD advised by Junchi Yan.
+    My research has been recognized with
+    the <b>Microsoft Research PhD Fellowship</b> (<span class="hl">11 recipients</span> in Asia), the <b>Baidu PhD Fellowship</b> (<span class="hl">10 recipients</span> worldwide)
+    and the Elsevier/Stanford <b>World's <span class="hl">Top 2%</span> Scientists</b> list in Artificial Intelligence.
     I serve as an Area Chair for NeurIPS and ICLR.
   </p>
 </div>
 
 <!-- ========== PUBLICATIONS ========== -->
 <div class="docs-section" id="publications">
-  <h4>Selected Publications</h4>
+  <h4>📝 Selected Publications</h4>
   <p class="pub-intro">
     Full list on <a href="{{ site.data.main_info.google_scholar }}" target="_blank">Google Scholar</a>.
   </p>
@@ -70,7 +69,13 @@ title: Home
           {% if paper.paper_pdf and paper.paper_pdf != "" %}<a class="paper-link" href="{{ paper.paper_pdf }}" target="_blank">{{ paper.title }}</a>{% else %}{{ paper.title }}{% endif %}
         </p>
         <p>{{ paper.authors }}</p>
-        <p><span class="pub-venue">{{ venue }}</span>{% if paper.note contains "oral" %} <span class="pub-note">Oral</span>{% elsif paper.note contains "spotlight" %} <span class="pub-note">Spotlight</span>{% endif %}{% if paper.citations %} <span class="pub-impact">{{ paper.citations }} citations</span>{% endif %}{% if paper.stars %} <a class="pub-impact" href="{{ paper.code }}" target="_blank">{{ paper.stars }} GitHub stars</a>{% endif %}{% if paper.impact %} <span class="pub-impact">{{ paper.impact }}</span>{% endif %}</p>
+        <div class="pub-meta">
+          <span class="pub-venue">{{ venue }}</span>
+          {% if paper.note contains "oral" %}<span class="pub-tag">Oral</span>{% elsif paper.note contains "spotlight" %}<span class="pub-tag">Spotlight</span>{% endif %}
+          {% if paper.citations %}<a class="badge" href="{{ site.data.main_info.google_scholar }}" target="_blank"><img src="https://img.shields.io/badge/Citations-{{ paper.citations | replace: '+', '%2B' }}-4285F4?style=flat&logo=googlescholar&logoColor=white" alt="{{ paper.citations }} citations"></a>{% endif %}
+          {% if paper.stars %}{% assign repo = paper.code | remove: "https://github.com/" %}<a class="badge" href="{{ paper.code }}" target="_blank"><img src="https://img.shields.io/github/stars/{{ repo }}?style=flat&logo=github&label=Stars&color=f5a623" alt="GitHub stars"></a>{% endif %}
+        </div>
+        {% if paper.impact %}<p class="pub-highlight">{{ paper.impact }}</p>{% endif %}
       </div>
     {% endfor %}
   {% endfor %}
@@ -78,11 +83,11 @@ title: Home
 
 <!-- ========== AWARDS ========== -->
 <div class="docs-section" id="awards">
-  <h4>Selected Awards</h4>
+  <h4>🏆 Selected Awards</h4>
   {% assign current_awards = site.data.awards.awards | where: "category", "current" %}
   {% for award in current_awards %}
-  <div class="row-item">
-    <span>{{ award.name }}{% if award.detail %}, <i>{{ award.detail }}</i>{% endif %}{% if award.link %} <a href="{{ award.link }}" target="_blank">[link]</a>{% endif %}</span>
+  <div class="row-item{% if award.highlight %} award-hl{% endif %}">
+    <span>{% if award.highlight %}🏅 <b>{{ award.name }}</b>{% else %}{{ award.name }}{% endif %}{% if award.detail %}, <span class="award-detail">{{ award.detail }}</span>{% endif %}{% if award.link %} <a href="{{ award.link }}" target="_blank">[link]</a>{% endif %}</span>
     <span class="row-time">{{ award.year }}</span>
   </div>
   {% endfor %}
@@ -90,7 +95,7 @@ title: Home
 
 <!-- ========== LEADERSHIP & SERVICE ========== -->
 <div class="docs-section" id="service">
-  <h4>Leadership &amp; Service</h4>
+  <h4>🤝 Leadership &amp; Service</h4>
   <table class="kv">
     <tbody>
     {% assign current_services = site.data.service.service | where: "category", "current" %}
