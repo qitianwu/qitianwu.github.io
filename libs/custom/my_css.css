@@ -154,9 +154,6 @@ ul.projects {
   padding-left: 18px; }
 ul.projects li {
   margin-bottom: 8px; }
-ul.projects .skills {
-  font-style: italic;
-  color: #666; }
 
 /* Colored highlight for key numbers */
 .hl {
