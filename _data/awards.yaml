@@ -1,4 +1,4 @@
-# "current" entries are shown on the homepage and match the CV's "Selected Awards".
+# "current" entries are shown on the homepage (CV "Selected Awards" plus the Lixin Tang and Yuanqing Yang scholarships).
 # `highlight: y` marks the top awards (medal icon, bold).
 awards:
   - name: "Elsevier/Stanford World's Top 2% Scientists (Artificial Intelligence)"
@@ -16,6 +16,10 @@ awards:
     highlight: y
     detail: "10 recipients worldwide"
     year: "2021"
+    category: "current"
+
+  - name: "Top 10% Area Chair in NeurIPS"
+    year: "2025"
     category: "current"
 
   - name: "Eric and Wendy Schmidt Center Postdoctoral Fellowship, Broad Institute of MIT and Harvard"
@@ -36,6 +40,14 @@ awards:
     year: "2021"
     category: "current"
 
+  - name: "Lixin Tang Scholarship"
+    year: "2018, 2019, 2020"
+    category: "current"
+
+  - name: "Yuanqing Yang Scholarship"
+    year: "2019"
+    category: "current"
+
   - name: "Outstanding Winner & INFORMS Award, Mathematical Contest in Modeling"
     detail: "top 3 of 4,748 teams"
     year: "2018"
@@ -45,12 +57,3 @@ awards:
     detail: "top 1% nationally"
     year: "2016, 2017"
     category: "current"
-
-  # Not on the CV; hidden from the homepage.
-  - name: "Lixin Tang Scholarship (only 60 students across all academic levels in the university)"
-    year: "2018, 2019, 2020"
-    category: "past"
-
-  - name: "Yuanqing Yang Scholarship (only 3 master students in CS department)"
-    year: "2019"
-    category: "past"

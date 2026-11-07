@@ -150,16 +150,10 @@ h1.header-name {
 
 /*  ================ About: project list ================ */
 ul.projects {
-  list-style: none;
   margin: -0.5rem 0 2.5rem 0;
-  padding-left: 0; }
+  padding-left: 18px; }
 ul.projects li {
-  position: relative;
-  padding-left: 2.6rem;
   margin-bottom: 8px; }
-ul.projects .li-icon {
-  position: absolute;
-  left: 0; }
 ul.projects .skills {
   font-style: italic;
   color: #666; }
@@ -235,6 +229,9 @@ table.kv td.kv-key {
   line-height: 0; }
 .badge img {
   height: 20px; }
+.equal-note {
+  font-size: 1.3rem;
+  color: #888; }
 .pub-highlight {
   color: #2e7d32;
   font-weight: 600; }
