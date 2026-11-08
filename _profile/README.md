@@ -1,6 +1,6 @@
 ## Hi, I'm Qitian Wu 👋
 
-👨‍💻 I am a Research Scientist at **Google Research**, where I lead the development of autonomous **agents** for long-horizon optimization in evolving environments, deployed to serve users in production. Earlier, I worked on **post-training Gemini** for specialized coding and reasoning (reaching **🥇 #1** on the [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard).
+👨‍💻 I am a Research Scientist at **Google Research**, where I lead the development of autonomous **agents for long-horizon optimization** in evolving environments, deployed to serve users in production. Earlier, I worked on **post-training Gemini** for specialized coding and reasoning (reaching **🥇 #1** on the [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard).
 
 🧬 Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with [Caroline Uhler](https://www.carolineuhler.com/)),
 I led the **pretraining of a biomedical foundation model from scratch**, from data pipelines to distributed training on GPU clusters,
