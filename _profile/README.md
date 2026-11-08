@@ -2,8 +2,8 @@
 
 👨‍💻 I am a Research Scientist at **Google Research**, working on Gemini post-training and agents across synthetic data, environments, reward modeling, evaluation and deployment. Specifically:
 
-- 🤖 **Agents for systems optimization**: led the development of an agentic system that optimizes production code in evolving environments, deployed in compilers.
-- 🏆 **Gemini post-training for Text-to-SQL generation**: post-trained Gemini to **🥇 #1** on the [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard (single-model track).
+- 🤖 **Agents for optimization**: led the development of an agentic optimization system in evolving environments, deployed in compilers.
+- 🏆 **Gemini post-training for Text-to-SQL**: post-trained Gemini to **🥇 #1** on [BIRD](https://bird-bench.github.io/) Text-to-SQL leaderboard (single-model track).
 - 🌐 **RLHF for infrastructure observability**: partnered with infrastructure teams to train Gemini agents on expert feedback for production-cluster observability.
 
 🧬 Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with [Caroline Uhler](https://www.carolineuhler.com/)),
