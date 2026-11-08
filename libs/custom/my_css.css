@@ -148,13 +148,6 @@ h1.header-name {
     font-size: 3.4rem; }
 }
 
-/*  ================ About: project list ================ */
-ul.projects {
-  margin: -0.5rem 0 2.5rem 0;
-  padding-left: 18px; }
-ul.projects li {
-  margin-bottom: 8px; }
-
 /* Colored highlight for key numbers */
 .hl {
   color: #d9480f;
