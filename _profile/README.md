@@ -4,7 +4,7 @@
 
 🧬 Previously, as an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad Institute of MIT and Harvard (with [Caroline Uhler](https://www.carolineuhler.com/)),
 I led the **pretraining of a biomedical foundation model from scratch**, from data pipelines to distributed training on GPU clusters,
-and applied it to discovery of new therapeutic targets in biomedicine.
+and applied it to discovery of new therapeutic targets in biomedicine. 
 
 ☁️ During my PhD, I worked as a part-time research intern at **Amazon Web Services** for three years, designing **linear-complexity attention**
 for 1M-token contexts and developing scalable Transformer architectures
